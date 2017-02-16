@@ -1,13 +1,21 @@
 .block {
-  border-top: solid grey 10px;
+  border-top: solid grey 30px;
   background-color: black;
-  opacity: .8;
-  padding-top: 20px;
+  opacity: .7;
   width: 50%;
-  margin-top:4%;
   margin-right: auto;
   margin-left: auto;
   border-radius: 10px;
+}
+div #always h1, i, h3 {
+  padding-bottom: 6px;
+}
+
+div #always {
+	margin-top: 68px;
+	margin-bottom: 20px;
+	color: cornflowerblue;
+	position: relative;
 }
 .fa-free-code-camp{
   margin-left: 5%;
@@ -28,12 +36,6 @@ body {
   background-color: white;
   font-family: Lobster;
   color: white;
-}
-
-h1 {
-  padding: 0;
-  margin-top: 0px;
-  font-size: 5em;
 }
 .btn-default {
   border-color: #916a08;
@@ -84,6 +86,10 @@ height:800px;
 background-size:cover;
 height:800px;
 /*   padding-top: 1%; */
+}
+div #three {
+	margin-left: 13%;
+	margin-right: auto;
 }
 .pageFour {
  background:url("https://images.unsplash.com/photo-1473447216727-44efba8cf0e0?");
