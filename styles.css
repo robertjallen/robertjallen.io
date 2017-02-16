@@ -9,6 +9,7 @@
 }
 div #always h1, i, h3 {
   padding-bottom: 6px;
+	font-family: lobster;
 }
 
 div #always {
@@ -34,13 +35,14 @@ div #always {
 
 body {
   background-color: white;
-  font-family: Lobster;
+  font-family: lobster;
   color: white;
 }
 .btn-default {
   border-color: #916a08;
+	font-family: lobster;
   font-size: 1.5em;
-  color: #337ab7;
+/*  color: #337ab7;*/
   margin-top:2%;
 }
 #profile{
