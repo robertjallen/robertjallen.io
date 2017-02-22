@@ -16,7 +16,7 @@
 <!--	<script src="JS/jquery-3.1.0.min.js"></script>-->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
   <script src="https://use.fontawesome.com/ee3450e17c.js"></script>
 <!-- <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>   -->
@@ -113,13 +113,23 @@
 <div class="pageThree text-center" id="p3">
  <div id="three" class="row text-center">
    <div class="col-md-10">
-     <p data-height="320" data-theme-id="0" data-slug-hash="rWzZgQ" data-default-tab="result" data-user="bobbidigi34" data-embed-version="2" data-pen-title="math game" class="codepen">See the Pen <a href="https://codepen.io/bobbidigi34/pen/rWzZgQ/">math game</a> by Robert J Allen (<a href="http://codepen.io/bobbidigi34">@bobbidigi34</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+     <p data-height="350" data-width="450" data-theme-id="0" data-slug-hash="rWzZgQ" data-default-tab="result" data-user="bobbidigi34" data-embed-version="0" data-pen-title="math game" class="codepen">See the Pen <a href="https://codepen.io/bobbidigi34/pen/rWzZgQ/">math game</a> by Robert J Allen (<a href="http://codepen.io/bobbidigi34">@bobbidigi34</a>) on <a href="http://codepen.io">CodePen</a>.</p>    
+ <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+ 		<br>
+  	<div class="btn btn-default">
+     	<a href="https://codepen.io/bobbidigi34/pen/rWzZgQ/">Multiplication Game</a>
+    </div>
    </div>
+   
    <div class="col-md-10">
-     <p data-height="320"  data-width="320" data-theme-id="0" data-slug-hash="pNrxjZ" data-default-tab="result" data-user="bobbidigi34" data-embed-version="2" data-pen-title="Math group" class="codepen">See the Pen <a href="https://codepen.io/bobbidigi34/pen/pNrxjZ/">Math group</a> by Robert J Allen (<a href="http://codepen.io/bobbidigi34">@bobbidigi34</a>) on <a href="http://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+     <p data-height="350" data-resizable="true"  data-width="450" data-theme-id="0" data-slug-hash="pNrxjZ" data-default-tab="result" data-user="bobbidigi34" data-embed-version="0" data-pen-title="Math group" class="codepen">See the Pen <a href="https://codepen.io/bobbidigi34/pen/pNrxjZ/">Math group</a> by Robert J Allen (<a href="http://codepen.io/bobbidigi34">@bobbidigi34</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+		 <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		 <br>
+  	 <div class="btn btn-default" style="margin:auto;">
+     	 <a href="https://codepen.io/bobbidigi34/pen/pNrxjZ/">Math tutorials website</a>
+     </div>
    </div>
+   
  </div>  
 </div>
 
@@ -188,5 +198,27 @@
     </h3>
   </div> 
 </div>
+<script>
+$(function(){
+        $("#p3").resizable({
+          maxHeight: 200,
+          minHeight: 50,
+          minWidth: 100,
+          maxWidth: 300,
+          aspectRatio: 4/3,
+          ghost: true,
+          alsoResize: "#microsoft"
+        }
+                                );
+        
+        $("#apple").resizable({
+          containment: "#container",
+          animate: true
+        }
+                             );
+      }
+       );	
+</script>
+
 </body>
 </html>
