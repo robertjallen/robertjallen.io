@@ -9,7 +9,7 @@
 }
 div #always h1, i, h3 {
   padding-bottom: 6px;
-	font-family: lobster;
+  font-family: lobster;
 }
 
 div #always {
@@ -38,9 +38,16 @@ body {
   font-family: lobster;
   color: white;
 }
+div #msa {
+  border-color: blueviolet;
+  font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+/*  font-size: 1.5em;*/
+  font-weight: 700;    
+  margin-top:2%;
+}
 .btn-default {
   border-color: #916a08;
-	font-family: lobster;
+  font-family: lobster;
   font-size: 1.5em;
 /*  color: #337ab7;*/
   margin-top:2%;
