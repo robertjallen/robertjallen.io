@@ -7,27 +7,26 @@
   margin-left: auto;
   border-radius: 10px;
 }*/
-div #always h1, i, h3 {
-  padding-bottom: 6px;
+div #always h1,i, h3 {
   font-family: lobster;
 }
 
 div #always {
+	padding: 6px 20px 6px 20px;
 	border-top: solid grey 30px;
   background-color: black;
   opacity: .7;
+	text-align: center;
+	display: table;
 /*  width: 50%;*/
-/*  margin-right: auto;*/
-/*  margin-left: auto;*/
+  margin-right: auto;
+  margin-left: auto;
   border-radius: 10px 10px 0 0;
 	margin-top: 68px;
 	margin-bottom: 20px;
 	color: cornflowerblue;
-/*	position: relative;*/
 }
-.fa-free-code-camp{
-  margin-left: 5%;
-}
+
 .nav-pills {
  font-size: 1.7em;
  background-color: black;
@@ -103,10 +102,10 @@ background-size:cover;
 height:800px;
 /*   padding-top: 1%; */
 }
-div #three {
+/*div #three {
 	margin-left: 13%;
 	margin-right: auto;
-}
+}*/
 .pageFour {
  background:url("https://images.unsplash.com/photo-1473447216727-44efba8cf0e0?");
 background-size:cover;
@@ -371,21 +370,7 @@ border-radius:50%;
 }
 }
 
-@media screen and (max-width: 500px) {
-	
-.tagline {
-	padding:42px 0px 42px 0px;
-}
-.taglineWrapper {
-	font-size:18px;
-	line-height:26px;
-}
-.twitterBkg {
-	padding-bottom:50px;
-	padding-top:50px;
-}
 
-}
 
 
 
