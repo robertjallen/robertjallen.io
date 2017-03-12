@@ -8,7 +8,7 @@
 	<meta property="og:url" content="http://www.allentowngroup.com/" />
 	<meta name="author" content="R Allen" />
 	<meta property="og:image" content="images/ra-logo40.png" />
-	
+
 	<title>Web development</title>
 	<!--	<script src="JS/jquery-3.1.0.min.js"></script>-->
 	<link rel="stylesheet" href="styles.css">
@@ -20,33 +20,22 @@
 </head>
 
 <body>
-<!--	<div class="container-fluid">-->
-		<!--  <div class="navbar navbar-fixed-top">
-  <ul class="nav nav-pills">
-    <li>
-      <a href="https://bobbidigi.github.io/about-robert-allen/">Robert Allen</a>
-    </li>
-    <li class="pull-right">
-      <a href="#p2">about me</a>
-    </li>
-    <li class="pull-right">
-      <a href="#p3">portfolio</a>
-    </li>
-     <li class="pull-right">
-      <a href="#p4">nonprofit projects</a>
-    </li>
-  </ul>
-  </div>-->
+
 		<nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
 			<div class="container">
 				<!-- Brand and toggle get grouped for better mobile display -->
 				<div class="navbar-header page-scroll">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i> </button> <a class="navbar-brand" href="https://bobbidigi.github.io/about-robert-allen">Robert Allen</a> </div>
+					 <button type="button" class="navbar-toggle"  data-target="#navbarCollapse" data-toggle="collapse">
+						<span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+					 </button>
+					 <a class="navbar-brand" href="https://bobbidigi.github.io/about-robert-allen">Robert Allen</a>
+				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
-				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+				<div class="collapse navbar-collapse" id="navbarCollapse">
 					<ul class="nav navbar-nav navbar-right">
-						<li class="hidden">
-							<a href="#page-top"></a>
+						<li class="page-scroll">
+							<a href="#pageOne"></a>
 						</li>
 						<li class="page-scroll"> <a href="#portfolio">Portfolio</a> </li>
 						<li class="page-scroll"> <a href="#about">About</a> </li>
@@ -57,19 +46,36 @@
 			</div>
 			<!-- /.container-fluid -->
 		</nav>
-		<div class="pageOne text-center">
-			<div id="always" class="block text-center">
+
+		<div class="pageOne container-fluid text-center">
+		<div class="row" align="center">
+			<div id="always" class="col-xs-10 col-lg-5 col-md-5" align="center">
 				<h1 id="RA">Robert Allen</h1>
 				<h3>Always learning</h3> <i class="fa fa-2x fa-free-code-camp" aria-hidden="true"></i> </div>
+		</div>	
 			<div class="btnList text-center"> <a class="btn btn-default" href="https://twitter.com/bobbidigi0" target="blank"><i class="fa fa-lg fa-twitter" id="twitterIcon" aria-hidden="true"></i>Twitter</a> <a class="btn btn-default" href="https://github.com/bobbidigi" target="blank"><i class="fa fa-lg fa-github" id="githubIcon" aria-hidden="true"></i>Github</a> <a class="btn btn-default" href="https://www.linkedin.com/in/robert-allen-44020778" target="blank">Linked<i class="fa fa-lg fa-linkedin" id="linkedinIcon" aria-hidden="true"></i></a> <a class="btn btn-default" href="https://codepen.io/bobbidigi34/" target="blank"><i class="fa fa-lg fa-codepen" id="codepenIcon" aria-hidden="true"></i>CodePen</a> <a class="btn btn-default" href="https://www.facebook.com/AllenTownn/" target="blank"><i class="fa fa-lg fa-facebook-official" id="facebookIcon" aria-hidden="true"></i>Facebook</a> </div>
 		</div>
+
+		<section class="success" id="about">
+       <div class="row">
+          <div class="col-lg-12 text-center">
+             <h2>About</h2>
+             <hr class="star-light">
+          </div>
+        </div>
 		<div class="pageTwo" id="p2">
 			<!--   <div class="row"> -->
 			<div class="tagline">
-				<div class="row"> <img class=" col-xs-3 col-sm-3 col-lg-2" id="profile" src="https://avatars3.githubusercontent.com/u/20561145?v=3&s=460" alt="profilePic"> </div>
-				<div class="taglineWrapper"> I love to create <strong>beautiful</strong> &amp; <strong>functional</strong> websites for small businesses and non-profits. Below are a few services I provide:
-					<hr> </div>
+				<div class="row">
+				 <img class=" col-xs-3 col-sm-3 col-lg-2" id="profile" src="https://avatars3.githubusercontent.com/u/20561145?v=3&s=460" alt="profilePic">
+				</div>
+				<div class="taglineWrapper"> I love to create  <strong>beautiful</strong> &amp;  <strong>functional</strong> websites for    small businesses and non-profits. Below are a  few services I provide:
+				</div>
 			</div>
+		</div>
+	</section>
+
+
 			<div class="servicesWrapper">
 				<div class="servicesBox">
 					<div class="servicesWebDesign">
@@ -105,13 +111,13 @@
 				</div>
 			</div>
 			<div class="bigSpace"></div>
-		</div>
-		<br>
 		<br>
 		<hr>
 		<!--</div>-->
 		<div class="pageThree text-center" id="p3">
+		<br />
 			<div id="three" class="row text-center">
+			<br />
 				<div class="col-md-10">
 					<p data-height="350" data-width="450" data-theme-id="0" data-slug-hash="rWzZgQ" data-default-tab="result" data-user="bobbidigi34" data-embed-version="0" data-pen-title="math game" class="codepen">See the Pen <a href="https://codepen.io/bobbidigi34/pen/rWzZgQ/">math game</a> by Robert J Allen (<a href="http://codepen.io/bobbidigi34">@bobbidigi34</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 					<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
@@ -145,19 +151,19 @@
 						</div>
 					</div>
 					<hr>
-					
+
 					<div class="container-fluid">
 						<div class="col-xs-12 col-lg-6" align="center">
-							<a href="http://www.allentowngroup.com/game-test/"><img src="images/game.png" class="img-responsive img-center"></a>
-							<div class="btn btn-default text-center"> <a href="http://www.allentowngroup.com/game-test/" style="color:blueviolet;">Kick MSA Game</a> </div>
+							<a href="http://www.allentowngroup.com/game_test/"><img src="images/game.png" class="img-responsive img-center"></a>
+							<div class="btn btn-default text-center"> <a href="http://www.allentowngroup.com/game_test/" style="color:blueviolet;">Kick MSA Game</a> </div>
 						</div>
 						<div class="col-xs-12 col-lg-6" align="center">
 							<a href="http://www.allentowngroup.com/msa-awareness/"><img src="images/msa.jpg" class="img-responsive img-center"></a>
 							<div class="btn btn-default text-center"> <a href="http://www.allentowngroup.com/msa-awareness/" style="color:blueviolet;">MSA United</a> </div>
 						</div>
 					</div>
-					<br> 
-					
+					<br>
+
 			</div>
 				<!-- taglinewrapper -->
 			</div>
@@ -166,11 +172,11 @@
 			<div class="footer text-center">
 				<div class="row">
 					<h4 style="color:black; text-center">Created with C<i class="fa fa-coffee " aria-hidden="true" ></i>ffee by</h4>
-					<h3><a href="https://bobbidigi.github.io/about-robert-allen/" target="blank">Robert Allen</a></h3> 
+					<h3><a href="https://bobbidigi.github.io/about-robert-allen/" target="blank">Robert Allen</a></h3>
 				</div>
 			</div>
-			
-			
+
+
 		</div>
 </body>
 </html>

@@ -1,4 +1,4 @@
-.block {
+/*.block {
   border-top: solid grey 30px;
   background-color: black;
   opacity: .7;
@@ -6,17 +6,24 @@
   margin-right: auto;
   margin-left: auto;
   border-radius: 10px;
-}
+}*/
 div #always h1, i, h3 {
   padding-bottom: 6px;
   font-family: lobster;
 }
 
 div #always {
+	border-top: solid grey 30px;
+  background-color: black;
+  opacity: .7;
+/*  width: 50%;*/
+/*  margin-right: auto;*/
+/*  margin-left: auto;*/
+  border-radius: 10px 10px 0 0;
 	margin-top: 68px;
 	margin-bottom: 20px;
 	color: cornflowerblue;
-	position: relative;
+/*	position: relative;*/
 }
 .fa-free-code-camp{
   margin-left: 5%;
@@ -47,7 +54,7 @@ div #msa {
 }
 .btn-default {
   border-color: #916a08;
-  font-family: lobster;
+  font-family: sans-serif;
   font-size: 1.5em;
 /*  color: #337ab7;*/
   margin-top:2%;
