@@ -1,0 +1,138 @@
+@import url("https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Oxygen+Mono|Pacifico');
+
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url("imgs/coffee.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	font-size: 100%;
+	font-family: 'Oxygen Mono', monospace;
+}
+
+.wrapper{
+	margin: 0;
+	background-color: rgba(11,11,12, .7);
+	height: 100vh;
+}
+
+/* Sidebar */
+nav {
+	height: 100%;
+	width: 0%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	overflow-x: hidden;
+}
+
+nav .closebtn {
+	position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+nav a{
+	text-decoration: none;
+	color: #fcfcfc;
+}
+
+nav ul{
+	margin: 0;
+}
+
+nav ul li:first-child{
+	padding-top: 150px;
+}
+
+nav ul li{
+	list-style: none;
+	margin-bottom: 40px;
+}
+
+nav ul li .nav-text {
+	text-align: center;
+	display: inline-block;
+}
+
+nav ul li a{
+	color: #33E0FC;
+	text-decoration: none;
+}
+
+.bar-icon {
+	background-color: #33E0FC;
+	height: 6px;
+	width: 60px;
+	display: inline-block;
+	border-radius: 4px;
+	justify-content: center;
+}
+
+.light {
+	box-shadow: 0 0 20px 5px;
+}
+
+.bar-icon:hover{
+	box-shadow: 0 0 20px 5px;
+}
+
+span .fa {
+	color: #33E0FC;
+	padding: 15px;
+	font-size: 32px;
+}
+
+h1 .fa {
+	font-size: 32px;
+}
+
+/* Main Content */
+.container{
+	margin: 0 auto;
+	padding-top: 150px;
+	width: 50%;
+	text-align: center;
+}
+
+h1 {
+	color: #fcfcfc;
+	margin: 0 auto 50px auto;
+	font-size: 24px;
+}
+
+p {
+	color: #a5a4a7;
+}
+
+#name{
+	font-family: 'Pacifico', cursive;
+	font-size: 34px;
+	color: #fcfcfc;
+	margin-bottom: 90px; 
+}
+
+@media (max-width: 768px){
+	nav {
+		background-color: #111;
+	}
+}
+
+
+@media (max-width: 425px){
+	.container{
+		width: 100%;
+		padding-top: 25px;
+	}
+}
+
+@media (max-height: 500px){
+	.wrapper{
+		height: 100%;
+	}
