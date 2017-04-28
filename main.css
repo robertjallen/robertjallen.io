@@ -132,7 +132,7 @@ p {
 	margin: auto;
 	 width:50%;
 }
-#linkedIn{
+#linkedIn:hover{
 	transform: scale(1.1);
 }
 @media (max-width: 768px){
