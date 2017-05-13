@@ -24,12 +24,12 @@ $(document).ready(function() {
         return false;
       }
       else {
-        $.ajax({
-          method: 'POST',
-          url: '//formspree.io/bobbidigi34@gmail.com',
-          data: $('#contact-form').serialize(),
-          datatype: 'json'
-        });
+//        $.ajax({
+//          method: 'POST',
+//          url: '//formspree.io/bobbidigi34@gmail.com',
+//          data: $('#contact-form').serialize(),
+//          datatype: 'json'
+//        });
         e.preventDefault();
         $(this).get(0).reset();
         $('.submit-success').fadeToggle(400);
