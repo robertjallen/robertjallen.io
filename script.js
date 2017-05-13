@@ -13,7 +13,7 @@ function closeNav() {
 }
 
 
-$(document).ready(function() {
+/*$(document).ready(function() {
   $('#contact-form').submit(function(e) {
       var name = $('#inputName')
       var email = $('#inputEmail')
@@ -39,4 +39,4 @@ $(document).ready(function() {
   $('.submit-fail, .submit-success').click(function() {
     $(this).hide();
   })
-});
+});*/

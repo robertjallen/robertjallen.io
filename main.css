@@ -147,7 +147,7 @@ p {
 label{
     color: #fff;
     letter-spacing: .3em;
-    font-family:monospace;
+    font-family:'Oxygen Mono', monospace;
     font-size: 1.6vh;
 }
 .display-none {
@@ -171,7 +171,7 @@ label{
 	#linkedIn{
 		display:block;
 		margin: auto;
-		 width:35%;
+		 width:45%;
 	}
     #contact-form{
     max-width: 75%;
