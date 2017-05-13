@@ -14,7 +14,7 @@ function closeNav() {
 
 
 $(document).ready(function() {
-  $('#contact-form').submit(function(e) {
+/*  $('#contact-form').submit(function(e) {
       var name = $('#inputName')
       var email = $('#inputEmail')
       var message = $('#inputMessage')
@@ -34,7 +34,7 @@ $(document).ready(function() {
         $(this).get(0).reset();
         $('.submit-success').fadeToggle(400);
       }
-    });
+    });*/
   
   $('.submit-fail, .submit-success').click(function() {
     $(this).hide();
