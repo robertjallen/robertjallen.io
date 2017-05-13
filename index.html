@@ -10,6 +10,7 @@
 	<title>Portfolio </title>
 	<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -51,11 +52,33 @@
 			<p id="name">allentown</p>
 
 		</div>
-		<form method="POST" action="http://formspree.io/bobbidigi34@gmail.com">
-  <input type="email" name="email" placeholder="Your email">
-  <textarea name="message" placeholder="Your message"></textarea>
-  <button type="submit">Send</button>
+		
+		
+		
+		<form id="contact-form">
+				  <div class="form-group center-block">
+  					  <label for="inputName">Name</label>
+    					<input type="text" class="form-control contact-input" id="inputName" placeholder="Name" name="name"/>
+				  </div>
+  <div class="form-group center-block">
+  					  <label for="inputEmail">Email</label>
+    					<input type="email" class="form-control contact-input" id="inputEmail" placeholder="Email" name="email"/>
+				  </div>
+  <div class="form-group center-block">
+					<label for="inputMessage">Message</label>
+					<textarea id="inputMessage" class="form-control contact-input" rows="3" placeholder="Leave a Message" name="message"></textarea>
+				</div>
+  <div class="text-center">
+					    <button class="btn btn-default" type="submit" value="Send">Submit</button>
+    <div class="alert alert-danger center-block submit-fail display-none">Please fill in all form fields<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
+    <div class="alert alert-success center-block submit-success display-none">Thanks for stopping to say Hello!<br><a href="#"><i class="fa fa-long-arrow-left fa-4x"></i></a></div>
+				  </div>
+  <span></span>
 </form>
+        
+        
+        
+        
 		<!-- Footer -->
 		    <footer class="text-center">
 		        <div class="footer-above">
@@ -98,5 +121,35 @@
 		    </footer>
 	</div>
 	<script src="script.js"></script>
+	<script>
+    $(document).ready(function() {
+  $('#contact-form').submit(function(e) {
+      var name = $('#inputName')
+      var email = $('#inputEmail')
+      var message = $('#inputMessage')
+    
+      if(name.val() == "" || email.val() == "" || message.val() == "") {
+        $('.submit-fail').fadeToggle(400);
+        return false;
+      }
+      else {
+        $.ajax({
+          method: 'POST',
+          url: '//formspree.io/bobbidigi34@gmail.com',
+          data: $('#contact-form').serialize(),
+          datatype: 'json'
+        });
+        e.preventDefault();
+        $(this).get(0).reset();
+        $('.submit-success').fadeToggle(400);
+      }
+    });
+  
+  $('.submit-fail, .submit-success').click(function() {
+    $(this).hide();
+  })
+});
+  
+    </script>
 </body>
 </html>
