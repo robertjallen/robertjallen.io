@@ -16,7 +16,7 @@ body{
 .wrapper{
 	margin: 0;
 	background-color: rgba(11,11,12, .7);
-	height: 150vh;
+	height: 190vh;
 }
 
 /* Sidebar */
@@ -179,16 +179,20 @@ label{
     margin-left: auto;
     margin-right: auto;
 }
+     .wrapper{
+		height: 190vh;
+	}
 }
 @media (max-width: 425px){
 	.container{
 		width: 100%;
 		padding-top: 25px;
 	}
+    .wrapper{
+		height: 145vh;
+	}
 }
 
 @media (max-height: 500px){
-	.wrapper{
-		height: 100vh;
-	}
+	
 }
