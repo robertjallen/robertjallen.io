@@ -16,7 +16,7 @@ body{
 .wrapper{
 	margin: 0;
 	background-color: rgba(11,11,12, .7);
-	height: 190vh;
+	min-height: 90%;
 }
 
 /* Sidebar */
@@ -117,19 +117,24 @@ p {
 #name{
 	font-family: 'Pacifico', cursive;
 	font-size: 34px;
+	min-width: 100%;
 	color: #fcfcfc;
 	margin-bottom: 90px;
+	border: 1px solid #fff;
 }
 .btn-social{
+	background: rgba(0,0,0,0.3);
+	color: #fff;
 	display:inline-block;
 	border:1px solid #fff;
 	border-radius:50%;
 	text-align:center;
-    font-size:30px;
-	line-height:30px;
+    font-size:28px;
+	line-height:31px;
+	padding:3px;
 }
 .btn-social:hover{
-	 transform: scale(1.5);
+	 transform: scale(1.2);
 }
 #linkedIn{
 	display:block;
@@ -148,12 +153,20 @@ label{
     color: #fff;
     letter-spacing: .3em;
     font-family:'Oxygen Mono', monospace;
-    font-size: 1.6vh;
+    font-size: 1.7vh;
 }
 .display-none {
   display: none;
 }
 
+#submit{
+	background-color: rgba(0,0,0,0.3);
+	color: #fff;
+	border: 1px solid #fff;
+	-webkit-box-shadow: 0px 0px 30px -5px rgba(255,255,255,1);
+-moz-box-shadow: 0px 0px 30px -5px rgba(255,255,255,1);
+box-shadow: 0px 0px 30px -5px rgba(255,255,255,1);
+}
 
 .footer-below{
 	color: aliceblue;
@@ -172,16 +185,16 @@ label{
 	#linkedIn{
 		display:block;
 		margin: auto;
-		 width:45%;
+		 width:30%;
 	}
     #contact-form{
-    max-width: 75%;
+    max-width: 85%;
     margin-left: auto;
     margin-right: auto;
 }
-     .wrapper{
-		height: 190vh;
-	}
+/*     .wrapper{*/
+/*		height: 190vh;*/
+/*	}*/
 }
 @media (max-width: 425px){
 	.container{
