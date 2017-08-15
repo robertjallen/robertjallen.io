@@ -83,12 +83,12 @@ div #msa {
   margin-right:2%;
 }
 .pageOne {
-background:url("https://images.unsplash.com/photo-1473447216727-44efba8cf0e0?");
+background:url("images/living-room.jpg");
 background-size:cover;
 height:800px;   
 }
 .pageTwo {
-  background:url("https://images.unsplash.com/photo-1473447216727-44efba8cf0e0?");
+  background:url("images/living-room.jpg");
 background-size:cover;
 height:800px;
 /*   max-width:100%; */
@@ -97,7 +97,7 @@ height:800px;
 /*   margin-bottom:1%; */
 }
 .pageThree {
-  background:url("https://images.unsplash.com/photo-1473447216727-44efba8cf0e0?");
+  background:url("images/living-room.jpg");
 background-size:cover;
 height:800px;
 /*   padding-top: 1%; */
@@ -107,7 +107,7 @@ height:800px;
 	margin-right: auto;
 }*/
 .pageFour {
- background:url("https://images.unsplash.com/photo-1473447216727-44efba8cf0e0?");
+ background:url("images/living-room.jpg");
 background-size:cover;
 height:800px;
 }
