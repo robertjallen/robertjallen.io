@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="Author" content="Robert Allen">
+	<meta name="Description" content="Hi! This is just an example I made of a portfolio type of website.">
+	
+	<title>Portfolio </title>
+	<!-- Latest compiled and minified CSS -->
+<!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+	<link rel="stylesheet" href="../styles/main.css">
+</head>
+<body>
+
+        <!-- Start of Async Drift Code -->
+<script>
+!function() {
+  var t;
+  if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+  t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+  t.factory = function(e) {
+    return function() {
+      var n;
+      return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+    };
+  }, t.methods.forEach(function(e) {
+    t[e] = t.factory(e);
+  }), t.load = function(t) {
+    var e, n, o, i;
+    e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+    o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+    n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+  });
+}();
+drift.SNIPPET_VERSION = '0.3.1';
+drift.load('xftxm9dr5hkp');
+</script>
+<!-- End of Async Drift Code -->
+
+<!--Enables drift chat button links-->
+<!-- place this script tag after the Drift embed tag -->
+<script>
+  (function() {
+    /* Add this class to any elements you want to use to open Drift.
+     *
+     * Examples:
+     * - <a class="drift-open-chat">Questions? We're here to help!</a>
+     * - <button class="drift-open-chat">Chat now!</button>
+     *
+     * You can have any additional classes on those elements that you
+     * would ilke.
+     */
+    var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
+    /* http://youmightnotneedjquery.com/#ready */
+    function ready(fn) {
+      if (document.readyState != 'loading') {
+        fn();
+      } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', fn);
+      } else {
+        document.attachEvent('onreadystatechange', function() {
+          if (document.readyState != 'loading')
+            fn();
+        });
+      }
+    }
+    /* http://youmightnotneedjquery.com/#each */
+    function forEachElement(selector, fn) {
+      var elements = document.querySelectorAll(selector);
+      for (var i = 0; i < elements.length; i++)
+        fn(elements[i], i);
+    }
+    function openSidebar(driftApi, event) {
+      event.preventDefault();
+      driftApi.sidebar.open();
+      return false;
+    }
+    ready(function() {
+      drift.on('ready', function(api) {
+        var handleClick = openSidebar.bind(this, api)
+        forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
+          el.addEventListener('click', handleClick);
+        });
+      });
+    });
+  })();
+</script>
+
+
+
+<!--   header -->
+<header id="showcase" class="grid">
+    <div class="bg-image"></div>
+  <div class="content-wrap">
+     <h1>Welcome To Robs Web Solutions</h1>
+  <p>Echo park fixie kinfolk whatever tilde. Letterpress farm-to-table kombucha leggings pop-up ennui lyft, cliche pabst forage pug jean shorts heirloom. Roof party hot chicken raclette, chartreuse twee craft beer jean shorts vice cray selvage raw denim skateboard. </p>
+  <a href="#" class="btn">coffee</a>
+  </div>
+</header>
+<!--  main  -->
+  <main id="main">
+  <section id="section-a" class="grid">
+    <div class="content-wrap">
+      <h2 class="content-title">My Work</h2>
+      <div class="content-text">
+        <p>Heres a few examples of my work.</p>
+      </div>
+    </div>
+  </section>
+<!--  section B    -->
+    <section id="section-b" class="grid">
+      <ul>
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/574073/pexels-photo-574073.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="programming">
+            <div class="card-content">
+              <h3 class="card-title">website</h3>
+              <p> Roof party hot chicken raclet park fixie kinfolk whatever tilde. Letterpress farm-to-table kombucha leggings pop-up ennui lyft, cliche </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="mobile applications">
+            <div class="card-content">
+              <h3 class="card-title">website.1</h3>
+              <p> Craft beer jean shorts vice cray selvage raw denim skateboard. Letterpress farm-to-table kombucha leggings pop-up ennui lyft, cliche </p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="card">
+            <img src="https://images.pexels.com/photos/266176/pexels-photo-266176.jpeg?w=940&h=650&auto=compress&cs=tinysrgb" alt="marketing">
+            <div class="card-content">
+              <h3 class="card-title">website.2</h3>
+              <p> Pabst blue ribbon beard oil, pug heirloom Letterpress farm-to-table kombucha leggings lyft. Craft beer vice cray selvage raw denim skateboard.</p>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </section>
+<!--  section C    -->
+    <section id="section-c" class="grid">
+      <div class="content-wrap">
+        <h2 class="content-title">We handle all of your digital needs</h2>
+        <!-- simply add 'class="drift-open-chat"' to any link on your site -->
+        <p>
+          We love our customers, please feel free to
+          <a class="drift-open-chat" href="#">chat with us</a>.
+        </p>
+        <p>Echo park fixie kinfolk whatever tilde. Letterpress farm-to-table kombucha leggings pop-up ennui lyft, cliche pabst forage pug jean shorts heirloom. Roof party hot chicken raclette, chartreuse twee craft beer jean shorts vice cray selvage raw denim skateboard.</p>
+      </div>
+    </section>
+<!--  section D    -->
+    <section id="section-d" class="grid">
+      <div class="box">
+        <h2 class="content-title">Contact Us</h2>
+        <p>Echo park fixie kinfolk whatever tilde. Letterpress farm-to-table kombucha leggings pop-up ennui lyft, cliche pabst forage pug jean shorts heirloom. Roof party hot chicken raclette, chartreuse twee craft beer jean shorts vice cray selvage raw denim skateboard.</p>
+        <a class="bigLink" href="mailto:bobbidigi34@gmail.com?subject=Web%20portfolio"><p>bobbidigi34@gmail.com</p></a>
+      </div>
+      <div class="box">
+        <h2 class="content-title">About Web Soutions</h2>
+        <p>Echo park fixie kinfolk whatever tilde. Letterpress farm-to-table kombucha leggings pop-up ennui lyft, cliche pabst forage pug jean shorts heirloom. Roof party hot chicken raclette, chartreuse twee craft beer jean shorts vice cray selvage raw denim skateboard.</p>
+      </div>
+    </section>
+  </main>
+  <div class="above">
+        <a class="facebook" href="https://www.facebook.com/Bobbidigi"><i class="fa fa-facebook fa-2x"></i></a>
+        <a class="twitter" href="https://twitter.com/bobbidigi0"><i class="fa fa-twitter fa-2x"></i></a>
+        <a class="github" href="https://github.com/bobbidigi"><i class="fa fa-github fa-2x"></i></a>
+        <a class="linkedin" href="https://www.linkedin.com/in/robert-allen-44020778/"><i class="fa fa-linkedin fa-2x"></i></a>
+        <a class="at" href="mailto:bobbidigi34@gmail.com?subject=Web%20portfolio"><i class="fa fa-at fa-2x"></i></a>
+    </div>
+<!--  footer  -->
+  <footer id="main-footer" class="grid">
+   
+    <div>Web Solutions</div>
+    <div>By <a href="http://www.allentowngroup.com/bobbys-world/" target="_blank"> Robert Allen</a></div>
+  </footer>
+
+	
+</body>
+</html>
