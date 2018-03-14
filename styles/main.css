@@ -86,6 +86,31 @@ p{
   color: #333;
   padding: 2em;
 }
+
+#triangle1{
+  margin-top: -2em;
+  margin-left: auto;
+  margin-right: auto;    
+  width: 0;
+  height: 20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid #fff;
+/*   left: 50%; */
+  border-top-color: #fff !important;
+}
+#triangle2{
+  margin-top: -2em;
+  margin-left: auto;
+  margin-right: auto;    
+  width: 0;
+  height: 20px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 40px solid #fff;
+/*   left: 50%; */
+  border-top-color: #2690d4 !important;
+}
 /* section D */
 #section-d .box{
   padding: 2em;
@@ -196,4 +221,7 @@ p{
   .card img{
     max-height: 140px; 
   }
+    .triangle{
+        display: none;
+    }    
 }
