@@ -33,6 +33,12 @@ p{
   background: #eaeaea;
   color: #333;
 }
+#profile{
+    padding: 1em 0;
+    margin: 0 auto;
+    width: 33.333vw;
+    border-radius: 50%;
+}
 #showcase{
   color: #fff;
   min-height: 450px;
@@ -120,7 +126,10 @@ p{
   background: #2690d4;
 }
 /* footer */
-
+#chat{
+    color: cornflowerblue;
+    text-decoration: none;
+}
 .above {
   width: 100%;
   display: flex;
@@ -223,5 +232,8 @@ p{
   }
     .triangle{
         display: none;
-    }    
+    }  
+    #profile{
+        width: 17vw;
+    }
 }
