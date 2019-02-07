@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<!-- saved from url=(0041)https://profiles.udacity.com/p/8194624704 -->
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="./Udacity-profile_files/css" rel="stylesheet">
+    <title>Udacity</title>
+<!-- <script>!function(){var analytics=window.analytics=window.analytics||[];if(!analytics.initialize)if(analytics.invoked)window.console&&console.error&&console.error("Segment snippet included twice.");else{analytics.invoked=!0;analytics.methods=["trackSubmit","trackClick","trackLink","trackForm","pageview","identify","reset","group","track","ready","alias","page","once","off","on"];analytics.factory=function(t){return function(){var e=Array.prototype.slice.call(arguments);e.unshift(t);analytics.push(e);return analytics}};for(var t=0;t<analytics.methods.length;t++){var e=analytics.methods[t];analytics[e]=analytics.factory(e)}analytics.load=function(t){var e=document.createElement("script");e.type="text/javascript";e.async=!0;e.src=("https:"===document.location.protocol?"https://":"http://")+"cdn.segment.com/analytics.js/v1/"+t+"/analytics.min.js";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(e,n)};analytics.SNIPPET_VERSION="3.1.0";
+    }}();</script> -->
+    <link href="./Udacity-profile_files/bundle.4d084.css" rel="stylesheet"><style type="text/css">.InputRange-slider {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #3f51b5;
+  border: 1px solid #3f51b5;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 1rem;
+  margin-left: -0.5rem;
+  margin-top: -0.65rem;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transition: -webkit-transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  width: 1rem; }
+  .InputRange-slider:active {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3); }
+  .InputRange-slider:focus {
+    box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2); }
+  .InputRange.is-disabled .InputRange-slider {
+    background: #cccccc;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    -webkit-transform: none;
+            transform: none; }
+
+.InputRange-sliderContainer {
+  transition: left 0.3s ease-out; }
+
+.InputRange-label {
+  color: #aaaaaa;
+  font-family: "Helvetica Neue", san-serif;
+  font-size: 0.8rem;
+  white-space: nowrap; }
+
+.InputRange-label--min,
+.InputRange-label--max {
+  bottom: -1.4rem;
+  position: absolute; }
+
+.InputRange-label--min {
+  left: 0; }
+
+.InputRange-label--max {
+  right: 0; }
+
+.InputRange-label--value {
+  position: absolute;
+  top: -1.8rem; }
+
+.InputRange-labelContainer {
+  left: -50%;
+  position: relative; }
+  .InputRange-label--max .InputRange-labelContainer {
+    left: 50%; }
+
+.InputRange-track {
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  height: 0.3rem;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out; }
+  .InputRange.is-disabled .InputRange-track {
+    background: #eeeeee; }
+
+.InputRange-track--container {
+  left: 0;
+  margin-top: -0.15rem;
+  position: absolute;
+  right: 0;
+  top: 50%; }
+
+.InputRange-track--active {
+  background: #3f51b5; }
+
+.InputRange {
+  height: 1rem;
+  position: relative;
+  width: 100%; }
+</style><style type="text/css">.rc-tooltip.rc-tooltip-zoom-enter,
+.rc-tooltip.rc-tooltip-zoom-leave {
+  display: block;
+}
+.rc-tooltip-zoom-enter,
+.rc-tooltip-zoom-appear {
+  opacity: 0;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+          animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.rc-tooltip-zoom-leave {
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.6, -0.3, 0.74, 0.05);
+          animation-timing-function: cubic-bezier(0.6, -0.3, 0.74, 0.05);
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.rc-tooltip-zoom-enter.rc-tooltip-zoom-enter-active,
+.rc-tooltip-zoom-appear.rc-tooltip-zoom-appear-active {
+  -webkit-animation-name: rcToolTipZoomIn;
+          animation-name: rcToolTipZoomIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.rc-tooltip-zoom-leave.rc-tooltip-zoom-leave-active {
+  -webkit-animation-name: rcToolTipZoomOut;
+          animation-name: rcToolTipZoomOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+@-webkit-keyframes rcToolTipZoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+@keyframes rcToolTipZoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes rcToolTipZoomOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+}
+@keyframes rcToolTipZoomOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+}
+.rc-tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.rc-tooltip-hidden {
+  display: none;
+}
+.rc-tooltip-placement-top,
+.rc-tooltip-placement-topLeft,
+.rc-tooltip-placement-topRight {
+  padding: 5px 0 9px 0;
+}
+.rc-tooltip-placement-right,
+.rc-tooltip-placement-rightTop,
+.rc-tooltip-placement-rightBottom {
+  padding: 0 5px 0 9px;
+}
+.rc-tooltip-placement-bottom,
+.rc-tooltip-placement-bottomLeft,
+.rc-tooltip-placement-bottomRight {
+  padding: 9px 0 5px 0;
+}
+.rc-tooltip-placement-left,
+.rc-tooltip-placement-leftTop,
+.rc-tooltip-placement-leftBottom {
+  padding: 0 9px 0 5px;
+}
+.rc-tooltip-inner {
+  padding: 8px 10px;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+  background-color: #373737;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.17);
+  min-height: 34px;
+}
+.rc-tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.rc-tooltip-placement-top .rc-tooltip-arrow,
+.rc-tooltip-placement-topLeft .rc-tooltip-arrow,
+.rc-tooltip-placement-topRight .rc-tooltip-arrow {
+  bottom: 4px;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #373737;
+}
+.rc-tooltip-placement-top .rc-tooltip-arrow {
+  left: 50%;
+}
+.rc-tooltip-placement-topLeft .rc-tooltip-arrow {
+  left: 15%;
+}
+.rc-tooltip-placement-topRight .rc-tooltip-arrow {
+  right: 15%;
+}
+.rc-tooltip-placement-right .rc-tooltip-arrow,
+.rc-tooltip-placement-rightTop .rc-tooltip-arrow,
+.rc-tooltip-placement-rightBottom .rc-tooltip-arrow {
+  left: 4px;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #373737;
+}
+.rc-tooltip-placement-right .rc-tooltip-arrow {
+  top: 50%;
+}
+.rc-tooltip-placement-rightTop .rc-tooltip-arrow {
+  top: 15%;
+  margin-top: 0;
+}
+.rc-tooltip-placement-rightBottom .rc-tooltip-arrow {
+  bottom: 15%;
+}
+.rc-tooltip-placement-left .rc-tooltip-arrow,
+.rc-tooltip-placement-leftTop .rc-tooltip-arrow,
+.rc-tooltip-placement-leftBottom .rc-tooltip-arrow {
+  right: 4px;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #373737;
+}
+.rc-tooltip-placement-left .rc-tooltip-arrow {
+  top: 50%;
+}
+.rc-tooltip-placement-leftTop .rc-tooltip-arrow {
+  top: 15%;
+  margin-top: 0;
+}
+.rc-tooltip-placement-leftBottom .rc-tooltip-arrow {
+  bottom: 15%;
+}
+.rc-tooltip-placement-bottom .rc-tooltip-arrow,
+.rc-tooltip-placement-bottomLeft .rc-tooltip-arrow,
+.rc-tooltip-placement-bottomRight .rc-tooltip-arrow {
+  top: 4px;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #373737;
+}
+.rc-tooltip-placement-bottom .rc-tooltip-arrow {
+  left: 50%;
+}
+.rc-tooltip-placement-bottomLeft .rc-tooltip-arrow {
+  left: 15%;
+}
+.rc-tooltip-placement-bottomRight .rc-tooltip-arrow {
+  right: 15%;
+}
+</style><style type="text/css">.InputRange-slider {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background: #3f51b5;
+  border: 1px solid #3f51b5;
+  border-radius: 100%;
+  cursor: pointer;
+  display: block;
+  height: 1rem;
+  margin-left: -0.5rem;
+  margin-top: -0.65rem;
+  outline: none;
+  position: absolute;
+  top: 50%;
+  transition: -webkit-transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  width: 1rem; }
+  .InputRange-slider:active {
+    -webkit-transform: scale(1.3);
+            transform: scale(1.3); }
+  .InputRange-slider:focus {
+    box-shadow: 0 0 0 5px rgba(63, 81, 181, 0.2); }
+  .InputRange.is-disabled .InputRange-slider {
+    background: #cccccc;
+    border: 1px solid #cccccc;
+    box-shadow: none;
+    -webkit-transform: none;
+            transform: none; }
+
+.InputRange-sliderContainer {
+  transition: left 0.3s ease-out; }
+
+.InputRange-label {
+  color: #aaaaaa;
+  font-family: "Helvetica Neue", san-serif;
+  font-size: 0.8rem;
+  white-space: nowrap; }
+
+.InputRange-label--min,
+.InputRange-label--max {
+  bottom: -1.4rem;
+  position: absolute; }
+
+.InputRange-label--min {
+  left: 0; }
+
+.InputRange-label--max {
+  right: 0; }
+
+.InputRange-label--value {
+  position: absolute;
+  top: -1.8rem; }
+
+.InputRange-labelContainer {
+  left: -50%;
+  position: relative; }
+  .InputRange-label--max .InputRange-labelContainer {
+    left: 50%; }
+
+.InputRange-track {
+  background: #eeeeee;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  display: block;
+  height: 0.3rem;
+  position: relative;
+  transition: left 0.3s ease-out, width 0.3s ease-out; }
+  .InputRange.is-disabled .InputRange-track {
+    background: #eeeeee; }
+
+.InputRange-track--container {
+  left: 0;
+  margin-top: -0.15rem;
+  position: absolute;
+  right: 0;
+  top: 50%; }
+
+.InputRange-track--active {
+  background: #3f51b5; }
+
+.InputRange {
+  height: 1rem;
+  position: relative;
+  width: 100%; }
+</style><style type="text/css">.rc-tooltip.rc-tooltip-zoom-enter,
+.rc-tooltip.rc-tooltip-zoom-leave {
+  display: block;
+}
+.rc-tooltip-zoom-enter,
+.rc-tooltip-zoom-appear {
+  opacity: 0;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+          animation-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.rc-tooltip-zoom-leave {
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  -webkit-animation-timing-function: cubic-bezier(0.6, -0.3, 0.74, 0.05);
+          animation-timing-function: cubic-bezier(0.6, -0.3, 0.74, 0.05);
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+.rc-tooltip-zoom-enter.rc-tooltip-zoom-enter-active,
+.rc-tooltip-zoom-appear.rc-tooltip-zoom-appear-active {
+  -webkit-animation-name: rcToolTipZoomIn;
+          animation-name: rcToolTipZoomIn;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+.rc-tooltip-zoom-leave.rc-tooltip-zoom-leave-active {
+  -webkit-animation-name: rcToolTipZoomOut;
+          animation-name: rcToolTipZoomOut;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+@-webkit-keyframes rcToolTipZoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+@keyframes rcToolTipZoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+}
+@-webkit-keyframes rcToolTipZoomOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+}
+@keyframes rcToolTipZoomOut {
+  0% {
+    opacity: 1;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    opacity: 0;
+    -webkit-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+    -webkit-transform: scale(0, 0);
+            transform: scale(0, 0);
+  }
+}
+.rc-tooltip {
+  position: absolute;
+  z-index: 1070;
+  display: block;
+  visibility: visible;
+  font-size: 12px;
+  line-height: 1.5;
+  opacity: 0.9;
+}
+.rc-tooltip-hidden {
+  display: none;
+}
+.rc-tooltip-placement-top,
+.rc-tooltip-placement-topLeft,
+.rc-tooltip-placement-topRight {
+  padding: 5px 0 9px 0;
+}
+.rc-tooltip-placement-right,
+.rc-tooltip-placement-rightTop,
+.rc-tooltip-placement-rightBottom {
+  padding: 0 5px 0 9px;
+}
+.rc-tooltip-placement-bottom,
+.rc-tooltip-placement-bottomLeft,
+.rc-tooltip-placement-bottomRight {
+  padding: 9px 0 5px 0;
+}
+.rc-tooltip-placement-left,
+.rc-tooltip-placement-leftTop,
+.rc-tooltip-placement-leftBottom {
+  padding: 0 9px 0 5px;
+}
+.rc-tooltip-inner {
+  padding: 8px 10px;
+  color: #fff;
+  text-align: left;
+  text-decoration: none;
+  background-color: #373737;
+  border-radius: 6px;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.17);
+  min-height: 34px;
+}
+.rc-tooltip-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+}
+.rc-tooltip-placement-top .rc-tooltip-arrow,
+.rc-tooltip-placement-topLeft .rc-tooltip-arrow,
+.rc-tooltip-placement-topRight .rc-tooltip-arrow {
+  bottom: 4px;
+  margin-left: -5px;
+  border-width: 5px 5px 0;
+  border-top-color: #373737;
+}
+.rc-tooltip-placement-top .rc-tooltip-arrow {
+  left: 50%;
+}
+.rc-tooltip-placement-topLeft .rc-tooltip-arrow {
+  left: 15%;
+}
+.rc-tooltip-placement-topRight .rc-tooltip-arrow {
+  right: 15%;
+}
+.rc-tooltip-placement-right .rc-tooltip-arrow,
+.rc-tooltip-placement-rightTop .rc-tooltip-arrow,
+.rc-tooltip-placement-rightBottom .rc-tooltip-arrow {
+  left: 4px;
+  margin-top: -5px;
+  border-width: 5px 5px 5px 0;
+  border-right-color: #373737;
+}
+.rc-tooltip-placement-right .rc-tooltip-arrow {
+  top: 50%;
+}
+.rc-tooltip-placement-rightTop .rc-tooltip-arrow {
+  top: 15%;
+  margin-top: 0;
+}
+.rc-tooltip-placement-rightBottom .rc-tooltip-arrow {
+  bottom: 15%;
+}
+.rc-tooltip-placement-left .rc-tooltip-arrow,
+.rc-tooltip-placement-leftTop .rc-tooltip-arrow,
+.rc-tooltip-placement-leftBottom .rc-tooltip-arrow {
+  right: 4px;
+  margin-top: -5px;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #373737;
+}
+.rc-tooltip-placement-left .rc-tooltip-arrow {
+  top: 50%;
+}
+.rc-tooltip-placement-leftTop .rc-tooltip-arrow {
+  top: 15%;
+  margin-top: 0;
+}
+.rc-tooltip-placement-leftBottom .rc-tooltip-arrow {
+  bottom: 15%;
+}
+.rc-tooltip-placement-bottom .rc-tooltip-arrow,
+.rc-tooltip-placement-bottomLeft .rc-tooltip-arrow,
+.rc-tooltip-placement-bottomRight .rc-tooltip-arrow {
+  top: 4px;
+  margin-left: -5px;
+  border-width: 0 5px 5px;
+  border-bottom-color: #373737;
+}
+.rc-tooltip-placement-bottom .rc-tooltip-arrow {
+  left: 50%;
+}
+.rc-tooltip-placement-bottomLeft .rc-tooltip-arrow {
+  left: 15%;
+}
+.rc-tooltip-placement-bottomRight .rc-tooltip-arrow {
+  right: 15%;
+}
+</style>
+<meta name="robots" content="noindex, follow" data-react-helmet="true">
+</head><body>
+  <div id="app">
+    <div data-reactroot=""><!-- react-empty: 2 --><div>
+      <div class="header--header--1djHj">
+        <div class="header--contain--Mv0vl">
+          <a href="https://www.udacity.com/" class="header--homepage--7meWY">
+            <img src="./Udacity-profile_files/logo-wordmark-f219f.svg" alt="Udacity logo"></a>
+          </div>
+        </div>
+        <div class="profile-container--profile-container--26Sou">
+          <div>
+            <div>
+              <div class="toast--container--2TRXN">
+                <span></span>
+              </div>
+              <div class="profile--profile--3hsS1">
+                <div class="profile--contain--2sZyR layout--contain--1ajpu">
+                  <div class="profile--updated--crUwT"><!-- react-text: 21 -->Profile last updated<!-- /react-text --><!-- react-text: 22 --> <!-- /react-text --><!-- react-text: 23 -->3 months ago<!-- /react-text -->
+                  </div>
+                </div>
+                <div class="user--user--SZmZm card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA user--cardStyles--3NM6t">
+                  <div>
+                    <img src="https://s3-us-west-2.amazonaws.com/udacity-profiles/production/photo/8194624704-202d9a30c3c532332d3f1e2f076247a2.jpeg#1548187507354" alt="Robert J Allen" class="user--photo--2Zmfw icon--icon--2T2Xp icon--round--XOvh9">
+                    <h1 class="user--name--1E6ta">Robert J Allen</h1>
+                    <div>
+                      <span class="user--bio--2NrgA">Ambitious front end developer, who would love to travel and join a team of like-minded developers.</span>
+                    </div>
+                    <div class="user--details--2Xtxy">
+                      <span>Front End Web Developer at Freelancer</span>
+                    </div>
+                    <div class="user--details--2Xtxy">Front-End Web Developer Nanodegree Graduate</div><div class="user--details--2Xtxy"><span class="user--detail--1ro5z"><img src="./Udacity-profile_files/icon-location-038bc.svg" alt="location marker" class="user--icon--1tdoZ"><span>St Clair Shores, MI</span></span></div><div></div><div></div></div><noscript></noscript></div><div class="roles--roles--3hkJt card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA roles--cardStyles--3_5z0 layout--clearfix--3jpBl"><div class="roles--col--2acwJ"><h3 class="roles--header--3N0y- roles--capitalize--2y9jq">desired roles</h3><ul><li><span class="roles--jobRole--ezTkX text--description--1xNC_">Front-end Web Developer</span><span><span class="roles--dot--2oFMR"> • </span><span class="roles--jobLevel--TYYfx text--description--1xNC_"><!-- react-text: 49 -->Junior<!-- /react-text --><!-- react-text: 50 --> <!-- /react-text --><!-- react-text: 51 -->Level<!-- /react-text --></span></span></li></ul></div><div class="roles--col--2acwJ"><h3 class="roles--header--3N0y- roles--capitalize--2y9jq">work type</h3><p class="roles--jobType--38elv text--description--1xNC_">Contract, Part time</p></div><noscript></noscript></div><div class="skills--skills--schj1 card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA skills--cardStyles--etKSu"><div><div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX _skill--unshaded--1FTtq"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>FTP software</span></div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>responsive design</span></div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>mobile web design</span></div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>ES6</span></div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX _skill--unshaded--1FTtq"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>ReactJs</span></div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>CSS</span></div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>CSS frameworks</span></div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>git and github</span></div><div class="_skill--skill--3kbml"><div class="_skill--bars--2sdwX"><div class="_skill--bar-1--6RmQ1"></div><div class="_skill--bar-2--1n8gX"></div><div class="_skill--bar-3--1tYNa _skill--unshaded--1FTtq"></div></div><span>development tools</span></div></div></div><noscript></noscript></div><div class="works--section--DQA_C"><noscript></noscript><div class="works--container--IljJD layout--contain--1ajpu"><h3 class="works--header--3rQjP text--header--J3NTI works--capitalize--1p3bi">work experiences</h3></div><div><noscript></noscript><div class="index--work--290DK card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA index--first--2dqce"><div class="index--flex--fcQ0-"><span class="index--position--2Mlq1">web developer</span><span class="_date--date--1NOMc text--smallCaps--24__2 text--small--2Mqto">March 2018 - March 2018</span></div><div class="index--employment--1YvWZ"><span class="index--organization--35XJ7"><!-- react-text: 126 -->Coder Dojo<!-- /react-text --><span>,&nbsp;</span></span><span class="index--location--34F-0">Melbourne Australia</span></div><div class="index--description--PV-5- text--description--1xNC_">Developed a static website for Melborne Australia CoderDojo.</div></div></div><div><noscript></noscript><div class="index--work--290DK card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA"><div class="index--flex--fcQ0-"><span class="index--position--2Mlq1">Web developer</span><span class="_date--date--1NOMc text--smallCaps--24__2 text--small--2Mqto">January 2017 - January 2017</span></div><div class="index--employment--1YvWZ"><span class="index--organization--35XJ7"><!-- react-text: 138 -->Defeat MSA<!-- /react-text --><span>,&nbsp;</span></span><span class="index--location--34F-0">Saint Clair Shores</span></div><div class="index--description--PV-5- text--description--1xNC_">Developed a web page for a nonprofit with all the social links and twitter feeds, and facebook feed embeds.</div></div></div></div><div class="educations--section--3BSZF"><noscript></noscript><div class="educations--container--2Kh5z layout--contain--1ajpu"><h3 class="educations--header--3zvQV text--header--J3NTI">education</h3></div><div><noscript></noscript><div class="index--education--2zyOF card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA index--first--2a7zL"><div class="index--flex--3Vawg"><div class="_degree--degree--23H26 text--label--1NK8z"><span>Certificate in full-stack web development, computer software engineering.</span></div><div class="_date--date--2Hoio text--smallCaps--24__2 text--small--2Mqto">May 2016 - November 2018</div></div><div class="index--school--2lHOh">FreeCodeCamp</div><div class="index--description--2wi-Z text--description--1xNC_">Responsive Web Design
+Algorithms and Data Structures
+Front End Libraries
+Data Visualization
+APIs and Microservices
+Information Security and Quality Assurance</div></div></div><div><noscript></noscript><div class="index--education--2zyOF card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA"><div class="index--flex--3Vawg"><div class="_degree--degree--23H26 text--label--1NK8z"><span class="_degree--nanodegree--2JggN">Nanodegree Program</span><span><!-- react-text: 162 -->, <!-- /react-text --><!-- react-text: 163 -->frontend web development<!-- /react-text --></span></div><div class="_date--date--2Hoio text--smallCaps--24__2 text--small--2Mqto">GRADUATED November 2018</div></div><div class="index--school--2lHOh">Udacity</div><div class="index--description--2wi-Z text--description--1xNC_">HTML5, CSS, JavaScript, ES6, React JS, WAI-ARIA, Google Maps API, Jasmine Testing, ServiceWorkers, Node JS, Gulp, Sass
+Final Project, built using React:
+https://www.allentowngroup.com/mi-brews/</div></div></div></div><div class="projects--section--IdiK0"><div class="projects--contain--211GV layout--contain--1ajpu layout--clearfix--3jpBl"><h3 class="projects--header--3SgPo text--header--J3NTI">projects</h3></div><div><noscript></noscript><div class="_project-featured--featured--2MmW- card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA"><img alt="project screenshot" src="./Udacity-profile_files/8194624704-project-6507daa721aebfd7653c43030373b7f9.png" class="_project-featured--image--YALEl"><div class="_project-featured--content--1vI9S"><div class="_project-featured--title--1nZ5f text--label--1NK8z">MyReads: A Book Lending App</div><div><div class="_skill--skill--3kbml">ES6 JavaScript</div><div class="_skill--skill--3kbml">Babel</div><div class="_skill--skill--3kbml">Webpack</div><div class="_skill--skill--3kbml">Asynchronous JavaScript</div><div class="_skill--skill--3kbml">HTML</div><a href="https://profiles.udacity.com/p/8194624704" title="show more skills" class="_skill-list--show--1cBGT text--link--Zs8Go"><!-- react-text: 183 -->show more skills<!-- /react-text --><!-- react-text: 184 --> <!-- /react-text --><!-- react-text: 185 -->(5)<!-- /react-text --></a></div><span class="_project-link--iconLink--3puyI"><img src="./Udacity-profile_files/icon-link-d9544.svg" alt="view project" class="_project-link--icon--mWRrT"><a href="https://www.allentowngroup.com/reactnd-project-myreads-starter/" class="_project-link--link--1s80y text--link--Zs8Go">view project</a></span><span class="_project-link--iconLink--3puyI"><a href="https://github.com/bobbidigi/reactnd-project-myreads-starter" class="_project-link--link--1s80y text--link--Zs8Go">github</a></span><p class="_project-featured--description--kENea">Built a responsive web application that allows users to select and categorize books into a virtual bookshelf. Leveraged React to support a dynamic user interface that interacts with an API server and client library.</p><a href="https://profiles.udacity.com/p/8194624704" title="view details" class="_project-featured--details--17et9 text--link--Zs8Go">view details</a><p class="_project-featured--nanodegree--1ClkJ">Part of the React Nanodegree Program</p></div></div></div><div class="projects--projects--1QuAf"><div class="projects--flex--1LP52"><div class="_project--card--28j5Z card--_card_base--3HmP0 card--padded--1G2nA"><noscript></noscript><div><img alt="project screenshot" src="./Udacity-profile_files/8194624704-project-ae9fc03b175325178221f974ec601248.png" class="_project--image--3_Fir"><div class="_project--content--3enAU"><div class="_project--title--3HbBk text--label--1NK8z">Feed Reader Testing</div><div><div class="_skill--skill--3kbml">Javscript</div><div class="_skill--skill--3kbml">Jasmine</div><div class="_skill--skill--3kbml">Javascript Testing Frameworks</div></div><p class="_project--description--17GcA">Wrote comprehensive unit tests, using the Jasmine testing framework, for an RSS Feed Reader application that uses Google's RSS API.</p><a href="https://profiles.udacity.com/p/8194624704" title="view details" class="_project--details--Nf0J9 text--link--Zs8Go">view details</a></div></div></div><div class="_project--card--28j5Z card--_card_base--3HmP0 card--padded--1G2nA"><noscript></noscript><div><img alt="project screenshot" src="./Udacity-profile_files/8194624704-project-1939a350cf9a3320bfa0f5546bedb2f5.png" class="_project--image--3_Fir"><div class="_project--content--3enAU"><div class="_project--title--3HbBk text--label--1NK8z">yelp-camp</div><div></div><p class="_project--description--17GcA">NPM EJS API Git Asynchronous JavaScript CSS HTML ES6 JavaScript MongoDB
+Built a responsive web application that allows users to add their favorite campsites using MongoDB database. Uses GooglemapsApi to display locations a dynamic user interface that interacts with a MongoDB database client library.</p><a href="https://profiles.udacity.com/p/8194624704" title="view details" class="_project--details--Nf0J9 text--link--Zs8Go">view details</a></div></div></div><div class="_project--card--28j5Z card--_card_base--3HmP0 card--padded--1G2nA"><noscript></noscript><div><img alt="project screenshot" src="./Udacity-profile_files/8194624704-project-759ab3a13e9568a78055f6e7fe322671.png" class="_project--image--3_Fir"><div class="_project--content--3enAU"><div class="_project--title--3HbBk text--label--1NK8z">Memory Game</div><div></div><p class="_project--description--17GcA">Built a complete browser-based card matching game (also known as Concentration). But this isn’t just any memory game! It’s a shnazzy, well-designed, feature-packed memory game!</p><a href="https://profiles.udacity.com/p/8194624704" title="view details" class="_project--details--Nf0J9 text--link--Zs8Go">view details</a></div></div></div><div class="_project--card--28j5Z card--_card_base--3HmP0 card--padded--1G2nA"><noscript></noscript><div><img alt="project screenshot" src="./Udacity-profile_files/8194624704-project-4a13a3c8774f8ff4aae2d19b37aea685.png" class="_project--image--3_Fir"><div class="_project--content--3enAU"><div class="_project--title--3HbBk text--label--1NK8z">Classic Arcade Game Clone</div><div><div class="_skill--skill--3kbml">HTML5 Canvas</div><div class="_skill--skill--3kbml">Object-Oriented Programming</div><div class="_skill--skill--3kbml">JavaScript</div></div><p class="_project--description--17GcA">An HTML5 Canvas powered video game, developed using the best practices in Object Oriented JavaScript.</p><a href="https://profiles.udacity.com/p/8194624704" title="view details" class="_project--details--Nf0J9 text--link--Zs8Go">view details</a></div></div></div><div class="projects--placeholder--gzrgR _project--card--28j5Z card--_card_base--3HmP0 card--padded--1G2nA text--placeholder--2ERiE"></div></div></div></div><div class="questions--questions--3zVk3 card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA questions--cardStyles--1qvU_ layout--clearfix--3jpBl"><div class="_question--contain--Uj780"><div class="_question--content--tiA7L"><div class="_question--questionView--3Tv4N text--label--1NK8z">Describe a time you experienced a challenge while building a product/project and how you overcame it.</div><img src="./Udacity-profile_files/icon-arrow-gray-e340f.svg" alt="down arrow" title="show response" class="_question--downArrow--1kwom _question--arrow--2WT56"><div class="_question--response--2P3NP text--label--1NK8z">I was challenged by what to do with the list items in the mi-brews project. https://www.allentowngroup.com/mi-brews/
+I noticed most people were treating the list items as if it were a collapsible nav. But I knew that they looked terrible or were unintuitive on mobile devices. Using CSS used media queries to adjust the layout and keep the scroll able list rather than hide it. </div></div></div><div class="_question--contain--Uj780"><div class="_question--content--tiA7L"><div class="_question--questionView--3Tv4N text--label--1NK8z">What are the qualities you most desire in a work environment and/or manager?</div><img src="./Udacity-profile_files/icon-arrow-blue-8c0af.svg" alt="right arrow" title="hide response" class="_question--rightArrow--28pl4 _question--arrow--2WT56"></div></div><div class="_question--contain--Uj780"><div class="_question--content--tiA7L"><div class="_question--questionView--3Tv4N text--label--1NK8z">Describe a unique experience you've had and how it changed your perspective.</div><img src="./Udacity-profile_files/icon-arrow-blue-8c0af.svg" alt="right arrow" title="hide response" class="_question--rightArrow--28pl4 _question--arrow--2WT56"></div></div><div class="_question--contain--Uj780"><div class="_question--content--tiA7L"><div class="_question--questionView--3Tv4N text--label--1NK8z">If you could master any one technology, language or framework this upcoming year, what would that be and why?</div><img src="./Udacity-profile_files/icon-arrow-blue-8c0af.svg" alt="right arrow" title="hide response" class="_question--rightArrow--28pl4 _question--arrow--2WT56"></div></div><div class="_question--contain--Uj780"><div class="_question--content--tiA7L"><div class="_question--questionView--3Tv4N text--label--1NK8z">In your own words, explain what happens after you type 'google.com' into your browser and press enter.</div><img src="./Udacity-profile_files/icon-arrow-blue-8c0af.svg" alt="right arrow" title="hide response" class="_question--rightArrow--28pl4 _question--arrow--2WT56"></div></div><div class="_question--contain--Uj780"><div class="_question--content--tiA7L"><div class="_question--questionView--3Tv4N text--label--1NK8z">What do you enjoy most about web development?</div><img src="./Udacity-profile_files/icon-arrow-blue-8c0af.svg" alt="right arrow" title="hide response" class="_question--rightArrow--28pl4 _question--arrow--2WT56"></div></div><noscript></noscript></div><div class="work-preferences--preferences--mBUCe card--public-card--2WFzx card--card--39vhq card--_card--1s5yM card--_section_base--2wQ2Z card--_card_base--3HmP0 card--padded--1G2nA work-preferences--cardStyles--2MYvn layout--clearfix--3jpBl"><div class="work-preferences--col--10bPu"><h3 class="work-preferences--header--2GQqv text--smallCaps--24__2 text--small--2Mqto">work locations</h3><div class="work-preferences--location--2og3h text--description--1xNC_">Open to relocating within the US</div><div class="work-preferences--location--2og3h text--description--1xNC_">Open to working remotely</div></div><div class="work-preferences--col--10bPu"><h3 class="work-preferences--header--2GQqv text--smallCaps--24__2 text--small--2Mqto">languages</h3><div class="work-preferences--language--wD23z text--description--1xNC_">English</div></div><noscript></noscript></div></div></div></div></div></div></div></div><script src="./Udacity-profile_files/manifest.98359.js.download"></script><script src="./Udacity-profile_files/vendor.72b3b.js.download"></script><script src="./Udacity-profile_files/app.4d084.js.download"></script><iframe src="./Udacity-profile_files/saved_resource.html" height="0" width="0" style="display: none;"></iframe><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div><div class="ReactModalPortal"><div data-reactroot=""></div></div></body></html>
