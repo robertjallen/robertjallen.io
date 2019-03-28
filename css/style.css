@@ -583,8 +583,7 @@ h2.right-title ~ p {
 	border-radius: 0;
 }
 .my-brews {
-    /* background: url("../images/portfolio/bfp1.PNG") no-repeat center; */
-    background: url("../images/portfolio/mi-brews.PNG") no-repeat center;
+    background: url("../images/portfolio/mi-brews.png") no-repeat center;
     transition: all 0.3s ease;
     background-size: cover;
 }
@@ -625,7 +624,7 @@ h2.right-title ~ p {
 	transform:  scale(1.1);
 }
 .memory {
-    background: url("../images/portfolio/arcade.PNG")
+    background: url("../images/portfolio/arcade.png")
     no-repeat center;
     transition: all 0.3s ease;
     background-size: cover;
