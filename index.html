@@ -1,53 +1,969 @@
 <!DOCTYPE html>
-<html>
-    <head>
-       <!-- COMMON TAGS -->
-    <meta charset="utf-8">
-    <!-- Search Engine -->
-    <meta name="image" content="http://coderdojohawthorn.tech/img/og-coderdojo-home.png">
-    <!-- Schema.org for Google -->
-    <meta itemprop="image" content="http://coderdojohawthorn.tech/img/og-coderdojo-home.png">
-    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
-    <meta name="og:image" content="http://coderdojohawthorn.tech/img/og-coderdojo-home.png">
-    <meta name="og:url" content="http://www.allentowngroup.com/">
-    <meta name="og:site_name" content="Rob's Portfolio">
-    <meta name="fb:admins" content="100000617281367">
-    <meta name="og:type" content="website">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <meta name="keywords" content="HTML, CSS, Portfolio, JavaScript">
-      <meta name="description" content="Web development portfolio">
-      <meta name="author" content="Robert Allen">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <title>Allentowngroup Web Development</title>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <link rel="stylesheet" href="./styles/landing.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript" async></script>
-    </head>
-<body>
-    
-    <div class="container" id="landing-header">
-    
- 		<h1>Thanks For Stopping By!</h1>
-    </div>
-         		
-         <div id="ballMenuContainer">
-           <div id="menuBall1" class="menuBall">
-             <a href="./portfolio/" class="ball blueball">
-               <div class="menuText">
-                Portfolio
-               </div>
-             </a>
-           </div>
-         </div> 
-    
+<html lang="en" >
+<!--🔥="Aha! Why are you here? Who are you? Just joking, you can 👀 freely 😏😜. 💩💩💩💩💩💩-->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta content="yes" name="apple-mobile-web-app-capable">
+		<meta property="og:title" content="Rob Allen" />
+		<meta property="og:type" content="portfolio" />
+		<meta property="og:url" content="https://bobbidigi.github.io/" />
+		<meta property="og:image" content="images/bp_colored.png" />
+		<meta property="og:description" content="Rob Allen is a tech enthusiast who also specializes in web development and design.">
+		<meta property="og:site_name" content="Rob Allen" />
 
-    <ul class="slideshow">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+		<title>Rob Allen</title>
+
+		<link rel="shortcut icon" href="images/bp_colored.png" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+	</head>
+
+<body>
+
+<!-- DRIFT_CHAT_BOT -->
+     <!-- Start of Async Drift Code -->
+		 <script>
+				!function() {
+					var t;
+					if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
+					t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+					t.factory = function(e) {
+						return function() {
+							var n;
+							return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
+						};
+					}, t.methods.forEach(function(e) {
+						t[e] = t.factory(e);
+					}), t.load = function(t) {
+						var e, n, o, i;
+						e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
+						o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
+						n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
+					});
+				}();
+				drift.SNIPPET_VERSION = '0.3.1';
+				drift.load('xftxm9dr5hkp');
+				</script>
+				<!-- End of Async Drift Code -->
+				
+				<!--Enables drift chat button links-->
+				<!-- place this script tag after the Drift embed tag -->
+				<script>
+					(function() {
+						/* Add this class to any elements you want to use to open Drift.
+						 *
+						 * Examples:
+						 * - <a class="drift-open-chat">Questions? We're here to help!</a>
+						 * - <button class="drift-open-chat">Chat now!</button>
+						 *
+						 * You can have any additional classes on those elements that you
+						 * would ilke.
+						 */
+						var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
+						/* http://youmightnotneedjquery.com/#ready */
+						function ready(fn) {
+							if (document.readyState != 'loading') {
+								fn();
+							} else if (document.addEventListener) {
+								document.addEventListener('DOMContentLoaded', fn);
+							} else {
+								document.attachEvent('onreadystatechange', function() {
+									if (document.readyState != 'loading')
+										fn();
+								});
+							}
+						}
+						/* http://youmightnotneedjquery.com/#each */
+						function forEachElement(selector, fn) {
+							var elements = document.querySelectorAll(selector);
+							for (var i = 0; i < elements.length; i++)
+								fn(elements[i], i);
+						}
+						function openSidebar(driftApi, event) {
+							event.preventDefault();
+							driftApi.sidebar.open();
+							return false;
+						}
+						ready(function() {
+							drift.on('ready', function(api) {
+								var handleClick = openSidebar.bind(this, api)
+								forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
+									el.addEventListener('click', handleClick);
+								});
+							});
+						});
+					})();
+				</script>
+
+
+
+	<header id="pageTop">
+			<a class="nav" href="#about" id="to-about">
+				<i class="fa fa-chevron-circle-down fa-3x faa-vertical animated faa-slow"></i>
+			</a>
+			<a class="nav" href="#pageTop" id="toTop">
+				<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			</a>
+            <ul class="left-bar navbar">
+                <li>
+                    <a href="index.html" class="logo">
+						<img src="images/bp_colored.png" align="left" alt="Rob Allen logo">
+					</a>
+                </li>
+                <li class="named">
+                    <span class="robert">robert</span><span class="allen">allen</span>
+                </li>
+            </ul>
+            <ul class="right-bar navbar" id="right-bar-collapse">
+                <li><a href="#contact" class="nav">contact</a></li>
+                <li><a href="#portfolio" class="nav">portfolio</a></li>
+                <li><a href="#skills" class="nav">skills</a></li>
+                <li><a href="#about" class="nav">about</a></li>
+            </ul>
+       	<!-- BANNER -->
+           <div class="banner">
+	           <blockquote class="quote wow bounceInRight" data-wow-duration="2s">
+	           	<i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
+	           	 Magic happens when you're wired
+	           	<i class="fa fa-quote-right fa-1x" aria-hidden="true"></i>
+	           </blockquote>
+           	<div class="header-banner">
+           		<ul class="header-name wow bounceInLeft" data-wow-duration="2s">
+           			<li><h1 class="😲">R</h1></li>
+           			<li><h1 class="😮">o</h1></li>
+           			<li><h1 class="😦">b</h1></li>
+								<li><h1 class="😯">e</h1></li>
+								<li><h1 class="😉">r</h1></li>
+								<li><h1 class="😉">t</h1></li>
+
+								<li><h1 class="😛">A</h1></li>
+           			<li><h1 class="😜">l</h1></li>
+           			<li><h1 class="😉">l</h1></li>
+           			<li><h1 class="😛">e</h1></li>
+           			<li><h1 class="😝">n</h1></li>
+           		</ul>
+
+            </div>
+               <ul class="colors">
+               	<li></li><li></li><li></li><li></li><li></li><li></li>
+               </ul>
+               </div>
+           </div>
+       	<!-- End of Banner -->
+    </header>
+	<!-- End of Header -->
+
+	<!-- about -->
+	<div class="about" id="about">
+		<h1 class="sections">About</h1>
+		<hr>
+		<div class="about-col">
+				<div class="about1">
+					<img class="gradhat" src="images/education.png" alt="Education">
+					<h2 class="left-title">Education</h2>
+
+					<p class="foo wow bounceInLeft" data-wow-duration="2s">Front End Web Development Nano Degree</p>
+					<p class="wow bounceInLeft" data-wow-duration="2s"><i class="fa fa-university"></i>
+					Udacity</p>
+					<p class="wow bounceInLeft" data-wow-duration="2s"><i class="fa fa-calendar "></i> 2018 - 2019</p>
+
+					<p class="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development Certification</p>
+					<p class="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i class="fa fa-university"></i>
+					FreeCodeCamp</p>
+					<p class="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i class="fa fa-calendar "></i> 2016 - 2018</p>
+				</div>
+
+				<div class="about2">
+					<h2 class="right-title">In a few words</h2>
+					<p><span class="linked">Rob</span> is a fresh graduate seeking a challenging career in which he can hone his skills and passion.</p>
+
+					<p><span class="linked">Web development</span> is where he specializes the most. Through <a class="linked" rel="nofollow" href="https://udacity-students.slack.com" alt="gitter">slack</a> and social media groups, he spends most of his time learning, helping others with projects and apps. He believes that there is knowlegde in helping. By helping others, solving their problems, you retain or even improve your own knowledge.</p>
+
+					<p>He is interested in everything related to web development, industry standards, and new technologies. He enjoys his role as a mentor and project reviewer at Udacity.</p>
+					<p class="wow bounceInLeft">"Knowledge comes from helping others"</p>
+
+					<div class="center-button wow bounceInRight" data-wow-delay="2s" data-wow-duration="2s">
+					<a class="resume-link" href="images/RobertJAllen Resume.pdf" download>
+						<button class="button button2">
+							<span><i class="fa fa-download faa-vertical animated faa-slow"></i> Download Resume </span>
+						</button>
+					</a>
+					</div>
+				</div>
+		</div>
+	</div>
+	<!-- END OF about -->
+
+	<!-- START of skills -->
+
+		<h1 class="sections skillsec" id="skills">Skills</h1>
+		<hr class="hrs">
+		<div class="skills-col">
+			<div class="skill-sec">
+				<div class="col wow bounceInUp" data-wow-duration="1.5s">
+				<h3>Web Development</h3>
+					<div class="skill-sec-container">
+						<div class="html">
+							<img class="skill-img" src="images/icons/html.jpg" alt="HyperText Markup Language 5">
+							<p>HTML</p>
+						</div>
+						<div class="css">
+							<img class="skill-img" src="images/icons/css.jpg" alt="Cascading Style Sheets 3">
+							<p>CSS</p>
+						</div>
+						<div class="js">
+							<img class="skill-img" src="images/icons/js.jpg" alt="JavaScript">
+							<p>JavaScript</p>
+						</div>
+						<div class="php">
+							<img class="skill-img" src="images/icons/php.jpg" alt="Hypertext Preprocessor">
+							<p>PHP</p>
+						</div>
+					</div>		
+				</div><br>
+				<div class="col wow bounceInUp" data-wow-delay=".4s" data-wow-duration="1.5s">
+					<h3>Tools & Technologies</h3>
+					<div class="skill-sec-container">
+						<div class="bootstrap">
+							<img class="skill-img framework" src="images/icons/bootstrap.jpg" alt="Bootstrap Framework">
+							<p>Bootstrap</p>
+						</div>
+						<div class="jquery">
+							<img class="skill-img framework" src="images/icons/jquery.jpg" alt="Jquery Library">
+							<p>Jquery</p>
+						</div>
+						<div class="react">
+							<img class="skill-img framework" src="images/icons/react.jpg" alt="React Framework">
+							<p>React</p>
+						</div>
+						<div class="sass">
+							<img class="skill-img" src="images/icons/sass.jpg" alt="C++">
+							<p>SASS</p>
+						</div>
+					</div>
+					<div class="col wow bounceInUp" data-wow-delay=".5s" data-wow-duration="1.5s">
+						<h3>Data</h3>
+						<div class="skill-sec-container">
+							<div class="mysql">
+								<img class="skill-img" src="images/icons/mysql.jpg" alt="MySQL">
+								<p>MySql</p>
+							</div>
+							<div class="sql">
+								<img class="skill-img" src="images/icons/sql.jpg" alt="Structured Query Language">
+								<p>SQL</p>
+							</div>
+						</div>
+					</div>
+					
+				</div>
+				<div class="col wow bounceInUp" data-wow-delay=".6s" data-wow-duration="1.5s">
+					<h3>Content Management System</h3>
+					<div class="skill-sec-container">
+						<div class="wordpress">
+							<img class="skill-img" src="images/icons/wordpress.jpg" alt="Wordpress CMS">
+							<p>Wordpress</p>
+						</div>
+						<div class="joomla">
+							<img class="skill-img" src="images/icons/joomla.jpg" alt="Joomla CMS">
+							<p>Joomla</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col wow bounceInUp" data-wow-delay=".8s" data-wow-duration="1.5s">
+				<h3>Others</h3>
+				<div class="skill-sec-container">
+					<div class="design">
+						<img class="skill-img framework" src="images/icons/responsivedesign.jpg" alt="responsivedesign">
+							<p>Responsive</p>
+					</div>
+					<div class="photoshop">
+						<img class="skill-img" src="images/icons/photoshop.jpg" alt="Adobe Photoshop">
+						<p>Photoshop</p>
+					</div>
+					<div class="git">
+						<img class="skill-img" src="images/icons/git.jpg" alt="Git">
+						<p>Git</p>
+					</div>
+					<div class="github">
+						<img class="skill-img" src="images/icons/github.jpg" alt="GitHub">
+						<p>GitHub</p>
+					</div>
+				</div>
+					
+				</div>
+			</div>
+		</div>
+			<!-- END of skills -->
+
+
+		<div class="portfolio" id="portfolio">
+			<h1 class="sections">Portfolio</h1>
+			<hr class="hrs">
+			<!-- MY-BREWS CONTENT -->
+			<div id="my-brews-nav" class="nav-overlay">
+			<a id="topNav1" href="https://github.com/bobbidigi/mi-brews" target="_blank">
+			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
+			  </a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">MI Brews <span class="thin">breweries </span><span class="thin">& neighborhood map</span></h1>
+			    <p class="my-brews-extra nav-extra">Displays data from Foursquare api and google maps api.</p>
+
+			    <div class="my-brews-details nav-details"><span>ROLE</span> WEB DESIGNER / DEVELOPER</div>
+			    <div class="my-brews-details nav-details"><span>DATE</span> APRIL 2016</div>
+			    <div class="intro my-brews-intro">
+			    	<div class="circle my-brews-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p>MyBrews! It's intended as a challenge to put together a website in react, using multiple APIs. This includes making function calls to Google Maps and other location-based services like Foursquare.						
+							The app allows you to filter the list down as you type. In return, it displays the locations on the map. Heck, the icons even bounce like you expect them to.
+							There's also extra info pulled from the Foursquare API where available. This includes website images, ratings, and phone numbers. The app is responsive, too! It resizes using CSS Flexbox and media queries.
+						</p>
+			    	<div class="rect my-brews-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick">Additional credits</span>
+			    		<ul>
+			    			<li>Udacity</li>
+			    			<li>Google maps Api</li>
+			    			<li>Foursquare API</li>
+			    		</ul>
+			    	</div>
+					</div>
+					
+			    <div class="contents">
+			    	<h1><span>01 </span>USER INTERFACE</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/mi-brews.PNG">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>MY BREWS <span> UI</span></h3>
+			    		<p>A single page application featuring a map of a neighborhood. Including highlighted locations, third-party data about those locations and various ways to browse the content.</p>
+			    		<p>I spent some time on the design on this project since it seemed scaleable and easily replicatable with other subjects. React Router was used to allow the use to vistit each location while remaining a single page app.</p>
+			    	</div>
+			    </div>
+			    
+			    <a class="toTops" href="#topNav1" >
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="content-footer my-brews-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
+				</div>
+				<!-- DISQUS_THREAD -->
+				<div id="disqus_thread"></div>
+			</div>
+			<!-- END OF MY-BREWS CONTENT -->
+			<!-- MY_BREWS MODAL -->
+				<div class="container wow bounceInUp" data-wow-delay=".1s" data-wow-duration="1.5s" onclick="myBrewsNavOpen()">
+					<div class="overflower"><div class="bot my-brews"></div></div>
+					<div class="bot overlay-1">
+						<h1>Web</h1>
+					</div>
+					<h4>MI Brews</h4>
+					<ul>
+						<li class="my-brews1 my-brews">REACT</li>
+						<li class="my-brews2 my-brews">GOOGLE MAPS</li>
+						<li class="my-brews3 my-brews">FOURSQUARE</li>
+					</ul>
+				</div>
+
+			<!-- YELP_CAMP CONTENT -->
+			<!-- YELP_CAMP CONTENT -->
+			<div id="yelp-camp-nav" class="nav-overlay">
+			  <a id="topNav2" href="https://github.com/bobbidigi/yelp-camp-demo" target="_blank">
+			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
+			  </a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">Yelp Camp <span class="thin">app</span></h1>
+			    <p class="yelp-camp-extra nav-extra">A full-stack Node.js project to display campgrounds.</p>
+
+			    <div class="yelp-camp-details nav-details"><span>ROLE</span> WEB DEVELOPER / DESIGNER</div>
+			    <div class="yelp-camp-details nav-details"><span>DATE</span> SEPTEMBER 2016</div>
+			    <div class="intro yelp-camp-intro">
+			    	<div class="circle yelp-camp-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p><span>Yelp Camp: </span> A review site for campgrounds where users can log in to give descriptions of the places they have gone to camp and share their experiences with other users. It has a lot of other features</p>
+			    	<div class="rect yelp-camp-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick">Additional credits</span>
+			    		<ul>
+			    			<li>Colt Steel's (Web dev bootcamp)</li>
+			    			<li>Google Maps</li>
+			    		</ul>
+			    	</div>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>01 </span>UI</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/yelp-camp.png">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>Yelp Camp<span> UI</span></h3>
+			    		<p>Users can log in, add places, and give descriptions of the places they have gone to camp and share their experiences with other users. Users can also create users profiles and comment on each others posts.</p>
+
+			    	</div>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>02 </span>TECHNOLOGIES</h1>
+			    	<div class="overview overview-text">
+			    		<h3><span>Project </span>Stack</h3>
+			    		<p>It contains integration of front end and back end to make a full fledged application with CRUD functionalities using MongoDB, REST APIS, Authentication etc. </p>
+			    		<p>Finally CRUD functionality is completed for campgrounds and comments. Integration of mongdb with yelpcamp, CRUD, (Data Persistence) to create various campgrounds, users, comments etc.</p>
+			    	</div>
+			    	<div class="overview">
+			    		<img src="images/portfolio/yelp-camp.png">
+			    	</div>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>03 </span>FEATURES</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/yelp-camp.png">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>NOTABLE<span> </span>FEATURES</h3>
+			    		<p>Users can login with passport.js for proper authentication.
+							New users are able securely sign up, login , create campgrounds etc. 	
+							Lastly was adding flash messages for better error handling especially during authentication.</p>
+			    	</div>
+			    </div>
+			    
+			    <a class="toTops" href="#topNav2" >
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="yelp-camp-footer content-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
+			  </div>
+			</div>
+			<!-- END OF YELP_CAMP CONTENT -->
+			<!-- END OF YELP_CAMP CONTENT -->
+			<div class="container wow bounceInUp" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="yelpCampNavOpen()">
+				<div class="overflower"><div class="bot yelp-camp"></div></div>
+				<div class="bot overlay-2">
+					<h1>Web</h1>
+				</div>
+				<h4>Yelp Camp</h4>
+				<ul>
+					<li class="yelp-camp1 yelp-camp">NODEJS</li>
+					<li class="yelp-camp2 yelp-camp">EXPESS</li>
+					<li class="yelp-camp3 yelp-camp">MONGODB</li>
+					<li class="yelp-camp4 yelp-camp">JavaScript</li>
+				</ul>
+			</div>
+
+			<!-- MY_READS CONTENT -->
+			<!-- MY_READS CONTENT -->
+			<div id="my-reads-nav" class="nav-overlay">
+			  <a id="topNav3" href="https://github.com/bobbidigi/reactnd-project-myreads-starter" target="_blank">
+			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
+			  </a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">MyReads<span class="thin"> : Bookshelf App</span></h1>
+			    <p class="my-reads-extra nav-extra">Select and categorize books as you have read, are currently reading, or want to read.</p>
+
+			    <div class="my-reads-details nav-details"><span>ROLE</span> DEVELOPER </div>
+			    <div class="my-reads-details nav-details"><span>DATE</span> APRIL 2017</div>
+			    <div class="intro my-reads-intro">
+			    	<div class="circle my-reads-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p><span>My Reads: </span> The foremost objective of this project was to design and develop a web app where users can search and categorize books into categories.</p>
+						<div class="rect my-reads-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick">Additional credits</span>
+			    		<ul>
+			    			<li>Udacity</li>
+			    		</ul>
+			    	</div>
+					</div>
+					<!-- USER INTERFACE -->
+			    <div class="contents">
+			    	<h1><span>01 </span>USER INTERFACE</h1>
+			    	<div class="overview">
+							<img src="images/portfolio/my-reads.png">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>My Reads<span> UI</span></h3>
+			    		<p>Through this project, a user can create their own personal library. The user can further categorize the books as "Currently Reading", "Read" or as "Want to Read". These books can be organized in different Shelves.</p>
+			    	</div>
+					</div>
+
+						<!-- TECHNOLOGIES -->
+			    <div class="contents">
+			    	<h1><span>02 </span>TECHNOLOGIES</h1>
+			    	<div class="overview overview-text">
+			    		<h3>My Reads:<span> STACK</span></h3>
+			    		<p>This application uses ReactJs, React-router, and react-router-dom, as a single page application.  To simplify development, a provided JSON BooksAPI.js contains methods to perform necessary operations on the backend: [getAll, update, search]</p>
+			    	</div>
+			    	<div class="overview">
+							<img src="images/portfolio/search.png">
+			    	</div>
+			    </div>
+			   <!-- FUNCTIONALITY -->
+			    <div class="contents">
+			    	<h1><span>03 </span>FUNCTIONALITY</h1>
+			    	<div class="overview overview-text">
+							<h3>THE<span> Features</span></h3>
+							<ul>
+								<li><p>Each Book in a shelf has a drop-down that can be used to move the books to different shelves. </p></li>
+								<li><p>New books can be searched by clicking on the "+" button on the main page of the application.</p></li>
+								<li><p>On clicking the "+" button, the user is redirected to a new page and the URL is changed from "/" to "/search".</p></li>
+								<li><p>The search page has a text input that may be used to find books. As the value of the text input changes, the books that match that query are displayed on the page, along with a control that lets the user add the book to the library. The search page also has a back arrow button to take the user back to the main page. The Route and Link components from "react-router-dom" have been used to handle the routing between the main page and the search page.</p></li>
+								<li><p>Necessary checks have been implemented to handle cases where the book's thumbnail or author is empty, so that the app doesn't crash or throw errors.
+										Functionality to move a book between various shelves has been implemented on both the main and the search page.
+										It is also ensured that a book on a bookshelf, has the same state on both the main application page and the search </p></li>	
+							</ul>
+			    	</div>
+			    </div>
+			    <a class="toTops" href="#topNav3" >
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="content-footer my-reads-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
+			  </div>
+			</div>
+			<!-- END OF MY_READS CONTENT -->
+			<div class="container wow bounceInUp" data-wow-delay=".3s" data-wow-duration="1.5s" onclick="myReadsNavOpen()">
+				<div class="overflower"><div class="bot my-reads"></div></div>
+				<div class="bot overlay-3">
+					<h1>Web</h1>
+				</div>
+				<h4>MyReads</h4>
+				<ul>
+					<li class="my-reads1 my-reads">REACT</li>
+					<li class="my-reads2 my-reads">REACT ROUTER</li>
+				</ul>
+			</div>
+
+
+			<!-- GITHUB_BATTLE CONTENT -->
+			<div id="github-battle-nav" class="nav-overlay">
+			  <a id="topNav4" href="https://github.com/bobbidigi/github-battle" target="_blank">
+			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
+			  </a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">GITHUB BATTLE <span class="thin">APP</span></h1>
+			    <p class="github-battle-extra nav-extra">Battle Github Profiles</p>
+
+			    <div class="github-battle-details nav-details"><span>ROLE</span> WEB DEVELOPER</div>
+			    <div class="github-battle-details nav-details"><span>DATE</span> MAY 2017</div>
+			    <div class="intro github-battle-intro">
+			    	<div class="circle github-battle-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p><span>Github Battle:</span> Utilizes the Github API. Enter in two Github usernames, and it'll declare a winner.</p>
+			    	<div class="rect github-battle-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick">Additional credits</span>
+			    		<ul>
+			    			<li>React Fundamentals @ tylermcginnis.com</li>
+			    		</ul>
+			    	</div>
+			    </div>
+					<!-- USER_INTERFACE -->
+			    <div class="contents">
+			    	<h1><span>01 </span>User Interface</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/React-Github-Battle.gif">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>GITHUB BATTLE<span> UI</span></h3>
+			    		<p>This project uses the github API. A user can battle two github users. The API declares a winner based off of total stars on repos, and displays user data. The user can also browse most Popular Repos on github categorized by programming language.</p>
+			    	</div>
+					</div>
+					
+			    <!-- TECHNOLOGIES -->
+			    <div class="contents">
+			    	<h1><span>02 </span>TECHNOLOGIES</h1>
+			    	<div class="overview overview-text">
+			    		<h3>GITHUB BATTLE<span> STACK</span></h3>
+			    		<p>This project did not use "create-react-app". It was built from the ground up using Webpack, React, and React Router.</p>
+			    	</div>
+					</div>
+					
+					 <!-- FUNCTIONALITY -->
+					 <div class="contents">
+							<h1><span>03 </span>FUNCTIONALITY</h1>
+							<div class="overview overview-text">
+								<h3>GITHUB BATTLE<span> FEATURES</span></h3>
+								<ul>
+									<li><p>Real-time: Data obtained from the Github API</p></li>
+									<li><p>Responsive: Made mobile responsive with Flexbox</p></li>
+									<li><p>Deployed with Firebase</p></li>
+								</ul>
+							</div>
+					</div>
+			    <a class="toTops" href="#topNav4" >
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="content-footer github-battle-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
+			  </div>
+			</div>
+			<!-- END OF GITHUB_BATTLE CONTENT -->
+			<div class="container wow bounceInUp" data-wow-delay=".7s" data-wow-duration="1.5s" onclick="githubBattleNavOpen()">
+				<div class="overflower"><div class="bot github-battle"></div></div>
+				<div class="bot overlay-4">
+					<h1>Web</h1>
+				</div>
+				<h4>github-battle</h4>
+				<ul>
+					<li class="github-battle1 github-battle">React</li>
+					<li class="github-battle2 github-battle">Webpack</li>
+				</ul>
+			</div>
+
+
+			<!-- RESTAURANT_REVIEWS CONTENT -->
+			<div id="reviews-nav" class="nav-overlay">
+			  <a id="topNav5" href="https://github.com/bobbidigi/mws-restaurant-stage-1" target="_blank">
+			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
+			  </a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">RESTAURANT REVIEWS <span class="thin">PWA</span></h1>
+			    <p class="reviews-extra nav-extra">Restaurants of New York</p>
+
+			    <div class="reviews-details nav-details"><span>ROLE</span> WEB DESIGNER</div>
+			    <div class="reviews-details nav-details"><span>DATE</span> JANUARY 2017</div>
+			    <div class="intro reviews-intro">
+			    	<div class="circle reviews-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p><span>RESTAURANT REVIEWS:</span> For this projects, I incrementally converted a static webpage with many problems, lacks accessibility, and converted the design to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for your users.</p>
+						<p>Live Demo: <a class="linked" href="https://www.allentowngroup.com/mws-restaurant-stage-1/" target="_blank">restaurant-reviews</a></p>
+						<div class="rect reviews-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick"> Additional Credits</span>
+			    		<ul>
+			    			<li>Grow With Google</li>
+			    		</ul>
+			    	</div>
+			    </div>
+					<!-- USER_INTERFACE -->
+			    <div class="contents">
+			    	<h1><span>01 </span>USER INTERFACE</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/restaurant.png">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>RESTAURANT REVIEWS<span> UI</span></h3>
+							<p>Users of any device including screenreaders can browse restaurants of New York.</p>
+							<p>Users can filter restuarants by neighborhood and by cuisine, displaying an image as well as their corresponding map marker on a map.</p>
+							<p>Users can view a details page for each restaurant with reviews.</p>
+						</div>
+					</div>	
+			    <!-- TECHNOLOGIES	 -->
+			    <div class="contents">
+			    	<h1><span>02 </span>TECHNOLOGIES</h1>
+			    	<div class="overview overview-text">
+			    		<h3>Restaurant Reviews<span> Stack</span></h3>
+							<p>Most of the code in this project has been written to the <span>ES6</span> specs for compatibility with modern web browsers and future proofing maintainability.</p>
+							<p>I used <span>Flexbox </span> to achieve a multidevice responsive design.</p>
+			    	</div>
+					</div>
+
+					<!-- FUNCTIONALITY -->
+			    <div class="contents">
+			    	<h1><span>03 </span>FUNCTIONALITY</h1>
+			    	<div class="overview overview-text">
+							<h3>RESTAURANT REVIEWS<span> FEATURES</span></h3>
+							<p>For the Map I used <span>MapBox</span>. It's free, easy to use, and has a nice design.</p>
+							<p>Through utilzing a <span>service worker</span>, users can enjoy a seamless offline experience.</p>
+			    		<p>This project uses best practices to achieve <span>accessibility</span> among user who use screen readers and other similar aides. It achieved a lighthouse score of 100.</p>
+			    	</div>
+			    </div>
+			    <a class="toTops" href="#topNav5">
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="content-footer reviews-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
+			  </div>
+			</div>
+			<!-- END OF RESTAURANT_REVIEWS CONTENT -->
+			<div class="container wow bounceInUp" data-wow-delay=".6s" data-wow-duration="1.5s" onclick="reviewsNavOpen()">
+				<div class="overflower"><div class="bot reviews"></div></div>
+				<div class="bot overlay-5">
+					<h1>Web</h1>
+				</div>
+				<h4>Restaurant Reviews</h4>
+				<ul>
+					<li class="reviews1 reviews">Mapbox</li>
+					<li class="reviews2 reviews">JavaScript</li>
+					<li class="reviews3 reviews">A11Y</li>
+				</ul>
+			</div>
+
+
+			<!-- MEMORY_GAME CONTENT -->
+			<div id="memory-nav" class="nav-overlay">
+			  <a id="topNav6" href="https://github.com/bobbidigi/fend-project-memory-game" target="_blank">
+			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
+			  </a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">MEMORY <span class="thin"></span> GAME</h1>
+			    <p class="memory-extra nav-extra">Simple card fip memory game.</p>
+
+			    <div class="memory-details nav-details"><span>ROLE</span> WEB DESIGNER</div>
+			    <div class="memory-details nav-details"><span>DATE</span> MAY 2017</div>
+			    <div class="intro memory-intro">
+			    	<div class="circle memory-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p>This project was made as part of <a class="linked" href="https://www.udacity.com/" target="_blank">Udacity's</a> Front End Nano Degree Certification.</p>
+						<p>Live Demo: <a class="linked" href="https://bobbidigi.github.io/fend-project-memory-game" target="_blank">MEMORY GAME</a></p>
+						<div class="rect memory-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick"> Additional Credits</span>
+			    		<ul>
+			    			<li>Udacity</li>
+			    		</ul>
+			    	</div>
+					</div>
+					
+					<!-- USER_INTERFACE -->
+			    <div class="contents" id="as">
+			    	<h1><span>01 </span>USER INTERFACE</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/arcade.png">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>MEMORY GAME<span> FEATURES</span></h3>
+			    		<p>The User can click to open 2 cards at a time if there is match the cards will stay open and a star will be added, and a color change and sound will indicate the success. If there is no match a star will be taken away and a failed color change indicator. After the user matches all of the cards, a pop-up will appear with the amount of turns taken, stars earned, and the amount of time it took. There is option to play again in the pop-up.</p>
+			    	</div>
+					</div>
+
+					<!-- TECHNOLOGIES -->
+			    <div class="contents">
+						<h1><span>02</span> TECHNOLOGIES</h1>
+			    	<div class="overview overview-text">
+			    		<h3>MEMORY GAME <span> STACK</span></h3>
+			    		<p>I used 2 royalty free sound effects from freesound.org, HTML5, CSS, and JavaScript.</p>
+			    	</div>
+					</div>
+					
+			    <a class="toTops" href="#topNav6" >
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="content-footer memory-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
+			  </div>
+			</div>
+			<!-- END OF MEMORY_GAME CONTENT -->
+			<div class="container wow bounceInUp" data-wow-delay=".5s" data-wow-duration="1.5s" onclick="memoryNavOpen()">
+				<div class="overflower"><div class="bot memory"></div></div>
+				<div class="bot overlay-6">
+					<h1>GAME</h1>
+				</div>
+				<h4>Memory Game</h4>
+				<ul>
+					<li class="memory1 memory">CSS</li>
+					<li class="memory2 memory">JavaScript</li>
+				</ul>
+			</div>
+		</div>
+		<br>
+			<!-- END of portfolio -->
+		<div class="tests" id="tests">
+			<h1 class="sections">Apps Tested</h1>
+			<hr class="hrs">
+			<div class="testBanner">
+			  <img class="first" src="images/tests/bootstrap.jpg" alt="" />
+			  <img src="images/tests/css.jpg" alt="" />
+			  <img src="images/tests/git.jpg" alt="" />
+			  <img src="images/tests/html.jpg"
+				 alt="" />
+			  <img src="images/tests/js.jpg" alt="" />	 
+			  <img src="images/tests/jquery.jpg" alt="" />
+			  <img src="images/tests/bootstrap.jpg" alt="" />
+			  <img src="images/tests/css.jpg" alt="" />
+			  <img src="images/tests/git.jpg" alt="" />
+			  <img src="images/tests/html.jpg"
+				 alt="" />
+			  <img src="images/tests/js.jpg" alt="" />	 
+			  <img src="images/tests/jquery.jpg" alt="" />
+			</div>
+			<div class="testBanner">
+			  <img class="first" src="images/tests/github.jpg" alt="" />
+			  <img src="images/tests/mysql.jpg" alt="" />
+			  <img src="images/tests/php.jpg" alt="" />
+			  <img src="images/tests/photoshop.jpg" alt="" />
+			  <img src="images/tests/sass.jpg" alt="" />
+			  <img src="images/tests/wordpress.jpg" alt="" />
+			  
+			  <img src="images/tests/github.jpg" alt="" />
+			  <img src="images/tests/mysql.jpg" alt="" />
+			  <img src="images/tests/php.jpg" alt="" />
+			  <img src="images/tests/photoshop.jpg" alt="" />
+			  <img src="images/tests/sass.jpg" alt="" />
+			  <img src="images/tests/wordpress.jpg" alt="" />
+			  
+			</div>
+		</div>
+		<div class="contact" id="contact">
+			<div class="wow bounceInLeft" data-wow-duration="2s">
+				<a class="contact-icons" href="https://www.facebook.com/Bobbidigi" title="To Robert's Facebook profile!">
+					<i class="fa fa-facebook fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+				</a>
+				<a class="contact-icons" href="https://twitter.com/bobbidigi0" title="To Robert's Twitter profile!">
+					<i class="fa fa-twitter fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+				</a>
+				<a class="contact-icons" href="https://www.freecodecamp.com/bobbidigi" title="To Robert's Free Code Camp profile!">
+					<i class="fa fa-free-code-camp fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+				</a>
+			</div>
+			<div>
+				<h1 class="contact-white">Get in touch</h1>
+				<p class="contact-white">I'm always looking to connect and chat with new people.</p>
+				<p>Feel free to reach out.</p>
+			</div>
+			<div class="wow bounceInRight" data-wow-duration="2s">
+				<a class="contact-icons" href="mailto:bobbidigi34@gmail.com" target="_blank" title="bobbidigi34@gmail.com">
+					<i class="fa fa-envelope fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+				</a>
+				<a class="contact-icons" href="https://www.linkedin.com/in/robert-allen-44020778/" title="To Robert's LinkedIn profile!">
+					<i class="fa fa-linkedin fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+				</a>
+				<a class="contact-icons" href="https://github.com/bobbidigi" title="To Robert's GitHub profile!">
+					<i class="fa fa-github fa-3x faa-vertical animated-hover" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
+			<!-- END of contact --><br>
+		<div class="extra">
+			<div class="col-owl owl wow bounceInLeft" data-wow-duration="2s" data-wow-delay="1s">
+				<img src="images/green_owl.jpg" alt="Green Owl">
+			</div>
+			<div class="col-owl">
+				<h1>When you feel down, just look at this <span class="green-owl">green owl</span>.</h1>
+			</div>
+		</div>
+		<!-- START OF FOOTER -->
+		<footer>
+		<p>
+			<ul>
+				<li><a href="#about" class="nav">about</a></li>
+				<li><a href="#skills" class="nav">skills</a></li>
+				<li><a href="#portfolio" class="nav">portfolio</a></li>
+			    <li><a href="#contact" class="nav">contact</a></li>
+			</ul>
+		</p>
+				<p>This website is open-source. You can find it in my github <a class="underlined" href="https://github.com/bobbidigi/bobbidigi.github.io" title="personal-website repo">repository</a>.</p>
+				<p>Robert Allen <i class="fa fa-copyright faa-spin animated-hover" aria-hidden="true"></i> 2019 | Made with
+					<i class="fa fa-heart faa-pulse animated faa-fast"></i>
+				</p>
+
+		</footer>
+		<!-- End of Footer -->
+<!-- <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script>
+	wow = new WOW(
+	{
+	    boxClass: 'wow',
+	    animateClass: 'animated',
+	    offset: 0,
+	    mobile: true,
+	    live: true
+	});
+	wow.init();
+</script>
+
+<script type="text/javascript">
+function myBrewsNavOpen() {
+    document.getElementById("my-brews-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function yelpCampNavOpen() {
+    document.getElementById("yelp-camp-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function myReadsNavOpen() {
+    document.getElementById("my-reads-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function githubBattleNavOpen() {
+    document.getElementById("github-battle-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function reviewsNavOpen() {
+    document.getElementById("reviews-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function memoryNavOpen() {
+    document.getElementById("memory-nav").style.width = "100%";
+    $("body").addClass("overflo");
+}
+function closeNav() {
+	document.getElementById("my-brews-nav").style.width = "0%";
+	document.getElementById("yelp-camp-nav").style.width = "0%";
+	document.getElementById("my-reads-nav").style.width = "0%";
+	document.getElementById("github-battle-nav").style.width = "0%";
+	document.getElementById("reviews-nav").style.width = "0%";
+	document.getElementById("memory-nav").style.width = "0%";
+    $("body").removeClass("overflo");
+}
+//ESC TRIGGER FUNCTION
+$("body").keydown(function(esc) {
+	if(esc.keyCode == 27) {
+		document.getElementById("my-brews-nav").style.width = "0%";
+		document.getElementById("yelp-camp-nav").style.width = "0%";
+		document.getElementById("my-reads-nav").style.width = "0%";
+		document.getElementById("github-battle-nav").style.width = "0%";
+		document.getElementById("reviews-nav").style.width = "0%";
+		document.getElementById("memory-nav").style.width = "0%";
+		$("body").removeClass("overflo");
+	}
+});
+var esc = $.Event("keydown", {
+		keyCode: 27
+	});
+//END OF ESC TRIGGER FUNCTION
+
+$(document).ready(function(){
+	var $root = $('html, body');
+	$('.nav, #toTop').click(function() {
+	    $root.animate({
+	        scrollTop: $( $.attr(this, 'href') ).offset().top
+	    }, 500);
+	    return false;
+	});
+	// SCROLL TO TOP ICON FADE AFTER SCROLL DOWN
+	$(window).scroll(function() {
+	    if ($(this).scrollTop()) {
+	        $('#toTop').fadeIn();
+	    } else {
+	        $('#toTop').fadeOut();
+	    }
+	});
+});
+</script>
+<!-- DISQUS_THREAD_SCRIPT -->
+<script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+    
+    var disqus_config = function () {
+    this.page.url = 'https://www.allentowngroup.com/portfolio/';  // Replace PAGE_URL with your page's canonical URL variable
+    //this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://allentowngroup.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 </body>
 </html>
