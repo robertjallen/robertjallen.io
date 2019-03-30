@@ -763,13 +763,13 @@
 
 			<!-- MEMORY_GAME CARD -->
 			<div class="container wow bounceInUp" data-wow-delay=".5s" data-wow-duration="1.5s" onclick="memoryNavOpen()">
-				<div class="overflower"><div class="bot memory"></div></div>
+				<div class="overflower" id="bot-overlay"><div class="bot memory"></div></div>
 				<div class="bot overlay-6">
 					<h1>GAME</h1>
 				</div>
 				<h4>Memory Game</h4>
 				<ul>
-					<li class="memory1 memory">CSS</li>
+					<li class="memory1 memory" id="memory-stack">CSS</li>
 					<li class="memory2 memory">JavaScript</li>
 				</ul>
 			</div>
@@ -889,6 +889,20 @@
 
 <!-- MODALS -->
 <script type="text/javascript">
+
+document.getElementById("bot-overlay").addEventListener("mouseover", mouseOver);
+document.getElementById("bot-overlay").addEventListener("mouseout", mouseOut);
+
+function mouseOver() {
+  document.getElementById("memory-stack").style.background = "white";
+	document.getElementById("memory-stack").style.color = "#1abc9c";
+}
+
+function mouseOut() {
+  document.getElementById("memory-stack").style.background = "#1abc9c";
+	document.getElementById("memory-stack").style.color = "white";
+}
+
 function myBrewsNavOpen() {
     document.getElementById("my-brews-nav").style.width = "100%";
     $("body").addClass("overflo");

@@ -780,7 +780,10 @@ div.bot > h1::after {
 .container ul li.reviews:last-child {
     margin-left: 28%;
 }
-/* GITHUB_BATTLE CONTAINER */
+/* MEMORY_GAME CONTAINER */
+/* .container:hover > ul li{
+    background-color: #fff;
+} */
 .container ul > li.memory {
     background: rgba(26, 188, 156, 0.7);
     border: 1px solid #1abc9c;
@@ -1241,6 +1244,10 @@ p.memory-extra {
 .memory-intro {
     background-color: #1abc9c;
 }
+/* .memory:hover{
+    border: 12px solid red;
+    background-color: #fff;
+} */
 .intro div.memory-circle {
     border: 10px solid #1abc9c;
     background: #117D68;
@@ -1257,6 +1264,10 @@ p.memory-extra {
 }
 /* END OF MEMORY PORTFOLIO */
 
+.stack{
+    background: #fff;
+    color: #1abc9c;
+}
 ul.colors {
     position: absolute;
     bottom: 0;
@@ -1268,6 +1279,7 @@ ul.colors {
     list-style-type: none;
     background-color: #1abc9c;
 }
+
 ul.colors li {
     display: inline-block;
     height: 10px;
