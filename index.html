@@ -96,31 +96,27 @@
 					})();
 				</script>
 
-
-
 	<header id="pageTop">
 			<a class="nav" href="#about" id="to-about">
 				<i class="fa fa-chevron-circle-down fa-3x faa-vertical animated faa-slow"></i>
 			</a>
-			<a class="nav" href="#pageTop" id="toTop">
-				<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+				<ul class="left-bar navbar">
+						<li>
+								<a href="index.html" class="logo">
+				<img src="images/bp_colored.png" align="left" alt="Rob Allen logo">
 			</a>
-            <ul class="left-bar navbar">
-                <li>
-                    <a href="index.html" class="logo">
-						<img src="images/bp_colored.png" align="left" alt="Rob Allen logo">
-					</a>
-                </li>
-                <li class="named">
-                    <span class="robert">robert</span><span class="allen">allen</span>
-                </li>
-            </ul>
-            <ul class="right-bar navbar" id="right-bar-collapse">
-                <li><a href="#contact" class="nav">contact</a></li>
-                <li><a href="#portfolio" class="nav">portfolio</a></li>
-                <li><a href="#skills" class="nav">skills</a></li>
-                <li><a href="#about" class="nav">about</a></li>
-            </ul>
+						</li>
+						<li class="named">
+								<span class="robert">robert</span><span class="allen">allen</span>
+						</li>
+				</ul>
+				<ul class="right-bar navbar" id="right-bar-collapse">
+						<li><a href="#contact" class="nav">contact</a></li>
+						<li><a href="#portfolio" class="nav">portfolio</a></li>
+						<li><a href="#skills" class="nav">skills</a></li>
+						<li><a href="#about" class="nav">about</a></li>
+				</ul>
+
        	<!-- BANNER -->
            <div class="banner">
 	           <blockquote class="quote wow bounceInRight" data-wow-duration="2s">
@@ -150,7 +146,10 @@
                </ul>
                </div>
            </div>
-       	<!-- End of Banner -->
+				 <!-- End of Banner -->
+				 <a class="toTop" href="#pageTop">
+					<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated faa-slow"></i>
+				</a>
     </header>
 	<!-- End of Header -->
 
@@ -297,7 +296,7 @@
 		</div>
 			<!-- END of skills -->
 
-
+     <!-- PORTFOLIO -->
 		<div class="portfolio" id="portfolio">
 			<h1 class="sections">Portfolio</h1>
 			<hr class="hrs">
@@ -333,7 +332,7 @@
 			    <div class="contents">
 			    	<h1><span>01 </span>USER INTERFACE</h1>
 			    	<div class="overview">
-			    		<img src="images/portfolio/mi-brews.PNG">
+			    		<img src="images/portfolio/mi-brews.png">
 			    	</div>
 			    	<div class="overview overview-text">
 			    		<h3>MY BREWS <span> UI</span></h3>
@@ -351,11 +350,10 @@
 			    	</a>
 			    </div>
 				</div>
-				<!-- DISQUS_THREAD -->
-				<div id="disqus_thread"></div>
 			</div>
-			<!-- END OF MY-BREWS CONTENT -->
-			<!-- MY_BREWS MODAL -->
+			<!-- END OF MY-BREWS MODAL -->
+
+			<!-- MY_BREWS CARD -->
 				<div class="container wow bounceInUp" data-wow-delay=".1s" data-wow-duration="1.5s" onclick="myBrewsNavOpen()">
 					<div class="overflower"><div class="bot my-brews"></div></div>
 					<div class="bot overlay-1">
@@ -369,8 +367,8 @@
 					</ul>
 				</div>
 
-			<!-- YELP_CAMP CONTENT -->
-			<!-- YELP_CAMP CONTENT -->
+			<!-- YELP_CAMP MODAL CONTENT -->
+			<!-- YELP_CAMP MODAL CONTENT -->
 			<div id="yelp-camp-nav" class="nav-overlay">
 			  <a id="topNav2" href="https://github.com/bobbidigi/yelp-camp-demo" target="_blank">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
@@ -436,10 +434,11 @@
 			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 			    	</a>
 			    </div>
-			  </div>
+				</div>
 			</div>
-			<!-- END OF YELP_CAMP CONTENT -->
-			<!-- END OF YELP_CAMP CONTENT -->
+			<!-- END OF YELP_CAMP MODAL -->
+
+			<!-- YELP_CAMP CARD -->
 			<div class="container wow bounceInUp" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="yelpCampNavOpen()">
 				<div class="overflower"><div class="bot yelp-camp"></div></div>
 				<div class="bot overlay-2">
@@ -454,8 +453,8 @@
 				</ul>
 			</div>
 
-			<!-- MY_READS CONTENT -->
-			<!-- MY_READS CONTENT -->
+			<!-- MY_READS MODAL -->
+			<!-- MY_READS MODAL -->
 			<div id="my-reads-nav" class="nav-overlay">
 			  <a id="topNav3" href="https://github.com/bobbidigi/reactnd-project-myreads-starter" target="_blank">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
@@ -524,9 +523,11 @@
 			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 			    	</a>
 			    </div>
-			  </div>
+				</div>
 			</div>
-			<!-- END OF MY_READS CONTENT -->
+			<!-- END OF MY_READS MODAL -->
+
+			<!-- MY_READS CARD -->
 			<div class="container wow bounceInUp" data-wow-delay=".3s" data-wow-duration="1.5s" onclick="myReadsNavOpen()">
 				<div class="overflower"><div class="bot my-reads"></div></div>
 				<div class="bot overlay-3">
@@ -540,7 +541,7 @@
 			</div>
 
 
-			<!-- GITHUB_BATTLE CONTENT -->
+			<!-- GITHUB_BATTLE MODAL -->
 			<div id="github-battle-nav" class="nav-overlay">
 			  <a id="topNav4" href="https://github.com/bobbidigi/github-battle" target="_blank">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
@@ -603,9 +604,11 @@
 			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 			    	</a>
 			    </div>
-			  </div>
+				</div>
 			</div>
-			<!-- END OF GITHUB_BATTLE CONTENT -->
+			<!-- END OF GITHUB_BATTLE MODAL -->
+
+			<!-- GITHUB_BATTLE CARD -->
 			<div class="container wow bounceInUp" data-wow-delay=".7s" data-wow-duration="1.5s" onclick="githubBattleNavOpen()">
 				<div class="overflower"><div class="bot github-battle"></div></div>
 				<div class="bot overlay-4">
@@ -619,7 +622,7 @@
 			</div>
 
 
-			<!-- RESTAURANT_REVIEWS CONTENT -->
+			<!-- RESTAURANT_REVIEWS MODAL -->
 			<div id="reviews-nav" class="nav-overlay">
 			  <a id="topNav5" href="https://github.com/bobbidigi/mws-restaurant-stage-1" target="_blank">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
@@ -683,9 +686,11 @@
 			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 			    	</a>
 			    </div>
-			  </div>
+				</div>
 			</div>
-			<!-- END OF RESTAURANT_REVIEWS CONTENT -->
+			<!-- END OF RESTAURANT_REVIEWS MODAL -->
+
+			<!-- RESTAURANT_REVIEWS CARD -->
 			<div class="container wow bounceInUp" data-wow-delay=".6s" data-wow-duration="1.5s" onclick="reviewsNavOpen()">
 				<div class="overflower"><div class="bot reviews"></div></div>
 				<div class="bot overlay-5">
@@ -699,8 +704,7 @@
 				</ul>
 			</div>
 
-
-			<!-- MEMORY_GAME CONTENT -->
+			<!-- MEMORY_GAME MODAL -->
 			<div id="memory-nav" class="nav-overlay">
 			  <a id="topNav6" href="https://github.com/bobbidigi/fend-project-memory-game" target="_blank">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
@@ -753,9 +757,11 @@
 			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 			    	</a>
 			    </div>
-			  </div>
+				</div>
 			</div>
-			<!-- END OF MEMORY_GAME CONTENT -->
+			<!-- END OF MEMORY_GAME MODAL -->
+
+			<!-- MEMORY_GAME CARD -->
 			<div class="container wow bounceInUp" data-wow-delay=".5s" data-wow-duration="1.5s" onclick="memoryNavOpen()">
 				<div class="overflower"><div class="bot memory"></div></div>
 				<div class="bot overlay-6">
@@ -771,7 +777,7 @@
 		<br>
 			<!-- END of portfolio -->
 		<div class="tests" id="tests">
-			<h1 class="sections">Apps Tested</h1>
+			<h1 class="sections">SKILLS</h1>
 			<hr class="hrs">
 			<div class="testBanner">
 			  <img class="first" src="images/tests/bootstrap.jpg" alt="" />
@@ -861,6 +867,9 @@
 
 		</footer>
 		<!-- End of Footer -->
+
+		<!-- DISQUS_THREAD -->
+		<div id="disqus_thread"></div>
 <!-- <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -965,7 +974,8 @@ $(document).ready(function(){
       s.setAttribute('data-timestamp', +new Date());
       (d.head || d.body).appendChild(s);
     })();
-  </script>
+	</script>
+	
   <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 </body>

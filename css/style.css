@@ -164,7 +164,7 @@ h1, h2, h3, h4, h5, h6, p{
 /* TO ABOUT */
 #to-about {
     padding: 5px 3px;
-    color: #74b1be;
+    color: salmon;
     position: absolute;
     bottom: 20px;
     left: 0;
@@ -178,29 +178,41 @@ h1, h2, h3, h4, h5, h6, p{
 }
 /* TO TOP */
 #toTop {
-    padding: 5px 3px;
-    color: #74b1be;
+    /* padding: 5px 3px; */
+    color: rgb(1, 118, 255);
     position: fixed;
-    bottom: 20px;
-    right: 40px;
+    bottom: 0;
+    right: 0;
     display: none;
     cursor: pointer;
-    padding: 15px;
     z-index: 2;
 }
 #toTop:hover::after {
     width: 0;
 }
+
 .toTops {
     padding: 5px 3px;
-    color: #74b1be;
+    color: rgb(1, 118, 255);
     bottom: 20px;
     right: 40px;
     cursor: pointer;
-    padding: 15px;
 }
 .toTops:hover::after {
     width: 0;
+}
+
+.toTop { 
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+    color: rgb(1, 118, 255);
+    bottom: 30px;
+    right:2px;
+    text-align: center;
+    left: 0;
+    /* right: calc(50vw - 6px); */
+    cursor: pointer;
 }
 /* HEADER */
 header {
@@ -777,6 +789,10 @@ div.bot > h1::after {
     margin-left: 28%;
 }
 
+#disqus_thread{
+    padding: 30px;
+    margin-top: 30px;
+}
 
 /* START OF CONTACTS SECTION */
 .contact {
@@ -1283,7 +1299,7 @@ ul.colors li:hover {
     height: 50px;
 }
 
-/* Apps Tested */
+/* SKILLS */
 #tests {
 	width: 100%;
  	overflow: hidden;
@@ -1315,7 +1331,7 @@ ul.colors li:hover {
     margin-left: 0px;
   }
   100% {
-    margin-left: -2690px;
+    margin-left: -2700px;
   }
 }
 @-moz-keyframes bannermove {
@@ -1331,7 +1347,7 @@ ul.colors li:hover {
     margin-left: 0px;
   }
   100% {
-    margin-left: -2690px;
+    margin-left: -2700px;
   }
 }
 @-ms-keyframes "bannermove" {
