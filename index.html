@@ -354,7 +354,7 @@
 			<!-- END OF MY-BREWS MODAL -->
 
 			<!-- MY_BREWS CARD -->
-				<div class="container wow bounceInUp" data-wow-delay=".1s" data-wow-duration="1.5s" onclick="myBrewsNavOpen()">
+				<div class="container wow bounceInRight" data-wow-delay=".1s" data-wow-duration="1.5s" onclick="myBrewsNavOpen()">
 					<div class="overflower"><div class="bot my-brews"></div></div>
 					<div class="bot overlay-1">
 						<h1>Web</h1>
@@ -439,7 +439,7 @@
 			<!-- END OF YELP_CAMP MODAL -->
 
 			<!-- YELP_CAMP CARD -->
-			<div class="container wow bounceInUp" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="yelpCampNavOpen()">
+			<div class="container wow bounceInLeft" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="yelpCampNavOpen()">
 				<div class="overflower"><div class="bot yelp-camp"></div></div>
 				<div class="bot overlay-2">
 					<h1>Web</h1>
@@ -504,15 +504,14 @@
 			    	<h1><span>03 </span>FUNCTIONALITY</h1>
 			    	<div class="overview overview-text">
 							<h3>THE<span> Features</span></h3>
-							<ul>
-								<li><p>Each Book in a shelf has a drop-down that can be used to move the books to different shelves. </p></li>
-								<li><p>New books can be searched by clicking on the "+" button on the main page of the application.</p></li>
-								<li><p>On clicking the "+" button, the user is redirected to a new page and the URL is changed from "/" to "/search".</p></li>
-								<li><p>The search page has a text input that may be used to find books. As the value of the text input changes, the books that match that query are displayed on the page, along with a control that lets the user add the book to the library. The search page also has a back arrow button to take the user back to the main page. The Route and Link components from "react-router-dom" have been used to handle the routing between the main page and the search page.</p></li>
-								<li><p>Necessary checks have been implemented to handle cases where the book's thumbnail or author is empty, so that the app doesn't crash or throw errors.
+								<p>Each Book in a shelf has a drop-down that can be used to move the books to different shelves.</p>
+								<p>New books can be searched by clicking on the "+" button on the main page of the application.</p>
+								<p>On clicking the "+" button, the user is redirected to a new page and the URL is changed from "/" to "/search".</p>
+								<p>The search page has a text input that may be used to find books. As the value of the text input changes, the books that match that query are displayed on the page, along with a control that lets the user add the book to the library. The search page also has a back arrow button to take the user back to the main page. The Route and Link components from "react-router-dom" have been used to handle the routing between the main page and the search page.</p>
+								<p>Necessary checks have been implemented to handle cases where the book's thumbnail or author is empty, so that the app doesn't crash or throw errors.
 										Functionality to move a book between various shelves has been implemented on both the main and the search page.
-										It is also ensured that a book on a bookshelf, has the same state on both the main application page and the search </p></li>	
-							</ul>
+										It is also ensured that a book on a bookshelf, has the same state on both the main application page and the search </p>	
+
 			    	</div>
 			    </div>
 			    <a class="toTops" href="#topNav3" >
@@ -528,7 +527,7 @@
 			<!-- END OF MY_READS MODAL -->
 
 			<!-- MY_READS CARD -->
-			<div class="container wow bounceInUp" data-wow-delay=".3s" data-wow-duration="1.5s" onclick="myReadsNavOpen()">
+			<div class="container wow bounceInRight" data-wow-delay=".3s" data-wow-duration="1.5s" onclick="myReadsNavOpen()">
 				<div class="overflower"><div class="bot my-reads"></div></div>
 				<div class="bot overlay-3">
 					<h1>Web</h1>
@@ -609,7 +608,7 @@
 			<!-- END OF GITHUB_BATTLE MODAL -->
 
 			<!-- GITHUB_BATTLE CARD -->
-			<div class="container wow bounceInUp" data-wow-delay=".7s" data-wow-duration="1.5s" onclick="githubBattleNavOpen()">
+			<div class="container wow bounceInLeft" data-wow-delay=".7s" data-wow-duration="1.5s" onclick="githubBattleNavOpen()">
 				<div class="overflower"><div class="bot github-battle"></div></div>
 				<div class="bot overlay-4">
 					<h1>Web</h1>
@@ -691,7 +690,7 @@
 			<!-- END OF RESTAURANT_REVIEWS MODAL -->
 
 			<!-- RESTAURANT_REVIEWS CARD -->
-			<div class="container wow bounceInUp" data-wow-delay=".6s" data-wow-duration="1.5s" onclick="reviewsNavOpen()">
+			<div class="container wow bounceInRight" data-wow-delay=".6s" data-wow-duration="1.5s" onclick="reviewsNavOpen()">
 				<div class="overflower"><div class="bot reviews"></div></div>
 				<div class="bot overlay-5">
 					<h1>Web</h1>
@@ -762,7 +761,7 @@
 			<!-- END OF MEMORY_GAME MODAL -->
 
 			<!-- MEMORY_GAME CARD -->
-			<div class="container wow bounceInUp" data-wow-delay=".5s" data-wow-duration="1.5s" onclick="memoryNavOpen()">
+			<div class="container wow bounceInLeft" data-wow-delay=".5s" data-wow-duration="1.5s" onclick="memoryNavOpen()">
 				<div class="overflower" id="bot-overlay"><div class="bot memory"></div></div>
 				<div class="bot overlay-6">
 					<h1>GAME</h1>
@@ -843,10 +842,13 @@
 		</div>
 			<!-- END of contact --><br>
 		<div class="extra">
-			<div class="col-owl owl wow bounceInLeft" data-wow-duration="2s" data-wow-delay="1s">
-				<img src="images/green_owl.jpg" alt="Green Owl">
+			<div class="col-owl owl wow bounceInLeft" data-wow-duration="2s" data-wow-delay="1s" onclick="mouseOver()">
+				<img id="green-owl" src="images/green_owl.jpg" alt="Green Owl">
 			</div>
 			<div class="col-owl">
+					<audio id="owl-sound">
+							<source src="audio/416529__inspectorj__bird-whistling-single-robin-a.ogg">
+					</audio>
 				<h1>When you feel down, just touch this <span class="green-owl">green owl</span>.</h1>
 			</div>
 		</div>
@@ -889,19 +891,20 @@
 
 <!-- MODALS -->
 <script type="text/javascript">
-
-document.getElementById("bot-overlay").addEventListener("mouseover", mouseOver);
-document.getElementById("bot-overlay").addEventListener("mouseout", mouseOut);
+const owlSound = document.getElementById('owl-sound');
+document.getElementById("green-owl").addEventListener("mouseover", mouseOver);
+// document.getElementById("bot-overlay").addEventListener("mouseout", mouseOut);
 
 function mouseOver() {
-  document.getElementById("memory-stack").style.background = "white";
-	document.getElementById("memory-stack").style.color = "#1abc9c";
+	owlSound.play();
+  // document.getElementById("memory-stack").style.background = "white";
+	// document.getElementById("memory-stack").style.color = "#1abc9c";
 }
 
-function mouseOut() {
-  document.getElementById("memory-stack").style.background = "#1abc9c";
-	document.getElementById("memory-stack").style.color = "white";
-}
+// function mouseOut() {
+//   document.getElementById("memory-stack").style.background = "#1abc9c";
+// 	document.getElementById("memory-stack").style.color = "white";
+// }
 
 function myBrewsNavOpen() {
     document.getElementById("my-brews-nav").style.width = "100%";

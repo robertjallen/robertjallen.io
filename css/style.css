@@ -797,6 +797,11 @@ div.bot > h1::after {
     margin-top: 30px;
 }
 
+.overflower:hover ~ ul li{
+    background-color: #fff;
+    color: #666;
+}
+
 /* START OF CONTACTS SECTION */
 .contact {
     text-align: center;
@@ -1071,7 +1076,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
     left: 0;
     top: 0;
     margin: auto 0;
-    max-width: 800px;
+    max-width: 100%;
     width: 750px;
     border-radius: 5px;
     box-shadow: 5px 10px 25px rgba(0,0,0,0.2);
