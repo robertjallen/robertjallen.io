@@ -177,20 +177,33 @@ h1, h2, h3, h4, h5, h6, p{
     width: 0;
 }
 /* TO TOP */
-#toTop {
+/* #toTop {
     /* padding: 5px 3px; */
+    /* color: rgb(1, 118, 255); */
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* right: 0; */
+    /* display: none; */
+    /* cursor: pointer; */
+    /* z-index: 2; */
+/* } */
+/* #toTop:hover::after { */
+    /* width: 0; */
+/* }  */
+
+/* TO TOP */
+#toTop {
+    transition: all 1s ease;
+    /* padding: 5px 3px; */
+    padding: 5px 3px;
     color: rgb(1, 118, 255);
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    display: none;
+    bottom: 20px;
+    right: 40px;
     cursor: pointer;
-    z-index: 2;
 }
 #toTop:hover::after {
     width: 0;
 }
-
 .toTops {
     padding: 5px 3px;
     color: rgb(1, 118, 255);

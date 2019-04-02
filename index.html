@@ -147,7 +147,7 @@
                </div>
            </div>
 				 <!-- End of Banner -->
-				 <a class="toTop" href="#pageTop">
+				 <a class="toTop" href="#pageTop" id="toTop">
 					<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated faa-slow"></i>
 				</a>
     </header>
@@ -748,7 +748,7 @@
 			    	</div>
 					</div>
 					
-			    <a class="toTops" href="#topNav6" >
+			    <a class="toTops" href="#topNav6">
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
 			    <div class="content-footer memory-footer" onclick="closeNav()">
@@ -897,14 +897,7 @@ document.getElementById("green-owl").addEventListener("mouseover", mouseOver);
 
 function mouseOver() {
 	owlSound.play();
-  // document.getElementById("memory-stack").style.background = "white";
-	// document.getElementById("memory-stack").style.color = "#1abc9c";
 }
-
-// function mouseOut() {
-//   document.getElementById("memory-stack").style.background = "#1abc9c";
-// 	document.getElementById("memory-stack").style.color = "white";
-// }
 
 function myBrewsNavOpen() {
     document.getElementById("my-brews-nav").style.width = "100%";
@@ -965,9 +958,11 @@ $(document).ready(function(){
 	    return false;
 	});
 	// SCROLL TO TOP ICON FADE AFTER SCROLL DOWN
+	
 	$(window).scroll(function() {
 	    if ($(this).scrollTop()) {
-	        $('#toTop').fadeIn();
+				setTimeout(function(){jQuery('#toTop').fadeIn()}, 5000);
+					// $('#toTop').fadeIn();
 	    } else {
 	        $('#toTop').fadeOut();
 	    }
