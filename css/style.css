@@ -232,7 +232,7 @@ header {
     position: relative;
     overflow: hidden;
     text-align: center;
-    background: url(../images/owl.jpg) repeat center;
+    background: url(../images/owl.jpg) no-repeat center;
     /* border-bottom: 8px solid #D2F079; */
 /*  box-shadow: 1px 5px 10px rgba(0,0,0,0.2);*/
     box-shadow: 12px 10px 20px 0px rgba(46,61,73,0.15);
@@ -248,31 +248,44 @@ header::before {
     background-image: linear-gradient(to bottom,#002f4b,#002f4b,#dc4225);
     opacity: .7;
 }
+.nav-container{
+    display: flex;
+    flex-direction: column;
+}
+
 .left-bar, .right-bar {
-    position: relative;
+    /* position: relative; */
     top: 20px;
-    display: inline-block;
-    vertical-align: top;
+    /* display: flex; */
+    /* display: inline-block; */
+    /* vertical-align: top; */
 }
 .left-bar {
+    position: relative;
+    display: flex;
     overflow: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
+.left-bar-logo{
+    width: calc(50vw - 47px);
+}
 .left-bar a.logo img{
-	padding: 5px 10px 10px 10px;
+	padding: 10px 15vw 10px 15px;
 }
 .left-bar li {
-	float: left;
+    /* width: 50vw; */
+	/* float: left; */
 }
 .left-bar li.named {
+    text-align: left;
     padding: 13px 0;
-    font-size: 20px
+    font-size: 20px;
 }
 .left-bar .robert {
 	color: #e8e8e8;
-    text-align: right;
+    /* text-align: right; */
     font-weight: 800;
 }
 .left-bar .allen {
@@ -280,12 +293,12 @@ header::before {
     font-weight: 500;
 }
 .left-bar .robert:hover {
-	color: #f39c12;
+	color: #7e57c2;
     transition: all 0.3s ease;
     cursor: pointer;
 }
 .left-bar .allen:hover {
-	color: #e74c3c;
+	color: #536dfe;
     transition: all 0.3s ease;
     cursor: pointer;
 }
@@ -834,8 +847,10 @@ div.bot > h1::after {
 }
 h1.contact-white {
     font-size: 250%;
+    text-transform: capitalize;
 }
 h1.contact-white, .contact div > p {
+    margin: 0 10vw;
     color: #fff;
     font-weight: 300;
 }
@@ -843,10 +858,16 @@ h1.contact-white, .contact div > p {
     display: inline-block;
     width: 400px;
     height: auto;
-    padding: 50px 0;
+    padding: 50px 0 25px 0;
     /* overflow-y: hidden; */
     text-align: center;
     vertical-align: middle;
+}
+a {
+    text-decoration: none;
+}
+.contact-icans {
+ text-decoration: none;
 }
 .contact-icons i{
     /* width: 40px; */
@@ -858,13 +879,31 @@ h1.contact-white, .contact div > p {
     background: #fff;
     margin-right: 3px;
     border-radius: 3px;
-    box-shadow: 1px 1px 5px #3498db;
 }
-
+#demo {
+    width: 100px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    font-size: 20px;
+    margin: 50px auto;
+    font-weight: 800;
+    padding: 5px
+}
+#demo:hover {
+    background: #fff;
+    color: #666;  
+}
+#demo i {
+    /* font-size: 100px; */
+    /* background: transparent; */
+    color: blue;
+}
 .contact-icons i:hover {
-    color: aquamarine;
-    box-shadow: 0 10px 15px 0 #000;
+    color: #fff;
+    background-image: linear-gradient(135deg,#3ca55f, #b5ac59);
+    box-shadow: 0 10px 15px 0 #cfc77b;
     transition: all 0.5s ease;
+    border: 1px solid #dbd491;
 }
 footer {
     height: 100%;
@@ -1147,7 +1186,7 @@ p.yelp-camp-extra {
     color: #2ecc71;
     font-weight: 600;
 }
-.yelp-camp-intro {
+.yelp-camp-intro  {
     background-color: #2ecc71;
 }
 .intro div.yelp-camp-circle {

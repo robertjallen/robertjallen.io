@@ -13,7 +13,7 @@
 		<meta property="og:site_name" content="Rob Allen" />
 
 		<title>Rob Allen</title>
-
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 		<link rel="shortcut icon" href="images/bp_colored.png" type="image/x-icon">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -100,22 +100,25 @@
 			<a class="nav" href="#about" id="to-about">
 				<i class="fa fa-chevron-circle-down fa-3x faa-vertical animated faa-slow"></i>
 			</a>
+			<div class="nav-container">
 				<ul class="left-bar navbar">
-						<li>
-								<a href="index.html" class="logo">
-				<img src="images/bp_colored.png" align="left" alt="Rob Allen logo">
-			</a>
-						</li>
-						<li class="named">
-								<span class="robert">robert</span><span class="allen">allen</span>
-						</li>
+					<li class="left-bar-logo">
+						<a href="index.html" class="logo">
+							<img src="images/bp_colored.png" align="left" alt="Rob Allen logo">
+						</a>
+					</li>
+					<li class="named">
+						<span class="robert">robert</span><span class="allen">allen</span>
+					</li>
 				</ul>
 				<ul class="right-bar navbar" id="right-bar-collapse">
-						<li><a href="#contact" class="nav">contact</a></li>
-						<li><a href="#portfolio" class="nav">portfolio</a></li>
-						<li><a href="#skills" class="nav">skills</a></li>
-						<li><a href="#about" class="nav">about</a></li>
+					<li><a href="#contact" class="nav">contact</a></li>
+					<li><a href="#portfolio" class="nav">portfolio</a></li>
+					<li><a href="#skills" class="nav">skills</a></li>
+					<li><a href="#about" class="nav">about</a></li>
 				</ul>
+			</div>
+				
 
        	<!-- BANNER -->
            <div class="banner">
@@ -180,9 +183,9 @@
 					<p><span class="linked">Web development</span> is where he specializes the most. Through <a class="linked" rel="nofollow" href="https://udacity-students.slack.com" alt="gitter">slack</a> and social media groups, he spends most of his time learning, helping others with projects and apps. He believes that there is knowlegde in helping. By helping others, solving their problems, you retain or even improve your own knowledge.</p>
 
 					<p>He is interested in everything related to web development, industry standards, and new technologies. He enjoys his role as a mentor and project reviewer at Udacity.</p>
-					<p class="wow bounceInLeft">"Knowledge comes from helping others"</p>
+					<p class="wow bounceInLeft"><i>"Knowledge comes from helping others"</i></p>
 
-					<div class="center-button wow bounceInRight" data-wow-delay="2s" data-wow-duration="2s">
+					<div class="center-button wow bounceInRight" data-wow-delay="1s" data-wow-duration="1s">
 					<a class="resume-link" href="images/RobertJAllen Resume.pdf" download>
 						<button class="button button2">
 							<span><i class="fa fa-download faa-vertical animated faa-slow"></i> Download Resume </span>
@@ -196,7 +199,7 @@
 
 	<!-- START of skills -->
 
-		<h1 class="sections skillsec" id="skills">Skills</h1>
+		<h1 class="sections skillsec" id="skills">SKILLS</h1>
 		<hr class="hrs">
 		<div class="skills-col">
 			<div class="skill-sec">
@@ -310,9 +313,10 @@
 			  <div class="portfolio-content">
 			    <h1 class="content-title">MI Brews <span class="thin">breweries </span><span class="thin">& neighborhood map</span></h1>
 			    <p class="my-brews-extra nav-extra">Displays data from Foursquare api and google maps api.</p>
-
+					
 			    <div class="my-brews-details nav-details"><span>ROLE</span> WEB DESIGNER / DEVELOPER</div>
-			    <div class="my-brews-details nav-details"><span>DATE</span> APRIL 2016</div>
+					<div class="my-brews-details nav-details"><span>DATE</span> APRIL 2016</div>
+						
 			    <div class="intro my-brews-intro">
 			    	<div class="circle my-brews-circle"><i class="fa fa-info-circle"></i></div>
 			    	<p>MyBrews! It's intended as a challenge to put together a website in react, using multiple APIs. This includes making function calls to Google Maps and other location-based services like Foursquare.						
@@ -339,8 +343,11 @@
 			    		<p>A single page application featuring a map of a neighborhood. Including highlighted locations, third-party data about those locations and various ways to browse the content.</p>
 			    		<p>I spent some time on the design on this project since it seemed scaleable and easily replicatable with other subjects. React Router was used to allow the use to vistit each location while remaining a single page app.</p>
 			    	</div>
-			    </div>
-			    
+					</div>
+					<!-- demo button -->
+					<div id="demo" class="circle my-brews-intro"><a href="https://www.allentowngroup.com/mi-brews/" target="_blank">demo</a>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</div>
 			    <a class="toTops" href="#topNav1" >
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
@@ -425,7 +432,10 @@
 							Lastly was adding flash messages for better error handling especially during authentication.</p>
 			    	</div>
 			    </div>
-			    
+			    <!-- demo button -->
+					<div id="demo" class="circle yelp-camp-intro"><a href="https://protected-beach-20008.herokuapp.com/campgrounds" target="_blank">demo</a>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</div>
 			    <a class="toTops" href="#topNav2" >
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
@@ -513,7 +523,11 @@
 										It is also ensured that a book on a bookshelf, has the same state on both the main application page and the search </p>	
 
 			    	</div>
-			    </div>
+					</div>
+					<!-- demo button -->
+					<div id="demo" class="circle my-reads-intro"><a href="https://www.allentowngroup.com/reactnd-project-myreads-starter/" target="_blank">demo</a>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</div>
 			    <a class="toTops" href="#topNav3" >
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
@@ -595,7 +609,11 @@
 								</ul>
 							</div>
 					</div>
-			    <a class="toTops" href="#topNav4" >
+						<!-- demo button -->
+						<div id="demo" class="circle github-battle-intro"><a href="https://github-battle-483f1.firebaseapp.com/" target="_blank">demo</a>
+							<i class="fas fa-long-arrow-alt-right"></i>
+						</div>
+			    <a class="toTops" href="#topNav4">
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
 			    <div class="content-footer github-battle-footer" onclick="closeNav()">
@@ -676,7 +694,11 @@
 							<p>Through utilzing a <span>service worker</span>, users can enjoy a seamless offline experience.</p>
 			    		<p>This project uses best practices to achieve <span>accessibility</span> among user who use screen readers and other similar aides. It achieved a lighthouse score of 100.</p>
 			    	</div>
-			    </div>
+					</div>
+					<!-- demo button -->
+					<div id="demo" class="circle reviews-intro"><a href="https://bobbidigi.github.io/mws-restaurant-stage-1/" target="_blank">demo</a>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</div>
 			    <a class="toTops" href="#topNav5">
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
@@ -747,7 +769,10 @@
 			    		<p>I used 2 royalty free sound effects from freesound.org, HTML5, CSS, and JavaScript.</p>
 			    	</div>
 					</div>
-					
+					<!-- demo button -->
+					<div id="demo" class="circle memory-intro"><a href="https://bobbidigi.github.io/fend-project-memory-game" target="_blank">demo</a>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</div>
 			    <a class="toTops" href="#topNav6">
 			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 			    </a>
