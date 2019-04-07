@@ -734,11 +734,25 @@ div.bot > h1::after {
     left: 40px;
 }
 
-.container > ul li {
+/* .container > ul li {
     position: absolute;
     display: inline-block;
     bottom: 15px;
     left: 15px;
+    padding: 5px 8px;
+    font-size: 70%;
+    border-radius: 4px;
+    color: #fff;
+} */
+.container > ul {
+    margin-top: calc(100% - 50px);
+    /* border: 1px solid red; */
+    display: flex;
+    list-style: none;
+    padding: 0;
+    justify-content: space-evenly;
+}
+.container > ul li {
     padding: 5px 8px;
     font-size: 70%;
     border-radius: 4px;
@@ -754,27 +768,28 @@ div.bot > h1::after {
     border: 1px solid #F39C12;
 }
 .container ul li.my-brews:nth-child(1) {
-    margin-left: 2.5%;
+    /* margin-left: 2.5%; */
 }
 .container ul li.my-brews:nth-child(2) {
-    margin-left: 25%;
+    /* margin-left: 25%; */
 }
 .container ul li.my-brews:last-child {
-    margin-left: 62%;
+    /* margin-left: 62%; */
 }
+
 /* YELP_CAMP CONTAINER */
 .container ul > li.yelp-camp {
     background: rgba(46, 204, 113, 0.7);
     border: 1px solid #2ecc71;
 }
 .container ul > li.yelp-camp:nth-child(2) {
-    margin-left: 22%;
+    /* margin-left: 22%; */
 }
 .container ul > li.yelp-camp:nth-child(3)  {
-    margin-left: 44%;
+    /* margin-left: 44%; */
 }
 .container ul > li.yelp-camp:last-child {
-    margin-left: 70.5%;
+    /* margin-left: 70.5%; */
 }
 
 
@@ -784,10 +799,10 @@ div.bot > h1::after {
     border: 1px solid #3498db;
 }
 .container ul > li.my-reads:nth-child(1) {
-    margin-left: 14%;
+    /* margin-left: 14%; */
 }
 .container ul > li.my-reads:last-child {
-    margin-left: 46%;
+    /* margin-left: 46%; */
 }
 /* GITHUB_BATTLE CONTAINER */
 .container ul > li.github-battle {
@@ -795,10 +810,10 @@ div.bot > h1::after {
     border: 1px solid #e74c3c;
 }
 .container ul li.github-battle:nth-child(1) {
-    margin-left: 18%;
+    /* margin-left: 18%; */
 }
 .container ul li.github-battle:last-child {
-    margin-left: 50%;
+    /* margin-left: 50%; */
 }
 /* RESTAURANT_REVIEWS CONTAINER */
 .container ul > li.reviews {
@@ -806,13 +821,13 @@ div.bot > h1::after {
     border: 1px solid #9b59b6;
 }
 .container ul li.reviews:nth-child(1) {
-    margin-left: 10%;
+    /* margin-left: 10%; */
 }
 .container ul li.reviews:nth-child(2) {
-    margin-left: 35%;
+    /* margin-left: 35%; */
 }
 .container ul li.reviews:last-child {
-    margin-left: 66%;
+    /* margin-left: 66%; */
 }
 /* MEMORY_GAME CONTAINER */
 /* .container:hover > ul li{
@@ -823,10 +838,10 @@ div.bot > h1::after {
     border: 1px solid #1abc9c;
 }
 .container ul li.memory:nth-child(1){
-    margin-left: 20%;
+    /* margin-left: 20%; */
 }
 .container ul li.memory:last-child {
-    margin-left: 52%;
+    /* margin-left: 52%; */
 }
 
 #disqus_thread{
@@ -834,11 +849,14 @@ div.bot > h1::after {
     margin-top: 30px;
 }
 
-.overflower:hover ~ ul li{
+.overflower:hover ~ ul li, .container h4:hover ~ ul li {
     background-color: #fff;
     color: #666;
 }
-
+.container ul:hover > li {
+    background-color: #fff;
+    color: #666;
+}
 /* START OF CONTACTS SECTION */
 .contact {
     text-align: center;
