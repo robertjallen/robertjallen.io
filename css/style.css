@@ -733,11 +733,12 @@ div.bot > h1::after {
     right: 40px;
     left: 40px;
 }
+
 .container > ul li {
     position: absolute;
     display: inline-block;
     bottom: 15px;
-    left: 10px;
+    left: 15px;
     padding: 5px 8px;
     font-size: 70%;
     border-radius: 4px;
@@ -746,19 +747,20 @@ div.bot > h1::after {
 .container:hover h4 {
 	color: #fff;
 }
+
 /* BFP MY-BREWS CONTAINER */
 .container ul > li.my-brews {
     background: rgba(243, 156, 18, 0.7);
     border: 1px solid #F39C12;
 }
-.container ul li.my-brews:nth-child(2) {
-    margin-left: 15%;
+.container ul li.my-brews:nth-child(1) {
+    margin-left: 2.5%;
 }
-.container ul li.my-brews:nth-child(3) {
-    margin-left: 43%;
+.container ul li.my-brews:nth-child(2) {
+    margin-left: 25%;
 }
 .container ul li.my-brews:last-child {
-    margin-left: 63%;
+    margin-left: 62%;
 }
 /* YELP_CAMP CONTAINER */
 .container ul > li.yelp-camp {
@@ -766,13 +768,13 @@ div.bot > h1::after {
     border: 1px solid #2ecc71;
 }
 .container ul > li.yelp-camp:nth-child(2) {
-    margin-left: 15%;
+    margin-left: 22%;
 }
 .container ul > li.yelp-camp:nth-child(3)  {
-    margin-left: 43%;
+    margin-left: 44%;
 }
 .container ul > li.yelp-camp:last-child {
-    margin-left: 63%;
+    margin-left: 70.5%;
 }
 
 
@@ -781,10 +783,10 @@ div.bot > h1::after {
     background: rgba(52, 152, 219, 0.7);
     border: 1px solid #3498db;
 }
-.container ul > li.my-reads2:nth-child(2) {
-    margin-left: 17%;
+.container ul > li.my-reads:nth-child(1) {
+    margin-left: 14%;
 }
-.container ul > li.my-reads3:last-child {
+.container ul > li.my-reads:last-child {
     margin-left: 46%;
 }
 /* GITHUB_BATTLE CONTAINER */
@@ -792,19 +794,25 @@ div.bot > h1::after {
     background: rgba(231, 76, 60, 0.7);
     border: 1px solid #e74c3c;
 }
-.container ul li.github-battle:nth-child(2) {
-    margin-left: 15%;
+.container ul li.github-battle:nth-child(1) {
+    margin-left: 18%;
 }
 .container ul li.github-battle:last-child {
-    margin-left: 43%;
+    margin-left: 50%;
 }
-/* GITHUB_BATTLE CONTAINER */
+/* RESTAURANT_REVIEWS CONTAINER */
 .container ul > li.reviews {
     background: rgba(155, 89, 182, 0.7);
     border: 1px solid #9b59b6;
 }
+.container ul li.reviews:nth-child(1) {
+    margin-left: 10%;
+}
+.container ul li.reviews:nth-child(2) {
+    margin-left: 35%;
+}
 .container ul li.reviews:last-child {
-    margin-left: 28%;
+    margin-left: 66%;
 }
 /* MEMORY_GAME CONTAINER */
 /* .container:hover > ul li{
@@ -814,8 +822,11 @@ div.bot > h1::after {
     background: rgba(26, 188, 156, 0.7);
     border: 1px solid #1abc9c;
 }
+.container ul li.memory:nth-child(1){
+    margin-left: 20%;
+}
 .container ul li.memory:last-child {
-    margin-left: 28%;
+    margin-left: 52%;
 }
 
 #disqus_thread{
