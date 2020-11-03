@@ -21,85 +21,10 @@
 
 <body>
 
-<!-- DRIFT_CHAT_BOT -->
-     <!-- Start of Async Drift Code -->
-		 <script>
-				!function() {
-					var t;
-					if (t = window.driftt = window.drift = window.driftt || [], !t.init) return t.invoked ? void (window.console && console.error && console.error("Drift snippet included twice.")) : (t.invoked = !0, 
-					t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-					t.factory = function(e) {
-						return function() {
-							var n;
-							return n = Array.prototype.slice.call(arguments), n.unshift(e), t.push(n), t;
-						};
-					}, t.methods.forEach(function(e) {
-						t[e] = t.factory(e);
-					}), t.load = function(t) {
-						var e, n, o, i;
-						e = 3e5, i = Math.ceil(new Date() / e) * e, o = document.createElement("script"), 
-						o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + i + "/" + t + ".js", 
-						n = document.getElementsByTagName("script")[0], n.parentNode.insertBefore(o, n);
-					});
-				}();
-				drift.SNIPPET_VERSION = '0.3.1';
-				drift.load('xftxm9dr5hkp');
-				</script>
-				<!-- End of Async Drift Code -->
-				
-				<!--Enables drift chat button links-->
-				<!-- place this script tag after the Drift embed tag -->
-				<script>
-					(function() {
-						/* Add this class to any elements you want to use to open Drift.
-						 *
-						 * Examples:
-						 * - <a class="drift-open-chat">Questions? We're here to help!</a>
-						 * - <button class="drift-open-chat">Chat now!</button>
-						 *
-						 * You can have any additional classes on those elements that you
-						 * would ilke.
-						 */
-						var DRIFT_CHAT_SELECTOR = '.drift-open-chat'
-						/* http://youmightnotneedjquery.com/#ready */
-						function ready(fn) {
-							if (document.readyState != 'loading') {
-								fn();
-							} else if (document.addEventListener) {
-								document.addEventListener('DOMContentLoaded', fn);
-							} else {
-								document.attachEvent('onreadystatechange', function() {
-									if (document.readyState != 'loading')
-										fn();
-								});
-							}
-						}
-						/* http://youmightnotneedjquery.com/#each */
-						function forEachElement(selector, fn) {
-							var elements = document.querySelectorAll(selector);
-							for (var i = 0; i < elements.length; i++)
-								fn(elements[i], i);
-						}
-						function openSidebar(driftApi, event) {
-							event.preventDefault();
-							driftApi.sidebar.open();
-							return false;
-						}
-						ready(function() {
-							drift.on('ready', function(api) {
-								var handleClick = openSidebar.bind(this, api)
-								forEachElement(DRIFT_CHAT_SELECTOR, function(el) {
-									el.addEventListener('click', handleClick);
-								});
-							});
-						});
-					})();
-				</script>
-
 	<header id="pageTop">
-			<!-- <a class="nav" href="#about" id="to-about">
+			<a class="nav" href="#about" id="to-about">
 				<i class="fa fa-chevron-circle-down fa-3x faa-vertical animated faa-slow"></i>
-			</a> -->
+			</a>
 			<div class="nav-container">
 				<ul class="left-bar navbar">
 					<li class="left-bar-logo">
@@ -150,9 +75,10 @@
                </div>
            </div>
 				 <!-- End of Banner -->
-				 <a class="toTop" href="#pageTop" id="toTop">
+				 
+				 <!-- <a class="toTop" href="#pageTop" id="toTop">
 					<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated faa-slow"></i>
-				</a>
+				</a> -->
     </header>
 	<!-- End of Header -->
 
@@ -867,7 +793,6 @@
 		</div>
 			<!-- END of contact --><br>
 		<div class="extra">
-			
 			<div class="col-owl">
 					<audio id="owl-sound">
 							<source src="audio/416529__inspectorj__bird-whistling-single-robin-a.ogg">
@@ -896,8 +821,6 @@
 		</footer>
 		<!-- End of Footer -->
 
-		<!-- DISQUS_THREAD -->
-		<div id="disqus_thread"></div>
 <!-- <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> -->
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -988,33 +911,13 @@ $(document).ready(function(){
 	$(window).scroll(function() {
 	    if ($(this).scrollTop()) {
 				setTimeout(function(){jQuery('#toTop').fadeIn()}, 5000);
-					// $('#toTop').fadeIn();
+					$('#toTop').fadeIn();
 	    } else {
 	        $('#toTop').fadeOut();
 	    }
 	});
 });
 </script>
-<!-- DISQUS_THREAD_SCRIPT -->
-<script>
-    /**
-    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-    
-    var disqus_config = function () {
-    this.page.url = 'https://www.allentowngroup.com/portfolio/';  // Replace PAGE_URL with your page's canonical URL variable
-    //this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-    };
-    
-    (function () { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = 'https://allentowngroup.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-    })();
-	</script>
-	
-  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
 </body>
 </html>
