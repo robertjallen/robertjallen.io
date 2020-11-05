@@ -526,7 +526,7 @@ h2.right-title ~ p {
 }
 
 .skill-sec-container {
-    border: 1px solid salmon;
+    /* border: 1px solid salmon; */
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -543,7 +543,7 @@ h2.right-title ~ p {
     filter: grayscale(100%);
     filter: gray; */
    
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 .framework {
     /* width: calc(50% - 40px); */
