@@ -524,27 +524,26 @@ h2.right-title ~ p {
     text-align: center;
     /*background-color: #2b2e3b;*/
 }
-.skill-sec div {
-    /* display: inline-block; */
-    /* display: flex; */
-    /* padding: 3px 20px; */
-    /* width: 25vw; */
-}
 
 .skill-sec-container {
+    border: 1px solid salmon;
     display: flex;
+    flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: space-evenly;
 }
 
 .skill-img {
     transition: all 0.3s ease;
     flex-direction: row;
     width: calc(100% - 40px);
-    /* padding: 3px 20px; */
-/*    -webkit-filter: grayscale(100%);
+    padding: 3px 20px;
+    /* -webkit-filter: grayscale(100%);
     -o-filter: grayscale(100%);
     filter: grayscale(100%);
-    filter: gray;*/
+    filter: gray; */
+   
+    border: 1px solid blue;
 }
 .framework {
     /* width: calc(50% - 40px); */
