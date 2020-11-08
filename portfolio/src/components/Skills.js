@@ -1,12 +1,12 @@
 import React from 'react'
 
 import html from '../images/icons/html.jpg'
-
+import css from '../images/icons/css.jpg'
 import Skill from './Skill'
 
 
 export default function Skills() {
-  const skills = [{name: "HTML" }, {name: "CSS"}, {name: "JavaScript"}];
+  const skills = [{name: "HTML", image: html }, {name: "CSS", image: css}, {name: "JavaScript"}];
 
   return (
     <div>
