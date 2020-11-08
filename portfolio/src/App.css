@@ -560,6 +560,10 @@
      font-weight: 300;
      color: #74b1be;
  }
+ .skill p{
+    font-weight: 300;
+    color: #74b1be;
+}
  .col-inline {
      display: inline-block;
  }
