@@ -96,73 +96,262 @@
 		</ul>
 	</div>
 
-	{/* <!-- YELP_CAMP MODAL CONTENT --> */}
-	{/* <!-- YELP_CAMP MODAL CONTENT --> */}
-	<div id="yelp-camp-nav" class="nav-overlay">
-		<a id="topNav2" href="https://github.com/robertjallen/yelp-camp-demo" target="_blank">
-			<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
-		</a>
-		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-		<div class="portfolio-content">
-			<h1 class="content-title">Yelp Camp <span class="thin">app</span></h1>
-			<p class="yelp-camp-extra nav-extra">A full-stack Node.js project to display campgrounds.</p>
-
-			<div class="yelp-camp-details nav-details"><span>ROLE</span> WEB DEVELOPER / DESIGNER</div>
-			<div class="yelp-camp-details nav-details"><span>DATE</span> SEPTEMBER 2016</div>
-			<div class="intro yelp-camp-intro">
-				<div class="circle yelp-camp-circle"><i class="fa fa-info-circle"></i></div>
-				<p><span>Yelp Camp: </span> A review site for campgrounds where users can log in to give descriptions of the
-					places they have gone to camp and share their experiences with other users. It has a lot of other features
-				</p>
-				<div class="rect yelp-camp-group">
-					<i class="fa fa-group thick"></i> <span class="thick">Additional credits</span>
-					<ul>
-						<li>Colt Steel's (Web dev bootcamp)</li>
-						<li>Google Maps</li>
-					</ul>
+			<hr class="hrs">
+			<!-- MY-BREWS MODAL CONTENT -->
+			<!-- MY-BREWS MODAL CONTENT -->
+			<div id="my-nav" class="nav-overlay">
+				<a id="topNav1" href="https://github.com/robertjallen/mi-brews" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub"></a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">MI Brews <span class="thin">breweries </span><span class="thin">& neighborhood map</span></h1>
+			    <p class="my-brews-extra nav-extra">Displays data from Foursquare api and google maps api.</p>
+					
+			    <div class="my-brews-details nav-details"><span>ROLE</span> WEB DESIGNER / DEVELOPER</div>
+					<div class="my-brews-details nav-details"><span>DATE</span> APRIL 2016</div>
+						
+			    <div class="intro my-brews-intro">
+			    	<div class="circle my-brews-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p>MyBrews! It's intended as a challenge to put together a website in react, using multiple APIs. This includes making function calls to Google Maps and other location-based services like Foursquare.						
+							The app allows you to filter the list down as you type. In return, it displays the locations on the map. Heck, the icons even bounce like you expect them to.
+							There's also extra info pulled from the Foursquare API where available. This includes website images, ratings, and phone numbers. The app is responsive, too! It resizes using CSS Flexbox and media queries.
+						</p>
+			    	<div class="rect my-brews-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick">Additional credits</span>
+			    		<ul>
+			    			<li>Udacity</li>
+			    			<li>Google maps Api</li>
+			    			<li>Foursquare API</li>
+			    		</ul>
+			    	</div>
+					</div>
+					
+			    <div class="contents">
+			    	<h1><span>01 </span>USER INTERFACE</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/mi-brews.png">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>MY BREWS <span> UI</span></h3>
+			    		<p>A single page application featuring a map of a neighborhood. Including highlighted locations, third-party data about those locations and various ways to browse the content.</p>
+			    		<p>I spent some time on the design on this project since it seemed scaleable and easily replicatable with other subjects. React Router was used to allow the use to vistit each location while remaining a single page app.</p>
+			    	</div>
+					</div>
+					<!-- demo button -->
+					<div id="demo" class="circle my-brews-intro"><a href="https://robertjallen.github.io/mi-brews/" target="_blank">demo</a>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</div>
+			    <a class="toTops" href="#topNav1" >
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="content-footer my-brews-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
 				</div>
 			</div>
-			<div class="contents">
-				<h1><span>01 </span>UI</h1>
-				<div class="overview">
-					<img src="images/portfolio/yelp-camp.png">
+			<!-- END OF MY-BREWS MODAL -->
+
+			<!-- MY_BREWS CARD -->
+				<div class="container wow bounceInRight" data-wow-delay=".1s" data-wow-duration="1.5s" onclick="myNavOpen()">
+					<div class="overflower"><div class="bot my-brews"></div></div>
+					<div class="bot overlay-1">
+						<h1>Web</h1>
+					</div>
+					<h4>MI Brews</h4>
+						<ul>
+							<li class="my-brews1 my-brews">REACT</li>
+							<li class="my-brews2 my-brews">GOOGLE MAPS</li>
+							<li class="my-brews3 my-brews">FOURSQUARE</li>
+						</ul>
 				</div>
 				<div class="overview overview-text">
 					<h3>Yelp Camp<span> UI</span></h3>
 					<p>Users can log in, add places, and give descriptions of the places they have gone to camp and share their
 						experiences with other users. Users can also create users profiles and comment on each others posts.</p>
 
+			<!-- YELP_CAMP MODAL CONTENT -->
+			<!-- YELP_CAMP MODAL CONTENT -->
+			<div id="my-nav" class="nav-overlay">
+			  <a id="topNav2" href="https://github.com/robertjallen/yelp-camp-demo" target="_blank">
+			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
+			  </a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">Yelp Camp <span class="thin">app</span></h1>
+			    <p class="yelp-camp-extra nav-extra">A full-stack Node.js project to display campgrounds.</p>
+
+			    <div class="yelp-camp-details nav-details"><span>ROLE</span> WEB DEVELOPER / DESIGNER</div>
+			    <div class="yelp-camp-details nav-details"><span>DATE</span> SEPTEMBER 2016</div>
+			    <div class="intro yelp-camp-intro">
+			    	<div class="circle yelp-camp-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p><span>Yelp Camp: </span> A review site for campgrounds where users can log in to give descriptions of the places they have gone to camp and share their experiences with other users. It has a lot of other features</p>
+			    	<div class="rect yelp-camp-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick">Additional credits</span>
+			    		<ul>
+			    			<li>Colt Steel's (Web dev bootcamp)</li>
+			    			<li>Google Maps</li>
+			    		</ul>
+			    	</div>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>01 </span>UI</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/yelp-camp.png">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>Yelp Camp<span> UI</span></h3>
+			    		<p>Users can log in, add places, and give descriptions of the places they have gone to camp and share their experiences with other users. Users can also create users profiles and comment on each others posts.</p>
+
+			    	</div>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>02 </span>TECHNOLOGIES</h1>
+			    	<div class="overview overview-text">
+			    		<h3><span>Project </span>Stack</h3>
+			    		<p>It contains integration of front end and back end to make a full fledged application with CRUD functionalities using MongoDB, REST APIS, Authentication etc. </p>
+			    		<p>Finally CRUD functionality is completed for campgrounds and comments. Integration of mongdb with yelpcamp, CRUD, (Data Persistence) to create various campgrounds, users, comments etc.</p>
+			    	</div>
+			    	<div class="overview">
+			    		<img src="images/portfolio/yelp-camp.png">
+			    	</div>
+			    </div>
+			    <div class="contents">
+			    	<h1><span>03 </span>FEATURES</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/yelp-camp.png">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>NOTABLE<span> </span>FEATURES</h3>
+			    		<p>Users can login with passport.js for proper authentication.
+							New users are able securely sign up, login , create campgrounds etc. 	
+							Lastly was adding flash messages for better error handling especially during authentication.</p>
+			    	</div>
+			    </div>
+			    <!-- demo button -->
+					<div id="demo" class="circle yelp-camp-intro"><a href="https://protected-beach-20008.herokuapp.com/campgrounds" target="_blank">demo</a>
+						<i class="fas fa-long-arrow-alt-right"></i>
+					</div>
+			    <a class="toTops" href="#topNav2" >
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="yelp-camp-footer content-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
 				</div>
 			</div>
-			<div class="contents">
-				<h1><span>02 </span>TECHNOLOGIES</h1>
-				<div class="overview overview-text">
-					<h3><span>Project </span>Stack</h3>
-					<p>It contains integration of front end and back end to make a full fledged application with CRUD
-						functionalities using MongoDB, REST APIS, Authentication etc. </p>
-					<p>Finally CRUD functionality is completed for campgrounds and comments. Integration of mongdb with
-						yelpcamp, CRUD, (Data Persistence) to create various campgrounds, users, comments etc.</p>
+			<!-- END OF YELP_CAMP MODAL -->
+
+			<!-- YELP_CAMP CARD -->
+			<div class="container wow bounceInLeft" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="myNavOpen()">
+				<div class="overflower"><div class="bot yelp-camp"></div></div>
+				<div class="bot overlay-2">
+					<h1>Web</h1>
 				</div>
 				<div class="overview">
 					<img src="images/portfolio/yelp-camp.png">
 				</div>
 			</div>
-			<div class="contents">
-				<h1><span>03 </span>FEATURES</h1>
-				<div class="overview">
-					<img src="images/portfolio/yelp-camp.png">
+			<!-- END OF MY_READS MODAL -->
+
+			<!-- MY_READS CARD -->
+			<div class="container wow bounceInRight" data-wow-delay=".3s" data-wow-duration="1.5s" onclick="myNavOpen()">
+				<div class="overflower"><div class="bot my-reads"></div></div>
+				<div class="bot overlay-3">
+					<h1>Web</h1>
 				</div>
-				<div class="overview overview-text">
-					<h3>NOTABLE<span> </span>FEATURES</h3>
-					<p>Users can login with passport.js for proper authentication.
-						New users are able securely sign up, login , create campgrounds etc.
-						Lastly was adding flash messages for better error handling especially during authentication.</p>
+				<h4>MyReads</h4>
+				<ul>
+					<li class="my-reads1 my-reads">REACT</li>
+					<li class="my-reads2 my-reads">REACT ROUTER</li>
+				</ul>
+			</div>
+
+
+			<!-- GITHUB_BATTLE MODAL -->
+			<div id="my-nav" class="nav-overlay">
+			  <a id="topNav4" href="https://github.com/robertjallen/github-battle" target="_blank">
+			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
+			  </a>
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <div class="portfolio-content">
+			    <h1 class="content-title">GITHUB BATTLE <span class="thin">APP</span></h1>
+			    <p class="github-battle-extra nav-extra">Battle Github Profiles</p>
+
+			    <div class="github-battle-details nav-details"><span>ROLE</span> WEB DEVELOPER</div>
+			    <div class="github-battle-details nav-details"><span>DATE</span> MAY 2017</div>
+			    <div class="intro github-battle-intro">
+			    	<div class="circle github-battle-circle"><i class="fa fa-info-circle"></i></div>
+			    	<p><span>Github Battle:</span> Utilizes the Github API. Enter in two Github usernames, and it'll declare a winner.</p>
+			    	<div class="rect github-battle-group">
+			    	<i class="fa fa-group thick"></i> <span class="thick">Additional credits</span>
+			    		<ul>
+			    			<li>React Fundamentals @ tylermcginnis.com</li>
+			    		</ul>
+			    	</div>
+			    </div>
+					<!-- USER_INTERFACE -->
+			    <div class="contents">
+			    	<h1><span>01 </span>User Interface</h1>
+			    	<div class="overview">
+			    		<img src="images/portfolio/React-Github-Battle.gif">
+			    	</div>
+			    	<div class="overview overview-text">
+			    		<h3>GITHUB BATTLE<span> UI</span></h3>
+			    		<p>This project uses the github API. A user can battle two github users. The API declares a winner based off of total stars on repos, and displays user data. The user can also browse most Popular Repos on github categorized by programming language.</p>
+			    	</div>
+					</div>
+					
+			    <!-- TECHNOLOGIES -->
+			    <div class="contents">
+			    	<h1><span>02 </span>TECHNOLOGIES</h1>
+			    	<div class="overview overview-text">
+			    		<h3>GITHUB BATTLE<span> STACK</span></h3>
+			    		<p>This project did not use "create-react-app". It was built from the ground up using Webpack, React, and React Router.</p>
+			    	</div>
+					</div>
+					
+					 <!-- FUNCTIONALITY -->
+					 <div class="contents">
+							<h1><span>03 </span>FUNCTIONALITY</h1>
+							<div class="overview overview-text">
+								<h3>GITHUB BATTLE<span> FEATURES</span></h3>
+								<ul>
+									<li><p>Real-time: Data obtained from the Github API</p></li>
+									<li><p>Responsive: Made mobile responsive with Flexbox</p></li>
+									<li><p>Deployed with Firebase</p></li>
+								</ul>
+							</div>
+					</div>
+						<!-- demo button -->
+						<div id="demo" class="circle github-battle-intro"><a href="https://github-battle-483f1.firebaseapp.com/" target="_blank">demo</a>
+							<i class="fas fa-long-arrow-alt-right"></i>
+						</div>
+			    <a class="toTops" href="#topNav4">
+			    	<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
+			    </a>
+			    <div class="content-footer github-battle-footer" onclick="closeNav()">
+			    	<a href="javascript:void(0)">
+			    		<h1>GO BACK TO <span>PORTFOLIO</span></h1>
+			    	</a>
+			    </div>
 				</div>
 			</div>
-			{/* <!-- demo button --> */}
-			<div id="demo" class="circle yelp-camp-intro"><a href="https://protected-beach-20008.herokuapp.com/campgrounds"
-					target="_blank">demo</a>
-				<i class="fas fa-long-arrow-alt-right"></i>
+			<!-- END OF GITHUB_BATTLE MODAL -->
+
+			<!-- GITHUB_BATTLE CARD -->
+			<div class="container wow bounceInLeft" data-wow-delay=".7s" data-wow-duration="1.5s" onclick="myNavOpen()">
+				<div class="overflower"><div class="bot github-battle"></div></div>
+				<div class="bot overlay-4">
+					<h1>Web</h1>
+				</div>
+				<h4>github-battle</h4>
+				<ul>
+					<li class="github-battle1 github-battle">React</li>
+					<li class="github-battle2 github-battle">Webpack</li>
+				</ul>
 			</div>
 			<a class="toTops" href="#topNav2">
 				<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
@@ -694,12 +883,12 @@
 		}
 
 		function closeNav() {
-			document.getElementById("my-brews-nav").style.width = "0%";
-			document.getElementById("yelp-camp-nav").style.width = "0%";
-			document.getElementById("my-reads-nav").style.width = "0%";
-			document.getElementById("github-battle-nav").style.width = "0%";
-			document.getElementById("reviews-nav").style.width = "0%";
-			document.getElementById("memory-nav").style.width = "0%";
+			document.getElementById("my-nav").style.width = "0%";
+			// document.getElementById("yelp-camp-nav").style.width = "0%";
+			// document.getElementById("my-reads-nav").style.width = "0%";
+			// document.getElementById("github-battle-nav").style.width = "0%";
+			// document.getElementById("reviews-nav").style.width = "0%";
+			// document.getElementById("memory-nav").style.width = "0%";
 			$("body").removeClass("overflo");
 		}
 		//ESC TRIGGER FUNCTION

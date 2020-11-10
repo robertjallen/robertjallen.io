@@ -1,9 +1,11 @@
 import React from 'react'
 
 export default function PortfolioModal(props) {
-  let name = props.project.name
+	let name = props.project.name
+	
+	
   return (
-      <div id={`${name}-nav`} class="nav-overlay">
+      <div id={`my-nav`} class="nav-overlay">
 				<a id="topNav1" href={props.project.github} target="_blank"><img src={props.project.fork} alt="Fork me on GitHub" /></a>
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<div class="portfolio-content">
