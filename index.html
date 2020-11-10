@@ -222,7 +222,7 @@
 			<hr class="hrs">
 			<!-- MY-BREWS MODAL CONTENT -->
 			<!-- MY-BREWS MODAL CONTENT -->
-			<div id="my-brews-nav" class="nav-overlay">
+			<div id="my-nav" class="nav-overlay">
 				<a id="topNav1" href="https://github.com/robertjallen/mi-brews" target="_blank"><img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub"></a>
 			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 			  <div class="portfolio-content">
@@ -276,7 +276,7 @@
 			<!-- END OF MY-BREWS MODAL -->
 
 			<!-- MY_BREWS CARD -->
-				<div class="container wow bounceInRight" data-wow-delay=".1s" data-wow-duration="1.5s" onclick="myBrewsNavOpen()">
+				<div class="container wow bounceInRight" data-wow-delay=".1s" data-wow-duration="1.5s" onclick="myNavOpen()">
 					<div class="overflower"><div class="bot my-brews"></div></div>
 					<div class="bot overlay-1">
 						<h1>Web</h1>
@@ -291,7 +291,7 @@
 
 			<!-- YELP_CAMP MODAL CONTENT -->
 			<!-- YELP_CAMP MODAL CONTENT -->
-			<div id="yelp-camp-nav" class="nav-overlay">
+			<div id="my-nav" class="nav-overlay">
 			  <a id="topNav2" href="https://github.com/robertjallen/yelp-camp-demo" target="_blank">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
 			  </a>
@@ -364,7 +364,7 @@
 			<!-- END OF YELP_CAMP MODAL -->
 
 			<!-- YELP_CAMP CARD -->
-			<div class="container wow bounceInLeft" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="yelpCampNavOpen()">
+			<div class="container wow bounceInLeft" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="myNavOpen()">
 				<div class="overflower"><div class="bot yelp-camp"></div></div>
 				<div class="bot overlay-2">
 					<h1>Web</h1>
@@ -456,7 +456,7 @@
 			<!-- END OF MY_READS MODAL -->
 
 			<!-- MY_READS CARD -->
-			<div class="container wow bounceInRight" data-wow-delay=".3s" data-wow-duration="1.5s" onclick="myReadsNavOpen()">
+			<div class="container wow bounceInRight" data-wow-delay=".3s" data-wow-duration="1.5s" onclick="myNavOpen()">
 				<div class="overflower"><div class="bot my-reads"></div></div>
 				<div class="bot overlay-3">
 					<h1>Web</h1>
@@ -470,7 +470,7 @@
 
 
 			<!-- GITHUB_BATTLE MODAL -->
-			<div id="github-battle-nav" class="nav-overlay">
+			<div id="my-nav" class="nav-overlay">
 			  <a id="topNav4" href="https://github.com/robertjallen/github-battle" target="_blank">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
 			  </a>
@@ -541,7 +541,7 @@
 			<!-- END OF GITHUB_BATTLE MODAL -->
 
 			<!-- GITHUB_BATTLE CARD -->
-			<div class="container wow bounceInLeft" data-wow-delay=".7s" data-wow-duration="1.5s" onclick="githubBattleNavOpen()">
+			<div class="container wow bounceInLeft" data-wow-delay=".7s" data-wow-duration="1.5s" onclick="myNavOpen()">
 				<div class="overflower"><div class="bot github-battle"></div></div>
 				<div class="bot overlay-4">
 					<h1>Web</h1>
@@ -792,7 +792,7 @@
 
 			<!-- YELP_CAMP MODAL CONTENT -->
 			<!-- YELP_CAMP MODAL CONTENT -->
-			<div id="yelp-camp-nav" class="nav-overlay">
+			<div id="my-nav" class="nav-overlay">
 			  <a id="topNav2" href="https://github.com/robertjallen/yelp-camp-demo" target="_blank">
 			  	<img style="position: absolute; top: 0; left: 0; border: 0;" src="images/fork.png" alt="Fork me on GitHub">
 			  </a>
@@ -865,7 +865,7 @@
 			<!-- END OF YELP_CAMP MODAL -->
 
 			<!-- YELP_CAMP CARD -->
-			<div class="container wow bounceInLeft" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="yelpCampNavOpen()">
+			<div class="container wow bounceInLeft" data-wow-delay=".2s" data-wow-duration="1.5s" onclick="myNavOpen()">
 				<div class="overflower"><div class="bot yelp-camp"></div></div>
 				<div class="bot overlay-2">
 					<h1>Web</h1>
@@ -1297,37 +1297,37 @@ function mouseOver() {
 	owlSound.play();
 }
 
-function myBrewsNavOpen() {
-    document.getElementById("my-brews-nav").style.width = "100%";
+function myNavOpen() {
+    document.getElementById("my-nav").style.width = "100%";
     $("body").addClass("overflo");
 }
-function yelpCampNavOpen() {
-    document.getElementById("yelp-camp-nav").style.width = "100%";
-    $("body").addClass("overflo");
-}
-function myReadsNavOpen() {
-    document.getElementById("my-reads-nav").style.width = "100%";
-    $("body").addClass("overflo");
-}
-function githubBattleNavOpen() {
-    document.getElementById("github-battle-nav").style.width = "100%";
-    $("body").addClass("overflo");
-}
-function reviewsNavOpen() {
-    document.getElementById("reviews-nav").style.width = "100%";
-    $("body").addClass("overflo");
-}
-function memoryNavOpen() {
-    document.getElementById("memory-nav").style.width = "100%";
-    $("body").addClass("overflo");
-}
+// function yelpCampNavOpen() {
+//     document.getElementById("yelp-camp-nav").style.width = "100%";
+//     $("body").addClass("overflo");
+// }
+// function myReadsNavOpen() {
+//     document.getElementById("my-reads-nav").style.width = "100%";
+//     $("body").addClass("overflo");
+// }
+// function githubBattleNavOpen() {
+//     document.getElementById("github-battle-nav").style.width = "100%";
+//     $("body").addClass("overflo");
+// }
+// function reviewsNavOpen() {
+//     document.getElementById("reviews-nav").style.width = "100%";
+//     $("body").addClass("overflo");
+// }
+// function memoryNavOpen() {
+//     document.getElementById("memory-nav").style.width = "100%";
+//     $("body").addClass("overflo");
+// }
 function closeNav() {
-	document.getElementById("my-brews-nav").style.width = "0%";
-	document.getElementById("yelp-camp-nav").style.width = "0%";
-	document.getElementById("my-reads-nav").style.width = "0%";
-	document.getElementById("github-battle-nav").style.width = "0%";
-	document.getElementById("reviews-nav").style.width = "0%";
-	document.getElementById("memory-nav").style.width = "0%";
+	document.getElementById("my-nav").style.width = "0%";
+	// document.getElementById("yelp-camp-nav").style.width = "0%";
+	// document.getElementById("my-reads-nav").style.width = "0%";
+	// document.getElementById("github-battle-nav").style.width = "0%";
+	// document.getElementById("reviews-nav").style.width = "0%";
+	// document.getElementById("memory-nav").style.width = "0%";
     $("body").removeClass("overflo");
 }
 //ESC TRIGGER FUNCTION
