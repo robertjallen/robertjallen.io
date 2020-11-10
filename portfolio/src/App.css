@@ -116,10 +116,10 @@
  div.github-battle-group ul li {
      background: #9A3228;
  }
- div.reviews-group ul li {
+ div.restaurant-reviews-group ul li {
      background: #673B79;
  }
- div.memory-group ul li {
+ div.memory-game-group ul li {
      background: #117D68;
  }
  .text-center {
@@ -655,22 +655,22 @@
  .container:hover .github-battle {
    transform:  scale(1.1);
  }
- .reviews {
+ .restaurant-reviews {
      background: url("./images/portfolio/restaurant.png")
      no-repeat center;
      transition: all 0.3s ease;
      background-size: cover;
  }
- .container:hover .reviews {
+ .container:hover .restaurant-reviews {
    transform:  scale(1.1);
  }
- .memory {
+ .memory-game {
      background: url("./images/portfolio/arcade.png")
      no-repeat center;
      transition: all 0.3s ease;
      background-size: cover;
  }
- .container:hover .memory {
+ .container:hover .memory-game {
    transform:  scale(1.1);
  }
  .overlay-1 {
@@ -787,19 +787,14 @@
      border: 1px solid #e74c3c;
  }
  /* RESTAURANT_REVIEWS CONTAINER */
- .container ul > li.reviews {
+ .container ul > li.restaurant-reviews {
      background: rgba(155, 89, 182, 0.7);
      border: 1px solid #9b59b6;
  }
  /* MEMORY_GAME CONTAINER */
- .container ul > li.memory {
+ .container ul > li.memory-game {
      background: rgba(26, 188, 156, 0.7);
      border: 1px solid #1abc9c;
- }
- 
- #disqus_thread{
-     padding: 30px;
-     margin-top: 30px;
  }
  
  .overflower:hover ~ ul li, .container h4:hover ~ ul li {
@@ -1259,29 +1254,29 @@
  /* END OF GITHUB_BATTLE PORTFOLIO */
  
  /* RESTAURANT_REVIEWS PORTFOLIO */
- p.reviews-extra {
+ p.restaurant-reviews-extra {
      color: #9b59b6;
  }
- .portfolio-content div.reviews-details span {
+ .portfolio-content div.restaurant-reviews-details span {
      color: #9b59b6;
      font-weight: 600;
  }
- .reviews-intro {
+ .restaurant-reviews-intro {
      background-color: #9b59b6;
  }
- .intro div.reviews-circle {
+ .intro div.restaurant-reviews-circle {
      border: 10px solid #9b59b6;
      background: #673B79;
  }
- #reviews-nav .portfolio-content .contents h1 span,
- #reviews-nav .portfolio-content .contents .overview h3 span,
- #reviews-nav .overview p span {
+ #restaurant-reviews-nav .portfolio-content .contents h1 span,
+ #restuarant-reviews-nav .portfolio-content .contents .overview h3 span,
+ #restuarant-reviews-nav .overview p span {
      color: #9b59b6;
  }
- .reviews-footer {
+ .restaurant-reviews-footer {
      background: #9b59b6;
  }
- .reviews-footer:hover h1 span  {
+ .restaurant-reviews-footer:hover h1 span  {
      color: #9b59b6;
  }
  /* END OF RESTAURANT_REVIEWS PORTFOLIO */
@@ -1290,29 +1285,29 @@
  p.memory-extra {
      color: #1abc9c;
  }
- .portfolio-content div.memory-details span {
+ .portfolio-content div.memory-game-details span {
      color: #1abc9c;
      font-weight: 600;
  }
- .memory-intro {
+ .memory-game-intro {
      background-color: #1abc9c;
  }
  /* .memory:hover{
      border: 12px solid red;
      background-color: #fff;
  } */
- .intro div.memory-circle {
+ .intro div.memory-game-circle {
      border: 10px solid #1abc9c;
      background: #117D68;
  }
- #memory-nav .portfolio-content .contents h1 span,
- #memory-nav .portfolio-content .contents .overview h3 span {
+ #memory-game-nav .portfolio-content .contents h1 span,
+ #memory-game-nav .portfolio-content .contents .overview h3 span {
      color: #1abc9c;
  }
- .memory-footer {
+ .memory-game-footer {
      background: #1abc9c;
  }
- .memory-footer:hover h1 span  {
+ .memory-game-footer:hover h1 span  {
      color: #1abc9c;
  }
  /* END OF MEMORY PORTFOLIO */
@@ -1552,7 +1547,7 @@
          font-size: 120%;
          padding: 0 10% 0 10%;
      }
-     .portfolio-content div.reviews-details {
+     .portfolio-content div.restaurant-reviews-details {
          font-size: 120%;
          padding: 0 10% 0 10%;
      }
