@@ -1292,6 +1292,12 @@
  .memory-game-intro {
      background-color: #1abc9c;
  }
+ #topNav1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 0;
+ }
  /* .memory:hover{
      border: 12px solid red;
      background-color: #fff;

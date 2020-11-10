@@ -1,5 +1,6 @@
 import React from 'react'
 import PortfolioCard from './PortfolioCard'
+import PortfolioModal from './PortfolioModal'
 import fork from '../images/fork.png'
 
 // images
@@ -87,7 +88,13 @@ export default function Portfolio() {
       <div className="portfolio" id="portfolio">
 		    <h1 className="sections">Portfolio</h1>
         {projects.map(project => {
-          return <PortfolioCard project={project}/>
+          return (
+            <>
+              <PortfolioModal project={project}/>
+              <PortfolioCard project={project}/>
+            </>
+          ) 
+          
         })}
       </div>
   )

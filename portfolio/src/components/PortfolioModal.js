@@ -3,9 +3,8 @@ import React from 'react'
 export default function PortfolioModal(props) {
   let name = props.project.name
   return (
-      <div id={name} class="nav-overlay">
-				<a id="topNav1" href={props.project.github} target="_blank"><img
-						style="position: absolute; top: 0; left: 0; border: 0;" src={props.project.fork} alt="Fork me on GitHub" /></a>
+      <div id={`${name}-nav`} class="nav-overlay">
+				<a id="topNav1" href={props.project.github} target="_blank"><img src={props.project.fork} alt="Fork me on GitHub" /></a>
 				<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 				<div class="portfolio-content">
 					<h1 class="content-title">{props.project.name} <span class="thin"></span><span class="thin"></span></h1>
@@ -31,14 +30,14 @@ export default function PortfolioModal(props) {
 					</div>
 					
 					{/* demo button */}
-					<div id="demo" class="circle my-brews-intro"><a href="https://robertjallen.github.io/mi-brews/"
+					<div id="demo" class={`circle ${name}-intro`}><a href={props.project.github}
 							target="_blank">demo</a>
 						<i class="fas fa-long-arrow-alt-right"></i>
 					</div>
 					<a class="toTops" href="#topNav1">
 						<i class="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 					</a>
-					<div class="content-footer my-brews-footer" onclick="closeNav()">
+					<div class={`content-footer ${name}-footer`} onclick="closeNav()">
 						<a href="javascript:void(0)">
 							<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 						</a>
