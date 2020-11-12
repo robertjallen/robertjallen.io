@@ -6,21 +6,21 @@ export default function PortfolioCard(props) {
 
   function myNavOpen() {
     props.setOpen(true)
-    console.log(props.open)
-    console.log(props.project.name)
+    props.setSelected(props.project)
+    console.log("selected", props.selected)
     // document.getElementById("{name}-my-nav").style.width = "100%";
     // $("body").addClass("overflo");
   }
 
   function closeNav() {
     props.setOpen(false)
+    props.setSelected({})
     // document.getElementById("{name}-my-nav").style.width = "0%";
     // $("body").removeClass("overflo");
   }
 
   return (
     <>
-    <PortfolioModal project={props.project} open={props.open} setOpen={props.setOpen}/>
     <div className="container wow bounceInRight" data-wow-delay=".1s" data-wow-duration="1.5s" onClick={myNavOpen}>
       <div className="overflower">
 				<div className={`bot ${name}`}></div>

@@ -1298,6 +1298,9 @@
     left: 0;
     border: 0;
  }
+ .my-nav{
+     width: 100%;
+ }
  /* .memory:hover{
      border: 12px solid red;
      background-color: #fff;
