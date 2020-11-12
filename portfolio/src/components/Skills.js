@@ -48,31 +48,31 @@ export default function Skills() {
 
   return (
     <div>
-      <h1 class="sections skillsec" id="skills">SKILLS</h1>
-      <hr class="hrs"/>
-      <div class="skills-col">
-        <div class="skill-sec">
-          <div class="col wow bounceInUp" data-wow-duration="1.5s">
+      <h1 className="sections skillsec" id="skills">SKILLS</h1>
+      <hr className="hrs"/>
+      <div className="skills-col">
+        <div className="skill-sec">
+          <div className="col wow bounceInUp" data-wow-duration="1.5s">
             <h3>Web Development</h3>
-            <div class="skill-sec-container">
+            <div className="skill-sec-container">
               {webSkills.map(skill => {
                 return <Skill skill={skill}/> 
               })}
             </div>
           </div><br/>
 
-          <div class="col wow bounceInUp" data-wow-delay=".4s" data-wow-duration="1.5s">
+          <div className="col wow bounceInUp" data-wow-delay=".4s" data-wow-duration="1.5s">
             <h3>Tools & Technologies</h3>
-            <div class="skill-sec-container">
+            <div className="skill-sec-container">
               {tools.map(skill => {
                   return <Skill skill={skill}/> 
                 })}
             </div>
           </div>
 
-          <div class="col wow bounceInUp" data-wow-delay=".8s" data-wow-duration="1.5s">
+          <div className="col wow bounceInUp" data-wow-delay=".8s" data-wow-duration="1.5s">
             <h3>Others</h3>
-            <div class="skill-sec-container">
+            <div className="skill-sec-container">
               {other.map(skill => {
                     return <Skill skill={skill}/> 
                   })}

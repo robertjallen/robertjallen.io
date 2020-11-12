@@ -4,14 +4,14 @@ import logo from '../images/bp_colored.png'
 export default function Header() {
   return (
     <header id="pageTop">
-      <a class="nav" href="#about" id="to-about">
-        <i class="fa fa-chevron-circle-down fa-3x faa-vertical animated faa-slow"></i>
+      <a className="nav" href="#about" id="to-about">
+        <i className="fa fa-chevron-circle-down fa-3x faa-vertical animated faa-slow"></i>
       </a>
 
-      <div class="nav-container">
-        <ul class="left-bar navbar">
-          <li class="left-bar-logo">
-            <a href="index.html" class="logo">
+      <div className="nav-container">
+        <ul className="left-bar navbar">
+          <li className="left-bar-logo">
+            <a href="index.html" className="logo">
               <img
                 src={logo}
                 align="left"
@@ -19,29 +19,29 @@ export default function Header() {
               />
             </a>
           </li>
-          <li class="named">
-            <span class="robert">robert</span>
-            <span class="allen">allen</span>
+          <li className="named">
+            <span className="robert">robert</span>
+            <span className="allen">allen</span>
           </li>
         </ul>
-        <ul class="right-bar navbar" id="right-bar-collapse">
+        <ul className="right-bar navbar" id="right-bar-collapse">
           <li>
-            <a href="#contact" class="nav">
+            <a href="#contact" className="nav">
               contact
             </a>
           </li>
           <li>
-            <a href="#portfolio" class="nav">
+            <a href="#portfolio" className="nav">
               portfolio
             </a>
           </li>
           <li>
-            <a href="#skills" class="nav">
+            <a href="#skills" className="nav">
               skills
             </a>
           </li>
           <li>
-            <a href="#about" class="nav">
+            <a href="#about" className="nav">
               about
             </a>
           </li>
@@ -49,51 +49,51 @@ export default function Header() {
       </div>
 
       {/* BANNER  */}
-      <div class="banner">
-        <blockquote class="quote wow bounceInRight" data-wow-duration="2s">
-          <i class="fa fa-quote-left fa-1x" aria-hidden="true"></i>
+      <div className="banner">
+        <blockquote className="quote wow bounceInRight" data-wow-duration="2s">
+          <i className="fa fa-quote-left fa-1x" aria-hidden="true"></i>
           Magic happens when you're wired
-          <i class="fa fa-quote-right fa-1x" aria-hidden="true"></i>
+          <i className="fa fa-quote-right fa-1x" aria-hidden="true"></i>
         </blockquote>
-        <div class="header-banner">
-          <ul class="header-name wow bounceInLeft" data-wow-duration="2s">
+        <div className="header-banner">
+          <ul className="header-name wow bounceInLeft" data-wow-duration="2s">
             <li>
-              <h1 class="😲">R</h1>
+              <h1 className="😲">R</h1>
             </li>
             <li>
-              <h1 class="😮">o</h1>
+              <h1 className="😮">o</h1>
             </li>
             <li>
-              <h1 class="😦">b</h1>
+              <h1 className="😦">b</h1>
             </li>
             <li>
-              <h1 class="😯">e</h1>
+              <h1 className="😯">e</h1>
             </li>
             <li>
-              <h1 class="😉">r</h1>
+              <h1 className="😉">r</h1>
             </li>
             <li>
-              <h1 class="😉">t</h1>
+              <h1 className="😉">t</h1>
             </li>
 
             <li>
-              <h1 class="😛">A</h1>
+              <h1 className="😛">A</h1>
             </li>
             <li>
-              <h1 class="😜">l</h1>
+              <h1 className="😜">l</h1>
             </li>
             <li>
-              <h1 class="😉">l</h1>
+              <h1 className="😉">l</h1>
             </li>
             <li>
-              <h1 class="😛">e</h1>
+              <h1 className="😛">e</h1>
             </li>
             <li>
-              <h1 class="😝">n</h1>
+              <h1 className="😝">n</h1>
             </li>
           </ul>
         </div>
-        <ul class="colors">
+        <ul className="colors">
           <li></li>
           <li></li>
           <li></li>

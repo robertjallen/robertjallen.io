@@ -9,22 +9,16 @@ import Portfolio from './components/Portfolio';
 
 
 function App() {
+  
 
-  const [open, setOpen] = useState("open");
+  const [open, setOpen] = useState(false);
+  console.log(open)
 
 
-  // function myNavOpen() {
-  //   document.getElementById("my-nav").style.width = "100%";
-  //   $("body").addClass("overflo");
-  // }
-
-  // function closeNav() {
-  //   document.getElementById("my-nav").style.width = "0%";
-  //   $("body").removeClass("overflo");
-  // }
+  
 
   return (
-    <div className={`body-${open}`}>
+    <div className={open ? 'overflo' : 'false'}>
       <Header />
       <About/>
       <Skills/>

@@ -9,7 +9,9 @@ import yelpcamp from '../images/portfolio/yelp-camp.png'
 import myreads from '../images/portfolio/my-reads.png'
 import githubBattle from '../images/portfolio/React-Github-Battle.gif'
 
-export default function Portfolio() {
+export default function Portfolio(props) {
+
+  // console.log(props)
 
   let projects = [
     {name: "my-brews",
@@ -90,8 +92,7 @@ export default function Portfolio() {
         {projects.map(project => {
           return (
             <>
-              <PortfolioModal project={project}/>
-              <PortfolioCard project={project}/>
+              <PortfolioCard project={project} open={props.open} setOpen={props.setOpen}/>
             </>
           ) 
           
