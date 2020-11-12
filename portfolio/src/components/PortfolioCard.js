@@ -12,12 +12,7 @@ export default function PortfolioCard(props) {
     // $("body").addClass("overflo");
   }
 
-  function closeNav() {
-    props.setOpen(false)
-    props.setSelected({})
-    // document.getElementById("{name}-my-nav").style.width = "0%";
-    // $("body").removeClass("overflo");
-  }
+  
 
   return (
     <>

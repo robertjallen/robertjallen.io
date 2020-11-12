@@ -13,7 +13,7 @@ import mibrews from './images/portfolio/mi-brews.png'
 import yelpcamp from './images/portfolio/yelp-camp.png'
 import myreads from './images/portfolio/my-reads.png'
 import githubBattle from './images/portfolio/React-Github-Battle.gif'
-import fork from './images/fork.png'
+
 
 
 function App() {

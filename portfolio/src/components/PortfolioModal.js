@@ -1,17 +1,24 @@
 import React from 'react'
-
+import fork from '../images/fork.png'
 export default function PortfolioModal(props) {
 
 	console.log("modal", props)
 	// let name = props.selcted.name
 	// let selected = props.selected
 	// console.log(selected)
+
+	function closeNav() {
+    props.setOpen(false)
+    // props.setSelected({})
+    // document.getElementById("{name}-my-nav").style.width = "0%";
+    // $("body").removeClass("overflo");
+  }
 	
 	// nav-overlay
 		return (
-      <div className={props.open ? 'my-nav nav-overlay' : 'false'}>
-				<a id="topNav1" href={props.selected.github} target="_blank" rel="noreferrer"><img src={props.selected.fork} alt="Fork me on GitHub" /></a>
-				<a href="javascript:void(0)" className="closebtn" onclick="closeNav()">&times;</a>
+      <div id={props.open ? 'my-nav' : 'closed'} className='nav-overlay'>
+				<a id="topNav1" href={props.selected.github} target="_blank" rel="noreferrer"><img src={fork} alt="Fork me on GitHub" /></a>
+				<a href="javascript:void(0)" className="closebtn" onClick={closeNav}>&times;</a>
 				<div className="portfolio-content">
 					<h1 className="content-title">{props.selected.name} <span className="thin"></span><span className="thin"></span></h1>
 					<p className={`${props.selected.name}-extra nav-extra`}>{props.selected.summary}</p>
@@ -44,7 +51,7 @@ export default function PortfolioModal(props) {
 						<i className="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 					</a>
 					<div className={`content-footer ${props.selected.name}-footer`} onclick="closeNav()">
-						<a href="javascript:void(0)">
+						<a href="javascript:void(0)" onClick={closeNav}>
 							<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 						</a>
 					</div>

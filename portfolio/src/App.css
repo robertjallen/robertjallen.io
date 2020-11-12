@@ -1088,8 +1088,8 @@
  .overview h3 span {
      font-weight: 100;
  }
- #my-brews-nav .portfolio-content .contents h1 span,
- #my-brews-nav .portfolio-content .contents .overview h3 span {
+ .my-nav .portfolio-content .contents h1 span,
+ .my-nav .portfolio-content .contents .overview h3 span {
      color: #F3AF3B;
  }
  .contents > p {
@@ -1298,8 +1298,15 @@
     left: 0;
     border: 0;
  }
- .my-nav{
+ #my-nav{
      width: 100%;
+ }
+ #closed{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
  }
  /* .memory:hover{
      border: 12px solid red;
