@@ -122,6 +122,9 @@
  div.memory-game-group ul li {
      background: #117D68;
  }
+ div.food-findr ul li {
+    background: #117D68;
+}
  .text-center {
      text-align: center !important;
  }
@@ -568,6 +571,7 @@
      display: inline-block;
  }
  .portfolio {
+     padding-bottom: 15vw;
      text-align: center;
      overflow: hidden;
      width: 100%;
@@ -655,9 +659,18 @@
  .container:hover .github-battle {
    transform:  scale(1.1);
  }
+
+ .food-findr {
+    background: url("./images/portfolio/food-findr.png") no-repeat center;
+    transition: all 0.3s ease;
+    background-size: cover;
+}
+.container:hover .food-findr {
+  transform:  scale(1.1);
+}
+
  .restaurant-reviews {
-     background: url("./images/portfolio/restaurant.png")
-     no-repeat center;
+     background: url("./images/portfolio/restaurant.png") no-repeat center;
      transition: all 0.3s ease;
      background-size: cover;
  }
@@ -678,6 +691,7 @@
      opacity: 0.8;
      transition: all 0.3s ease;
  }
+ 
  .overlay-2 {
      background-color: #2ecc71;
      opacity: 0.8;
@@ -796,6 +810,11 @@
      background: rgba(26, 188, 156, 0.7);
      border: 1px solid #1abc9c;
  }
+  /* FOOD_FINDR */
+  .container ul > li.food-findr {
+    background: rgba(26, 188, 156, 0.7);
+    border: 1px solid #1abc9c;
+}
  
  .overflower:hover ~ ul li, .container h4:hover ~ ul li {
      background-color: #fff;
@@ -1443,6 +1462,35 @@
    }
  }
  
+
+ .footer {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: .75rem;
+    background-color: #efefef;
+    text-align: center;
+  }
+  
+  .social-container{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+  .social{
+    background-color: #fff;
+    border: .9px solid #282c34c5;
+    padding: 1.5px 6px;
+    margin: 3px; 
+    border-radius: 5px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  }
+  .social:hover {
+    box-shadow: 0 14px 28px rgba(22, 102, 67, 0.336), 0 10px 10px rgba(0,0,0,0.22);
+  }
  
  /*
  MEDIA QUERIES

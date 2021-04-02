@@ -7,12 +7,13 @@ import About from './components/About'
 import Skills from './components/Skills'
 import Portfolio from './components/Portfolio';
 import PortfolioModal from './components/PortfolioModal';
-
+import Footer from './components/Footer'
 // images
 import mibrews from './images/portfolio/mi-brews.png'
 import yelpcamp from './images/portfolio/yelp-camp.png'
 import myreads from './images/portfolio/my-reads.png'
 import githubBattle from './images/portfolio/React-Github-Battle.gif'
+import foodFindr from './images/portfolio/food-findr.png'
 
 
 
@@ -87,6 +88,17 @@ function App() {
     date: "May 2017",
     features: "If there is no match a star will be taken away and a failed color change indicator. After the user matches all of the cards, a pop-up will appear with the amount of turns taken, stars earned, and the amount of time it took. There is option to play again in the pop-up.",
     overlay: "6",
+    },
+    {name: "food-findr",
+    summary: "A SIMPLE API BASED APP WHERE THE USER CAN FIND LOCAL BUSINESSES.",
+    description: "The User can choose the appropriate drop down to find local businesses.",
+    github: "https://github.com/robertjallen/React-Redux-App-1",
+    image: foodFindr,
+    skills: ["HTML", "CSS", "JS"],
+    role: "WEB DESIGNER / DEVELOPER",
+    date: "May 2020",
+    features: "An API call is made to foursquare to retrieve data",
+    overlay: "6",
     }
   ]
   
@@ -106,6 +118,7 @@ function App() {
       <Skills/>
       <Portfolio open={open} setOpen={setOpen} selected={selected} setSelected={setSelected} projects={projects}/>
       <PortfolioModal selected={selected} open={open} setOpen={setOpen}/>
+      <Footer/>
     </div>
   );
 }
