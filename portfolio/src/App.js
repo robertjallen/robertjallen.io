@@ -14,7 +14,7 @@ import yelpcamp from './images/portfolio/yelp-camp.png'
 import myreads from './images/portfolio/my-reads.png'
 import githubBattle from './images/portfolio/React-Github-Battle.gif'
 import foodFindr from './images/portfolio/food-findr.png'
-
+import cryptoTackr from './images/portfolio/crypto-tracker.png'
 
 
 function App() {
@@ -98,7 +98,18 @@ function App() {
     role: "WEB DESIGNER / DEVELOPER",
     date: "May 2020",
     features: "An API call is made to foursquare to retrieve data",
-    overlay: "6",
+    overlay: "1",
+    },
+    {name: "crypto-trackr",
+    summary: "A SIMPLE API BASED APP WHERE THE USER CAN TRACK CRYPTO CURRENCIES.",
+    description: "The User can choose the appropriate drop down to find local businesses.",
+    github: "https://github.com/robertjallen/dark-mode-1",
+    image: cryptoTackr,
+    skills: ["JS", "React", "HOOKS" ],
+    role: "WEB DESIGNER / DEVELOPER",
+    date: "Feb 2020",
+    features: "custom hooks, api",
+    overlay: "2",
     }
   ]
   

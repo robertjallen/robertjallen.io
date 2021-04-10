@@ -123,7 +123,10 @@
      background: #117D68;
  }
  div.food-findr ul li {
-    background: #117D68;
+    background: #F39C12;
+}
+div.crypto-tracker ul li {
+    background: #1C7D45;
 }
  .text-center {
      text-align: center !important;
@@ -627,6 +630,14 @@
  .container:hover .bot {
    border-radius: 0;
  }
+ .crypto-trackr {
+    background: url("./images/portfolio/crypto-tracker.png") no-repeat center;
+    transition: all 0.3s ease;
+    background-size: cover;
+}
+.container:hover .crypto-trackr {
+  transform:  scale(1.1);
+}
  .my-brews {
      background: url("./images/portfolio/mi-brews.png") no-repeat center;
      transition: all 0.3s ease;
@@ -812,8 +823,13 @@
  }
   /* FOOD_FINDR */
   .container ul > li.food-findr {
-    background: rgba(26, 188, 156, 0.7);
-    border: 1px solid #1abc9c;
+    background: rgba(243, 156, 18, 0.7);
+    border: 1px solid #F39C12;
+}
+
+.container ul > li.crypto-trackr {
+    background: rgba(46, 204, 113, 0.7);
+    border: 1px solid #2ecc71;
 }
  
  .overflower:hover ~ ul li, .container h4:hover ~ ul li {
