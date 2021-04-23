@@ -1,6 +1,8 @@
 import React from 'react'
-import PortfolioModal from './PortfolioModal'
+// import styles from './portfolio.css'
+
 export default function PortfolioCard(props) {
+
   // console.log(props)
   let name = props.project.name
 
@@ -20,7 +22,7 @@ export default function PortfolioCard(props) {
       <div className="overflower">
 				<div className={`bot ${name}`}></div>
 			</div>
-			<div className={`bot overlay-${props.project.overlay}`}>
+			<div className={`bot overlay overlay-${props.project.overlay}`}>
 				<h1>Web</h1>
 			</div>
       <h4>{name}</h4>

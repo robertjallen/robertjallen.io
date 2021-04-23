@@ -1,0 +1,588 @@
+.portfolio {
+  padding-bottom: 15vw;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  font-size: 110%;
+  line-height: 1.3;
+}
+
+.container {
+  position: relative;
+  display: inline-block;
+  max-width: 350px;
+  width: 350px;
+  height: 350px;
+  margin: 30px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 5px 5px 25px rgba(46,61,73,0.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
+}
+.container:hover {
+  box-shadow: 2px 4px 5px rgba(46,61,73,0.2);
+}
+
+.overflower {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 250px;
+  background-size: cover;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  overflow: hidden;
+}
+.container:hover .bot {
+border-radius: 0;
+}
+
+.container:hover {
+  transform: scale(1.1);
+}
+
+
+/* CARD BACKGROUND IMAGES */
+
+.crypto-trackr {
+  background: url("../../images/portfolio/crypto-tracker.png") no-repeat center;
+  transition: all 0.3s ease;
+  background-size: cover;
+}
+
+.my-brews {
+   background: url("../../images/portfolio/mi-brews.png") no-repeat center;
+   transition: all 0.3s ease;
+   background-size: cover;
+}
+
+.yelp-camp {
+   background: url("../../images/portfolio/yelp-camp.png") no-repeat center;
+   transition: all 0.3s ease;
+   background-size: cover;
+}
+
+.my-reads {
+   background: url("../../images/portfolio/my-reads.png") no-repeat center;
+   transition: all 0.3s ease;
+   background-size: cover;
+}
+
+.github-battle {
+   background: url("../../images/portfolio/github-battle.png") no-repeat center;
+   transition: all 0.3s ease;
+   background-size: cover;
+}
+
+.food-findr {
+  background: url("../../images/portfolio/food-findr.png") no-repeat center;
+  transition: all 0.3s ease;
+  background-size: cover;
+}
+
+.restaurant-reviews {
+   background: url("../../images/portfolio/restaurant.png") no-repeat center;
+   transition: all 0.3s ease;
+   background-size: cover;
+}
+
+.memory-game {
+   background: url("../../images/portfolio/arcade.png")
+   no-repeat center;
+   transition: all 0.3s ease;
+   background-size: cover;
+}
+
+
+.overlay{
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+
+.overlay-1, .footer-1, .circle-1 {
+  background-color: #f39c12;
+}
+.footer-1:hover h1 span  {
+  color: #f39c12;
+}
+
+.overlay-2, .footer-2, .circle-2 {
+  background-color: #2ecc71;
+}
+.footer-2:hover h1 span  {
+  color: #2ecc71;
+}
+.overlay-3, .footer-3, .circle-3{
+  background-color: #3498db;
+}
+.footer-3:hover h1 span  {
+  color: #3498db;
+}
+.overlay-3 {
+  background-color: #3498db;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.overlay-4, .footer-4, .circle-4 {
+  background-color: #e74c3c;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.footer-4:hover h1 span{
+  color: #e74c3c;
+}
+.overlay-5, .footer-5, .circle-5 {
+  background-color: #9b59b6;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.footer-5:hover h1 span  {
+  color: #9b59b6;
+}
+.overlay-6, .footer-6, .circle-6 {
+  background-color: #1abc9c;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+}
+.footer-6:hover h1 span  {
+  color: #1abc9c;
+}
+.container:hover .overlay {
+  transform: translateY(250px);
+}
+.container:hover .overlay-2 {
+  transform: translateY(250px);
+}
+.container:hover .overlay-3 {
+  transform: translateY(250px);
+}
+.container:hover .overlay-4 {
+  transform: translateY(250px);
+}
+.container:hover .overlay-5 {
+  transform: translateY(250px);
+}
+.container:hover .overlay-6 {
+  transform: translateY(250px);
+}
+
+
+
+/* INTRO  */
+
+.intro {
+  position: relative;
+  height: auto;
+  /* background: #F39C12; */
+}
+
+.intro div {
+  /* border: 10px solid #F3AF3B; */
+  /* background: #F39C12; */
+}
+.intro div.circle i {
+  font-size: 40px;
+  margin: 0 auto;
+  padding: 30px;
+  color: #fff;
+}
+.intro > p {
+  position: relative;
+  top: -50px;
+  padding: 0 10%;
+  font-size: 120%;
+  color: #000;
+  text-align: justify;
+}
+.intro > p span {
+  font-size: 105%;
+  font-weight: 500;
+}
+
+ul.colors li {
+  display: inline-block;
+  height: 10px;
+  width: 16%;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+  transition: all 0.4s ease;
+}
+
+
+
+ul.colors {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 10px;
+  font-size: 0;
+  list-style-type: none;
+}
+
+/* .container .bot:nth-child(1){
+  background: #f39c12;
+} */
+
+/* ul.colors li:nth-child(1) {
+  background: #f39c12;
+} */
+.overlay-colors{
+
+}
+.overlay-1 {
+   background-color: #f39c12;
+   opacity: .8;
+}
+.my-brews-intro {
+  background-color: #F3AF3B;
+}
+/* ul.colors li:nth-child(2) {
+  background: #2ecc71;
+}
+ul.colors li:nth-child(3) {
+  background: #3498db;
+}
+ul.colors li:nth-child(4) {
+  background: #e74c3c;
+}
+ul.colors li:nth-child(5) {
+  background: #9b59b6;
+}
+ul.colors li:nth-child(6) {
+  background: #1abc9c;
+}
+ul.colors li:hover {
+  height: 50px;
+} */
+
+#my-nav{
+  width: 100%;
+}
+#closed{
+ height: 100%;
+ width: 0;
+ position: fixed;
+ top: 0;
+ left: 0;
+}
+
+.portfolio-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+.closebtn:hover,
+.closebtn:focus {
+  color: #f1f1f1;
+}
+.closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  padding: 8px;
+  color: #818181;
+  font-size: 60px;
+  text-decoration: none;
+}
+.portfolio-content div.nav-details {
+  display: inline-block;
+  width: auto;
+  height: 100px;
+  font-size: 140%;
+  padding: 50px 10% 5px 10%;
+  vertical-align: middle;
+  font-weight: 300;
+}
+.portfolio-content div.my-brews-details span {
+  color: #f39c12;
+  font-weight: 600;
+}
+/* MY-BREWS MODAL CONTENT */
+
+
+
+.intro div.circle {
+  position: relative;
+  top: -45px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+}
+
+.contents {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin: 100px 0;
+}
+.contents > h1,
+.overview > h3 {
+  color: #fff;
+  font-weight: 700;
+}
+.contents h1 span,
+.overview h3 span {
+  font-weight: 100;
+}
+.my-nav .portfolio-content .contents h1 span,
+.my-nav .portfolio-content .contents .overview h3 span {
+  color: #F3AF3B;
+}
+.contents > p {
+  color: #b2b2b2;
+  font-weight: 300;
+}
+.overview {
+  position: relative;
+  display: inline-block;
+  max-width: 750px;
+  margin: 20px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.overview-text {
+  max-width: 350px;
+}
+.overview p {
+  color: #b2b2b2;
+  text-indent: 40px;
+  text-align: justify;
+}
+.overview img {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+  margin: auto 0;
+  max-width: 100%;
+  width: 750px;
+  border-radius: 5px;
+  box-shadow: 5px 10px 25px rgba(0,0,0,0.2);
+  transition: all 0.4s ease;
+}
+.overview img.img-1 {
+  position: relative;
+  opacity: 0.3;
+}
+.overview img.img-2 {
+  position: absolute;
+  height: 100%;
+  left: 15px;
+  top: 50px;
+}
+.overview img.img-1:hover {
+  z-index: 1;
+  opacity: 1;
+}
+.overview img.img-1:hover ~ img.img-2 {
+  opacity: 0.3;
+}
+
+.portfolio .content-footer:nth-child(1) {
+  height: 200px;
+  vertical-align: middle;
+  background: #F3AF3B;
+}
+
+.portfolio .content-footer:nth-child(1) {
+  height: 200px;
+  vertical-align: middle;
+  background: #F3AF3B;
+}
+.portfolio .content-footer:nth-child(2) {
+  height: 200px;
+  vertical-align: middle;
+  background: #2ecc71;
+}
+
+.portfolio .content-footer:hover h1 span  {
+  color: #F3AF3B;
+}
+/* .my-brews-footer {
+  background: #F3AF3B;
+} */
+.content-footer a {
+  text-decoration: none;
+}
+.content-footer h1 {
+  padding: 6% 0 0 0;
+  font-size: 50px;
+  color: #000;
+  font-weight: 100;
+}
+.content-footer h1 span{
+  color: #fff;
+  font-weight: 700;
+}
+.content-footer:hover {
+  background: #fff;
+  transition: all 0.3s ease;
+}
+
+/* YELP_CAMP PORTFOLIO */
+p.yelp-camp-extra {
+  color: #2ecc71;
+}
+.portfolio-content div.yelp-camp-details span {
+  color: #2ecc71;
+  font-weight: 600;
+}
+.yelp-camp-intro  {
+  background-color: #2ecc71;
+}
+.intro div.yelp-camp-circle {
+  border: 10px solid #2ecc71;
+  background: #1C7D45;
+}
+#yelp-camp-nav .portfolio-content .contents h1 span,
+#yelp-camp-nav .portfolio-content .contents .overview h3 span {
+  color: #2ecc71;
+}
+.yelp-camp-footer {
+  background: #2ecc71;
+}
+.yelp-camp-footer:hover h1 span  {
+  color: #2ecc71;
+}
+/* END OF YELP_CAMP PORTFOLIO */
+
+/* MY_READS PORTFOLIO */
+p.my-reads-extra {
+  color: #3498db;
+}
+.portfolio-content div.my-reads-details span {
+  color: #3498db;
+  font-weight: 600;
+}
+.my-reads-intro {
+  background-color: #3498db;
+}
+.intro div.my-reads-circle {
+  border: 10px solid #3498db;
+  background: #2878AD;
+}
+.fa-trophy {
+  color: #FFC930;
+}
+#my-reads-nav .portfolio-content .contents h1 span,
+#my-reads-nav .portfolio-content .contents .overview h3 span {
+  color: #3498db;
+}
+.my-reads-footer {
+  background: #3498db;
+}
+.my-reads-footer:hover h1 span  {
+  color: #3498db;
+}
+/* END OF MY_READS PORTFOLIO */
+
+/* GITHUB_BATTLE PORTFOLIO */
+p.github-battle-extra {
+  color: #e74c3c;
+}
+.portfolio-content div.github-battle-details span {
+  color: #e74c3c;
+  font-weight: 600;
+}
+.github-battle-intro {
+  background-color: #e74c3c;
+}
+.intro div.github-battle-circle {
+  border: 10px solid #e74c3c;
+  background: #9A3228;
+}
+#github-battle-nav .portfolio-content .contents h1 span,
+#github-battle-nav .portfolio-content .contents .overview h3 span {
+  color: #e74c3c;
+}
+.github-battle-footer {
+  background: #e74c3c;
+}
+.github-battle-footer:hover h1 span  {
+  color: #e74c3c;
+}
+/* END OF GITHUB_BATTLE PORTFOLIO */
+
+/* RESTAURANT_REVIEWS PORTFOLIO */
+p.restaurant-reviews-extra {
+  color: #9b59b6;
+}
+.portfolio-content div.restaurant-reviews-details span {
+  color: #9b59b6;
+  font-weight: 600;
+}
+.restaurant-reviews-intro {
+  background-color: #9b59b6;
+}
+.intro div.restaurant-reviews-circle {
+  border: 10px solid #9b59b6;
+  background: #673B79;
+}
+#restaurant-reviews-nav .portfolio-content .contents h1 span,
+#restuarant-reviews-nav .portfolio-content .contents .overview h3 span,
+#restuarant-reviews-nav .overview p span {
+  color: #9b59b6;
+}
+.restaurant-reviews-footer {
+  background: #9b59b6;
+}
+.restaurant-reviews-footer:hover h1 span  {
+  color: #9b59b6;
+}
+/* END OF RESTAURANT_REVIEWS PORTFOLIO */
+
+/* MEMORY PORTFOLIO */
+p.memory-extra {
+  color: #1abc9c;
+}
+.portfolio-content div.memory-game-details span {
+  color: #1abc9c;
+  font-weight: 600;
+}
+.memory-game-intro {
+  background-color: #1abc9c;
+}
+#topNav1{
+ position: absolute;
+ top: 0;
+ left: 0;
+ border: 0;
+}
+
+/* .memory:hover{
+  border: 12px solid red;
+  background-color: #fff;
+} */
+.intro div.memory-game-circle {
+  border: 10px solid #1abc9c;
+  background: #117D68;
+}
+#memory-game-nav .portfolio-content .contents h1 span,
+#memory-game-nav .portfolio-content .contents .overview h3 span {
+  color: #1abc9c;
+}
+.memory-game-footer {
+  background: #1abc9c;
+}
+
+/* END OF MEMORY PORTFOLIO */
+
+.stack{
+  background: #fff;
+  color: #1abc9c;
+}
