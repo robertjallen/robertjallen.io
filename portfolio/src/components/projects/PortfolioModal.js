@@ -1,5 +1,7 @@
 import React from 'react'
-import fork from '../images/fork.png'
+import fork from '../../images/fork.png'
+// import styles from './portfolio.css'
+
 export default function PortfolioModal(props) {
 
 	console.log("modal", props)
@@ -27,7 +29,7 @@ export default function PortfolioModal(props) {
 					<div className={`${props.selected.name}-details nav-details`}><span>DATE</span> {props.selected.date}</div>
 
 					<div className={`intro ${props.selected.name}-intro`}>
-						<div className={`circle ${props.selected.name}-circle`}><i className="fa fa-info-circle"></i></div>
+						<div className={`circle circle-${props.selected.overlay}`}><i className="fa fa-info-circle"></i></div>
 						<p>{props.selected.description}</p>
 					</div>
 
@@ -43,14 +45,14 @@ export default function PortfolioModal(props) {
 					</div>
 					
 					{/* demo button */}
-					<div id="demo" className={`circle ${props.selected.name}-intro`}><a href={props.selected.github}
+					<div id="demo" className={`circle circle-${props.selected.overlay} `}><a href={props.selected.github}
 							target="_blank" rel="noreferrer">demo</a>
 						<i className="fas fa-long-arrow-alt-right"></i>
 					</div>
 					<a className="toTops" href="#topNav1">
 						<i className="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
 					</a>
-					<div className={`content-footer ${props.selected.name}-footer`} onclick="closeNav()">
+					<div className={`content-footer footer-${props.selected.overlay} `} onclick="closeNav()">
 						<a href="javascript:void(0)" onClick={closeNav}>
 							<h1>GO BACK TO <span>PORTFOLIO</span></h1>
 						</a>
