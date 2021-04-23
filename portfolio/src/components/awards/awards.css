@@ -30,3 +30,10 @@
 .award-image {
   max-width: 100%;
 }
+
+.award-title {
+ font-size: 20px;
+ color: rgb(102, 65, 170);
+ font-family: cursive; 
+ font-weight: bold;
+}
