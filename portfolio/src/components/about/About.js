@@ -1,5 +1,7 @@
 import React from 'react'
-import education from '../images/education.png'
+import education from '../../images/education.png'
+import styles from './about.css'
+
 
 export default function About() {
   return (
@@ -10,10 +12,22 @@ export default function About() {
         <div className="about1">
           <img className="gradhat" src={education} alt="Education" />
           <h2 className="left-title">Education</h2>
+
+          <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
+            Certification</p>
+          <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-university"></i>
+            Lambdaschool</p>
+          <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2019 -
+            current</p>
+
+          {/*Udacity*/}
+
           <p className="foo wow bounceInLeft" data-wow-duration="2s">Front End Web Development Nano Degree</p>
           <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-university"></i>
             Udacity</p>
           <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2018 - 2019</p>
+
+          {/* free code camp */}
 
           <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
             Certification</p>

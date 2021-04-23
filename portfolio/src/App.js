@@ -2,13 +2,14 @@ import React, {useState} from 'react';
 
 import './App.css';
 import data from './data'
-import Header from './components/Header'
-import About from './components/About'
-import Skills from './components/Skills'
+import Header from './components/header/Header'
+import About from './components/about/About'
+import Skills from './components/skills/Skills'
 import Portfolio from './components/projects/Portfolio';
 import PortfolioModal from './components/projects/PortfolioModal';
-import Footer from './components/Footer'
+import Footer from './components/footer/Footer'
 import Awards from './components/awards/Awards'
+import Animation from './components/animation/Animation'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
       <Skills/>
       <Portfolio open={open} setOpen={setOpen} selected={selected} setSelected={setSelected} projects={projects}/>
       <PortfolioModal selected={selected} open={open} setOpen={setOpen}/>
+      <Animation/>
       <Awards />
       <Footer/>
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
-import logo from '../images/bp_colored.png'
+import logo from '../../images/bp_colored.png'
+import styles from './header.css'
 
 export default function Header() {
   return (
