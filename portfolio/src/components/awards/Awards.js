@@ -10,6 +10,7 @@ export default function Awards() {
   return (
     <div className="awards-container">
       <h1 className="sections">Awards</h1>
+      <hr className="hrs"/>
       {awards.map(award => {
         return <Award award={award}/>
       })}
