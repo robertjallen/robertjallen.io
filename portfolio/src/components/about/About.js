@@ -1,11 +1,12 @@
 import React from 'react'
 import education from '../../images/education.png'
 import styles from './about.css'
-
+import Animation from '../animation/Animation'
 
 export default function About() {
   return (
   <div className="about" id="about">
+      <Animation/>
       <h1 className="sections">About</h1> 
       <hr/>
       <div className="about-col">

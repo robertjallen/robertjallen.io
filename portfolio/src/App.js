@@ -35,11 +35,8 @@ function App() {
   return (
     <div className={open ? 'overflo' : 'false'}>
       <Header />
-      <Animation/>
       <About/>
-      <Animation/>
       <Skills/>
-      <Animation/>
       <Portfolio open={open} setOpen={setOpen} selected={selected} setSelected={setSelected} projects={currentProjects} loading={loading} />
       <PortfolioModal selected={selected} open={open} setOpen={setOpen}/>
       <Pagination
@@ -47,9 +44,7 @@ function App() {
         totalProjects={projects.length}
         paginate={paginate}
       />
-      <Animation/>
       <Awards />
-      <Animation/>
       <Recommendations />
       <Footer/>
     </div>
