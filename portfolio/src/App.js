@@ -10,6 +10,7 @@ import PortfolioModal from './components/projects/PortfolioModal';
 import Footer from './components/footer/Footer'
 import Awards from './components/awards/Awards'
 import Animation from './components/animation/Animation'
+import Recommendations from './components/recommendations/Recommendations';
 
 function App() {
 
@@ -31,6 +32,8 @@ function App() {
       <PortfolioModal selected={selected} open={open} setOpen={setOpen}/>
       <Animation/>
       <Awards />
+      <Animation/>
+      <Recommendations />
       <Footer/>
     </div>
   );
