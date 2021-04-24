@@ -99,26 +99,33 @@ border-radius: 0;
    background-size: cover;
 }
 
+.food-findr-with-maps-and-location {
+  background: url("../../images/portfolio/food-findr-with-maps-and-location.png")
+  no-repeat center;
+  transition: all 0.3s ease;
+  background-size: cover;
+}
+
 
 .overlay{
   opacity: 0.8;
   transition: all 0.3s ease;
 }
 
-.overlay-1, .footer-1, .circle-1 {
+.overlay-1, .footer-1, .circle-1, .color-1 {
   background-color: #f39c12;
 }
 .footer-1:hover h1 span  {
   color: #f39c12;
 }
 
-.overlay-2, .footer-2, .circle-2 {
+.overlay-2, .footer-2, .circle-2, .color-2 {
   background-color: #2ecc71;
 }
 .footer-2:hover h1 span  {
   color: #2ecc71;
 }
-.overlay-3, .footer-3, .circle-3{
+.overlay-3, .footer-3, .circle-3, ul .color-3{
   background-color: #3498db;
 }
 .footer-3:hover h1 span  {
@@ -129,7 +136,7 @@ border-radius: 0;
   opacity: 0.8;
   transition: all 0.3s ease;
 }
-.overlay-4, .footer-4, .circle-4 {
+.overlay-4, .footer-4, .circle-4, .color-4 {
   background-color: #e74c3c;
   opacity: 0.8;
   transition: all 0.3s ease;
@@ -137,7 +144,7 @@ border-radius: 0;
 .footer-4:hover h1 span{
   color: #e74c3c;
 }
-.overlay-5, .footer-5, .circle-5 {
+.overlay-5, .footer-5, .circle-5, .color-5 {
   background-color: #9b59b6;
   opacity: 0.8;
   transition: all 0.3s ease;
@@ -145,7 +152,7 @@ border-radius: 0;
 .footer-5:hover h1 span  {
   color: #9b59b6;
 }
-.overlay-6, .footer-6, .circle-6 {
+.overlay-6, .footer-6, .circle-6, .color-6 {
   background-color: #1abc9c;
   opacity: 0.8;
   transition: all 0.3s ease;
@@ -409,6 +416,12 @@ ul.colors li:hover {
   vertical-align: middle;
   background: #2ecc71;
 }
+.portfolio .content-footer:nth-child(3) {
+  height: 200px;
+  vertical-align: middle;
+  background: #2ecc71;
+}
+
 
 .portfolio .content-footer:hover h1 span  {
   color: #F3AF3B;

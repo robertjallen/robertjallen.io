@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './skills.css'
+import Animation from '../animation/Animation'
 
 import html from '../../images/icons/html.jpg'
 import css from '../../images/icons/css.jpg'
@@ -49,6 +50,7 @@ export default function Skills() {
 
   return (
     <div>
+      <Animation/>
       <h1 className="sections skillsec" id="skills">SKILLS</h1>
       <hr className="hrs"/>
       <div className="skills-col">

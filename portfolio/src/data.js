@@ -4,7 +4,7 @@ import myreads from './images/portfolio/my-reads.png'
 import githubBattle from './images/portfolio/React-Github-Battle.gif'
 import foodFindr from './images/portfolio/food-findr.png'
 import cryptoTackr from './images/portfolio/crypto-tracker.png'
-
+import foodFindrPlus from './images/portfolio/food-findr-with-maps-and-location.png'
 
 let data = [
   {name: "my-brews",
@@ -97,7 +97,18 @@ let data = [
   date: "Feb 2020",
   features: "custom hooks, api",
   overlay: "2",
-  }
+  },
+  {name: "food-findr-with-maps-and-location",
+  summary: "RESTERAUNTS WILL POPULATE BASED ON THE USERS LOCATION",
+  description: "The User can choose the appropriate drop down to find local businesses.",
+  github: "https://github.com/robertjallen/React-Redux-App-2",
+  image: foodFindrPlus,
+  skills: ["JS", "React", "REDUX", "HOOKS" ],
+  role: "WEB DESIGNER / DEVELOPER",
+  date: "April 2020",
+  features: "custom hooks, api, maps, location",
+  overlay: "3",
+  },
 ]
 
 export default data;
