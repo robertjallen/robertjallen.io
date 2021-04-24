@@ -28,6 +28,7 @@
    7px 7px 20px 0px #0002,
    4px 4px 5px 0px #0001;
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  color: #47c0da;
 }
 .social:hover {
   box-shadow: 0 14px 28px rgba(22, 102, 67, 0.336), 0 10px 10px rgba(0,0,0,0.22);
