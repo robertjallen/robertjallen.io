@@ -582,7 +582,7 @@ div.crypto-tracker ul li {
          top: 75%;
      }
      ul.header-name li:nth-child(6) {
-         padding-left: 15px;
+         /* padding-left: 15px; */
      }
      ul.header-name li:nth-child(9) {
          padding-left: 15px;

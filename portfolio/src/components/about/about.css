@@ -18,9 +18,10 @@
       background: rgba(71, 192, 218,0.1);
       border-radius: 3px;
       text-shadow: 5px 7px 1px rgba(0,0,0,0.17);
+      list-style-type: none;
   }
   ul.header-name li {
-      display: inline-block;
+      text-decoration: none;
       text-align: center;
       padding: 0 2px;
   }

@@ -28,7 +28,7 @@ export default function PortfolioCard(props) {
       <h4>{name}</h4>
 			<ul>
         {props.project.skills.map((skill, id) => {
-          return <li key={id} className={`${name}`}>{skill}</li>
+          return <li key={id} className={`color-${props.project.overlay}`}>{skill}</li>
         })}
 			</ul>
     </div>

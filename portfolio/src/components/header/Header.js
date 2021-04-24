@@ -59,38 +59,10 @@ export default function Header() {
         <div className="header-banner">
           <ul className="header-name wow bounceInLeft" data-wow-duration="2s">
             <li>
-              <h1 className="😲">R</h1>
+              <h1>Robert</h1>
             </li>
             <li>
-              <h1 className="😮">o</h1>
-            </li>
-            <li>
-              <h1 className="😦">b</h1>
-            </li>
-            <li>
-              <h1 className="😯">e</h1>
-            </li>
-            <li>
-              <h1 className="😉">r</h1>
-            </li>
-            <li>
-              <h1 className="😉">t</h1>
-            </li>
-
-            <li>
-              <h1 className="😛">A</h1>
-            </li>
-            <li>
-              <h1 className="😜">l</h1>
-            </li>
-            <li>
-              <h1 className="😉">l</h1>
-            </li>
-            <li>
-              <h1 className="😛">e</h1>
-            </li>
-            <li>
-              <h1 className="😝">n</h1>
+              <h1>Allen</h1>
             </li>
           </ul>
         </div>
