@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './recommendation.css'
-import Recommendation from './Recommendation'
+import Recommendation from './Rec'
 
 // images
 import Carl from '../../images/recommendations/CarlRedding.jpg'

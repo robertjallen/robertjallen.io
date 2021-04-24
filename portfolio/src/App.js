@@ -10,7 +10,7 @@ import PortfolioModal from './components/projects/PortfolioModal';
 import Footer from './components/footer/Footer'
 import Awards from './components/awards/Awards'
 import Animation from './components/animation/Animation'
-import Recommendations from './components/recommendations/Recommendations';
+import Recommendations from './components/recommendations/Recs';
 
 function App() {
 
