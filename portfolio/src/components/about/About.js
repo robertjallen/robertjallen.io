@@ -13,28 +13,37 @@ export default function About() {
           <img className="gradhat" src={education} alt="Education" />
           <h2 className="left-title">Education</h2>
 
-          <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
+          <div className="school">
+            <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
             Certification</p>
-          <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-university"></i>
+            <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-university"></i>
             Lambdaschool</p>
-          <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2019 -
+            <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2019 -
             current</p>
+            <hr/>
+          </div>
+          
 
           {/*Udacity*/}
-
-          <p className="foo wow bounceInLeft" data-wow-duration="2s">Front End Web Development Nano Degree</p>
-          <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-university"></i>
+          <div className="school">
+            <p className="foo wow bounceInLeft" data-wow-duration="2s">Front End Web Development Nano Degree</p>
+            <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-university"></i>
             Udacity</p>
-          <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2018 - 2019</p>
+            <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2018 - 2019</p>
+            <hr/>
+          </div>
+          
 
           {/* free code camp */}
-
-          <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
+          <div className="school">
+            <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
             Certification</p>
-          <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-university"></i>
+            <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-university"></i>
             FreeCodeCamp</p>
-          <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2016 -
+            <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2016 -
             current</p>
+          </div>   
+          
         </div>
 
         <div className="about2">
