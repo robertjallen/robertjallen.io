@@ -1,5 +1,5 @@
 .recommendation-container{
-  padding-bottom: 15vw;
+  margin-bottom: 15vw;
   text-align: center;
   overflow: hidden;
   width: 100%;
@@ -11,8 +11,8 @@
 .image-container {
   position: relative;
   display: inline-block;
-  max-width: 40vw;
-  width: 45vw;
+  max-width: 60vw;
+  width: 60vw;
   /* height: 350px; */
   margin: 30px;
   background: #fff;
@@ -29,4 +29,28 @@
 
 .rec-image{
   max-width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+  .image-container {
+    width: 75vw;
+    max-width: 75vw;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .recommendation-container{
+    margin-bottom: 20vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .image-container {
+    width: 95vw;
+    max-width: 95vw;
+    margin-bottom: 5px;
+  }
+  .recommendation-container{
+    margin-bottom: 40vw;
+  }
 }
