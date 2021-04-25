@@ -58,7 +58,7 @@ export default function About() {
             enjoyed my roles as a Team Lead, Mentor, and Project Reviewer and love contributing to open-source and helping others.</p>
           <p className="wow bounceInLeft"><i>"Knowledge comes from helping others"</i></p>
           <div className="center-button wow bounceInRight" data-wow-delay="1s" data-wow-duration="1s">
-            <a className="resume-link" href="images/Robert Allen-newest-3.pdf" download><button
+            <a className="resume-link" href="../images/resumes/robert-allen-4-25-2021.pdf" download><button
                 className="button button2"><span><i className="fa fa-download faa-vertical animated faa-slow"></i> Download Resume
                 </span></button></a>
           </div>
