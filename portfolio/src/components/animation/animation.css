@@ -13,7 +13,7 @@ section.loader {
 }
 
 section.loader .loader-center {
-  width:300px;
+  width: calc(100vw/3);
   height:100px;
   line-height:100px;
   
