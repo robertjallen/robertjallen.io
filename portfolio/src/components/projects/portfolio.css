@@ -186,7 +186,7 @@ border-radius: 0;
 .intro {
   position: relative;
   height: auto;
-  /* background: #F39C12; */
+  /*  */
 }
 
 .intro div {
@@ -250,7 +250,7 @@ ul.colors {
    opacity: .8;
 }
 .my-brews-intro {
-  background-color: #F3AF3B;
+  background: #F39C12;
 }
 /* ul.colors li:nth-child(2) {
   background: #2ecc71;
