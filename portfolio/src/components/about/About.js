@@ -48,14 +48,14 @@ export default function About() {
 
         <div className="about2">
           <h2 className="right-title">In a few words</h2>
-          <p><span className="linked">Rob</span> is a fresh graduate seeking a challenging career in which he can hone his
+          <p>I'm seeking a challenging career in which I can hone in my
             skills and passion.</p>
-          <p><span className="linked">Web development</span> is where he specializes the most. Through <a className="linked"
-              rel="nofollow" href="https://udacity-students.slack.com" alt="gitter">slack</a> and social media groups, he
-            spends most of his time learning, helping others with projects and apps. He believes that there is knowlegde
+          <p><span className="linked">Frontend Architecture</span> is where I specialize the most. Through <a className="linked"
+              rel="nofollow" href="https://udacity-students.slack.com" alt="gitter">slack groups</a> and social media groups, I
+            spend most of my time learning, collaborating, and, helping others with projects and apps. I believe that there is knowlegde
             in helping. By helping others, solving their problems, you retain or even improve your own knowledge.</p>
-          <p>He is interested in everything related to web development, industry standards, and new technologies. He
-            enjoys his role as a mentor and project reviewer and loves contributing to open-source and helping others.</p>
+          <p>I am interested in everything related to web development, industry standards, and new technologies. I 
+            enjoyed my roles as a Team Lead, Mentor, and Project Reviewer and love contributing to open-source and helping others.</p>
           <p className="wow bounceInLeft"><i>"Knowledge comes from helping others"</i></p>
           <div className="center-button wow bounceInRight" data-wow-delay="1s" data-wow-duration="1s">
             <a className="resume-link" href="images/Robert Allen-newest-3.pdf" download><button
