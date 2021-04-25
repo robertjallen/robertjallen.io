@@ -208,11 +208,17 @@ div.crypto-tracker ul li {
  }
  .container > h4 {
      position: absolute;
-     top: 240px;
+     top: 255px;
      bottom: 0;
      right: 40px;
      left: 40px;
  }
+ @media screen and (max-width: 800px) {
+  .container > h4 {
+      font-size: 1rem;
+      top: 260px;
+  }
+} 
  
  /* .container > ul li {
      position: absolute;

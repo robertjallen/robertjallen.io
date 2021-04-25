@@ -5,6 +5,14 @@
   color: #20515b;
 }
 
+@media screen and (max-width: 800px) {
+  .sections{
+    font-size: 2rem;
+  }
+  .skill-sec h3{
+    font-size: 1rem;
+  }
+}
 .hrs {
   max-width: 500px;
   background: transparent;
@@ -37,6 +45,7 @@
 .skill-img {
   transition: all 0.3s ease;
   width:100%;
+  padding: 1rem;
   /* flex-direction: row; */
   /* width: calc(100% - 20px); */
   /* padding: 3px 10px; */

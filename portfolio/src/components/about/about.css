@@ -89,6 +89,10 @@
       font-weight: 100;
   }
   
+  .school p:nth-child(1){
+      font-weight: bold;
+      color: rgb(36, 35, 35);
+  }
   
   /* END OF BANNER */
   
@@ -139,7 +143,7 @@
   }
   .gradhat {
       width: 140px;
-      margin-bottom: -20px;
+      /* margin-bottom: -20px; */
   }
   .about1 {
       text-align: center;
@@ -180,5 +184,8 @@
     }
     .about2{
         padding: 30px;
+    }
+    .left-title, .right-title{
+        font-size: 1.5rem;
     }
 }    
