@@ -55,7 +55,7 @@ export default function Skills() {
       <hr className="hrs"/>
       <div className="skills-col">
         <div className="skill-sec">
-          <div className="col wow bounceInUp" data-wow-duration="1.5s">
+          <div className="col " >
             <h3>Web Development</h3>
             <div className="skill-sec-container">
               {webSkills.map(skill => {

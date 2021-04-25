@@ -599,3 +599,15 @@ p.memory-extra {
   background: #fff;
   color: #1abc9c;
 }
+
+@media screen and (max-width: 800px) {
+  .container {
+    width: 75vw;
+    max-width: 75vw;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .overlay h1{
+    font-size: 26px;
+  }
+}  
