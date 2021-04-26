@@ -26,11 +26,11 @@ export default function Header() {
           </li>
         </ul>
         <ul className="right-bar navbar" id="right-bar-collapse">
-          <li>
-            <a href="#contact" className="nav">
+          {/* <li>
+            <a href="#footer" className="nav">
               contact
             </a>
-          </li>
+          </li> */}
           <li>
             <a href="#portfolio" className="nav">
               portfolio

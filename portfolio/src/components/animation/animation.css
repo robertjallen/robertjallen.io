@@ -14,12 +14,12 @@ section.loader {
 
 section.loader .loader-center {
   width: calc(100vw/3);
-  height:100px;
-  line-height:100px;
+  /* height:100px; */
+  /* line-height:100px; */
   
   margin:0 auto;
   text-align:center;
-  font-size:38px;
+  font-size:2rem;
   letter-spacing:-6px;
   
   /* position:absolute; */
@@ -43,6 +43,7 @@ section.loader .loader-center .chars .dots .char {
   animation:dot_1 1s ease-in-out infinite;
   animation-fill-mode: backwards;
   animation-direction: alternate;
+  color: #2ecc71;
 }
 
 .dot._dot-2 {
@@ -50,6 +51,7 @@ section.loader .loader-center .chars .dots .char {
   animation-fill-mode: backwards;
   animation-direction: alternate;
   animation-delay:1s;
+  color: #3498db;
 }
 
 .dot._dot-3 {

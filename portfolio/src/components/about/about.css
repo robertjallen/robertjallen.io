@@ -13,7 +13,7 @@
   }
   ul.header-name {
       border: 1px dotted rgba(71, 192, 218,0.3);
-      margin: 0 23% !important;
+      /* margin: 0 23% !important; */
       padding: 0;
       background: rgba(71, 192, 218,0.1);
       border-radius: 3px;
@@ -23,7 +23,7 @@
   ul.header-name li {
       text-decoration: none;
       text-align: center;
-      padding: 0 2px;
+      padding: 10px 23px;
   }
   ul.header-name li:nth-child(1) h1 {
       font-weight: 300;
@@ -48,7 +48,7 @@
       font-weight: 100;
       font-size: 50px;
   }
-  
+
   @media screen and (max-width: 800px) {
     ul.header-name li h1{
         font-size: 32px;
@@ -87,7 +87,7 @@
   }
   div.banner blockquote.quote {
       position: absolute;
-      top: 50%;
+      top: 36%;
       left: 0;
       right: 0;
     color: #74b1be;
@@ -96,9 +96,9 @@
       font-weight: 100;
   }
   
-  .school p:nth-child(1){
+  .school a:nth-child(1){
       font-weight: bold;
-      color: rgb(36, 35, 35);
+      color: #176e81;
   }
   
   /* END OF BANNER */
