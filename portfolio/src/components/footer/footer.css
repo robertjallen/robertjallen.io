@@ -13,12 +13,11 @@
 .social-container{
   display: flex;
   margin: 0 auto;
-  justify-content: center;
+  justify-content: space-around;
 }
 .social{
   
   background-color: #fff;
-  /* border: .3px solid #282c34c5; */
   padding: 1.5px 16px;
   margin: 5px 20px; 
   border-radius: 1px;
@@ -30,6 +29,11 @@
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   color: #47c0da;
 }
+@media screen and (max-width: 800px) {
+  .social{
+    margin: 4px;
+  }
+}  
 .social:hover {
   box-shadow: 0 14px 28px rgba(22, 102, 67, 0.336), 0 10px 10px rgba(0,0,0,0.22);
 }

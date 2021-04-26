@@ -1,4 +1,4 @@
-import React from 'react'
+import {React, Link} from 'react'
 import education from '../../images/education.png'
 import styles from './about.css'
 import Animation from '../animation/Animation'
@@ -15,8 +15,8 @@ export default function About() {
           <h2 className="left-title">Education</h2>
 
           <div className="school">
-            <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-university"></i>
-            Lambdaschool</p>
+            <a href="https://lambdaschool.com/"><i className="fa fa-university"></i>
+            Lambdaschool</a>
             <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
             Certification</p>
             <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2019 -
@@ -27,8 +27,8 @@ export default function About() {
 
           {/*Udacity*/}
           <div className="school">
-            <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-university"></i>
-            Udacity</p>
+            <a href="https://www.udacity.com/"><i className="fa fa-university"></i>
+            Udacity</a>
             <p className="foo wow bounceInLeft" data-wow-duration="2s">Front End Web Development Nano Degree</p>
             <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2018 - 2019</p>
             <hr/>
@@ -37,8 +37,8 @@ export default function About() {
 
           {/* free code camp */}
           <div className="school">
-            <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-university"></i>
-            FreeCodeCamp</p>
+            <a href="https://www.freecodecamp.org/"><i className="fa fa-university"></i>
+            FreeCodeCamp</a>
             <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
             Certification</p>
             <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2016 -
@@ -57,11 +57,11 @@ export default function About() {
           <p>I am interested in everything related to web development, industry standards, and new technologies. I 
             enjoyed my roles as a Team Lead, Mentor, and Project Reviewer and love contributing to open-source and helping others.</p>
           <p className="wow bounceInLeft"><i>"Knowledge comes from helping others"</i></p>
-          <div className="center-button wow bounceInRight" data-wow-delay="1s" data-wow-duration="1s">
+          {/* <div className="center-button wow bounceInRight" data-wow-delay="1s" data-wow-duration="1s">
             <a className="resume-link" href="../images/resumes/robert-allen-4-25-2021.pdf" download><button
                 className="button button2"><span><i className="fa fa-download faa-vertical animated faa-slow"></i> Download Resume
                 </span></button></a>
-          </div>
+          </div> */}
         </div>
       </div>
       <hr></hr>
