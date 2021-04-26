@@ -48,6 +48,13 @@
       font-weight: 100;
       font-size: 50px;
   }
+  
+  @media screen and (max-width: 800px) {
+    ul.header-name li h1{
+        font-size: 32px;
+    }
+  }    
+
   ul.header-name li:hover h1 {
       content: "rob is so handsome";
       transition: all 0.3s ease;

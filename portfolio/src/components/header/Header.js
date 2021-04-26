@@ -5,9 +5,9 @@ import styles from './header.css'
 export default function Header() {
   return (
     <header id="pageTop">
-      <a className="nav" href="#about" id="to-about">
+      {/* <a className="nav" href="#about" id="to-about">
         <i className="fa fa-chevron-circle-down fa-3x faa-vertical animated faa-slow"></i>
-      </a>
+      </a> */}
 
       <div className="nav-container">
         <ul className="left-bar navbar">
