@@ -32,6 +32,7 @@
 @media screen and (max-width: 800px) {
   .social{
     margin: 4px;
+    font-size: 14px;
   }
 }  
 .social:hover {

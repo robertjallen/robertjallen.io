@@ -138,13 +138,13 @@ border-radius: 0;
 }
 .overlay-4, .footer-4, .circle-4, .color-4 {
   background-color: #e74c3c;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   transition: all 0.3s ease;
 }
 .footer-4:hover h1 span{
   color: #e74c3c;
 }
-.overlay-5, .footer-5, .circle-5, .color-5 {
+.overlay-5, .footer-5, .color-5 {
   background-color: #9b59b6;
   opacity: 0.8;
   transition: all 0.3s ease;
@@ -152,7 +152,7 @@ border-radius: 0;
 .footer-5:hover h1 span  {
   color: #9b59b6;
 }
-.overlay-6, .footer-6, .circle-6, .color-6 {
+.overlay-6, .footer-6, .color-6 {
   background-color: #1abc9c;
   opacity: 0.8;
   transition: all 0.3s ease;
@@ -539,7 +539,7 @@ p.restaurant-reviews-extra {
   color: #9b59b6;
   font-weight: 600;
 }
-.restaurant-reviews-intro {
+.restaurant-reviews-intro, .circle-5 {
   background-color: #9b59b6;
 }
 .intro div.restaurant-reviews-circle {
@@ -567,7 +567,7 @@ p.memory-extra {
   color: #1abc9c;
   font-weight: 600;
 }
-.memory-game-intro {
+.memory-game-intro, .circle-6 {
   background-color: #1abc9c;
 }
 #topNav1{
