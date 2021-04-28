@@ -28,7 +28,7 @@ export default function PortfolioModal(props) {
 					<div className={`${props.selected.name}-details nav-details`}><span>ROLE</span>{props.selected.role} </div>
 					<div className={`${props.selected.name}-details nav-details`}><span>DATE</span> {props.selected.date}</div>
 
-					<div className={`intro ${props.selected.name}-intro`}>
+					<div className={`intro intro-${props.selected.overlay} ${props.selected.name}-intro`}>
 						<div className={`circle circle-${props.selected.overlay}`}>
 							<i className="fa fa-info-circle"></i>
 						</div>

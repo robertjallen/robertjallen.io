@@ -112,20 +112,20 @@ border-radius: 0;
   transition: all 0.3s ease;
 }
 
-.overlay-1, .footer-1, .circle-1, .color-1 {
+.overlay-1, .footer-1, .circle-1, .color-1, .intro-1 {
   background-color: #f39c12;
 }
 .footer-1:hover h1 span  {
   color: #f39c12;
 }
 
-.overlay-2, .footer-2, .circle-2, .color-2 {
+.overlay-2, .footer-2, .circle-2, .color-2, .intro-2 {
   background-color: #2ecc71;
 }
 .footer-2:hover h1 span  {
   color: #2ecc71;
 }
-.overlay-3, .footer-3, .circle-3, ul .color-3{
+.overlay-3, .footer-3, .circle-3, ul .color-3, .intro-3{
   background-color: #3498db;
 }
 .footer-3:hover h1 span  {
@@ -310,6 +310,7 @@ ul.colors li:hover {
   padding: 50px 10% 5px 10%;
   vertical-align: middle;
   font-weight: 300;
+  margin-bottom: 50px;
 }
 .portfolio-content div.my-brews-details span {
   color: #f39c12;
