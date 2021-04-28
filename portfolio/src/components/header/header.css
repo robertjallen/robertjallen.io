@@ -141,12 +141,19 @@ color: #536dfe;
 }
 .right-bar {
   list-style-type: none;
-  margin: 0 0 0 300px;
+  display: flex;
+  margin-left: 50vw;
   padding: 0;
   text-transform: lowercase;
 }
+@media only screen and (max-width: 800px){
+	.right-bar{
+    width: 85vw;
+    margin: 0 auto;
+  }
+}
 .right-bar li {
-  float: right;
+  /* float: right; */
 }
 .right-bar li a {
   display: block;
