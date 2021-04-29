@@ -9,7 +9,7 @@ const Pagination = ({ projectsPerPage, totalProjects, paginate }) => {
   }
 
   return (
-    <nav id="more-projects">
+    <nav >
       <h4>More Projects</h4>
       <ul className='pagination'>
         {pageNumbers.map(number => (

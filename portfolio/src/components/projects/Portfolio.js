@@ -8,7 +8,7 @@ export default function Portfolio(props) {
   return (
       <div className='portfolio' id='portfolio'>
         <Animation/>
-		    <h1 className="sections">Projects and Experience</h1>
+		    <h1 id="more-projects" className="sections">Projects and Experience</h1>
         <hr className="hrs"/>
         {props.projects.map(project => {
           return (

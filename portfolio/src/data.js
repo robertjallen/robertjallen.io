@@ -5,6 +5,9 @@ import githubBattle from './images/portfolio/React-Github-Battle.gif'
 import foodFindr from './images/portfolio/food-findr.png'
 import cryptoTackr from './images/portfolio/crypto-tracker.png'
 import foodFindrPlus from './images/portfolio/food-findr-with-maps-and-location.png'
+import restaurantReviews from './images/portfolio/restaurant.png'
+import memoryGame from './images/portfolio/arcade.png'
+
 
 let data = [
   {name: "my-brews",
@@ -62,7 +65,7 @@ let data = [
   summary: "filter restuarants by neighborhood and by cuisine",
   description: "For this projects, I incrementally converted a static webpage with many problems, lacks accessibility, and converted the design to be responsive on different sized displays and accessible for screen reader use. I also added a service worker to begin the process of creating a seamless offline experience for your users.",
   github: "https://github.com/robertjallen/mws-restaurant-stage-1",
-  image: githubBattle,
+  image: restaurantReviews,
   skills: ["React", "React-router", "JS"],
   role: "WEB DESIGNER / DEVELOPER",
   date: "May 2017",
@@ -74,7 +77,7 @@ let data = [
   summary: "SIMPLE CARD FLIP MEMORY GAME.",
   description: "The User can click to open 2 cards at a time if there is match the cards will stay open and a star will be added, and a color change and sound will indicate the success.",
   github: "https://github.com/robertjallen/fend-project-memory-game",
-  image: githubBattle,
+  image: memoryGame,
   skills: ["HTML", "CSS", "JS"],
   role: "WEB DESIGNER / DEVELOPER",
   date: "May 2017",
