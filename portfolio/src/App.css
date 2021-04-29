@@ -3,6 +3,10 @@
     overflow: hidden;
 }
 
+html {
+    scroll-behavior: smooth;
+ }
+
 .sections {
     padding: 30px;
     text-align: center;
