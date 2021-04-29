@@ -47,7 +47,7 @@ export default function PortfolioModal(props) {
 					</div>
 					
 					{/* demo button */}
-					<div id="demo" className={`circle circle-${props.selected.overlay} `}><a href={props.selected.github}
+					<div id="demo" className={`circle circle-${props.selected.overlay} `}><a href={props.selected.demo}
 							target="_blank" rel="noreferrer">demo</a>
 						<i className="fas fa-long-arrow-alt-right"></i>
 					</div>
