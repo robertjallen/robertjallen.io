@@ -158,7 +158,7 @@ border-radius: 0;
 .footer-4:hover h1 span{
   color: #e74c3c;
 }
-.overlay-5, .footer-5, .color-5 {
+.overlay-5, .footer-5, .color-5, .intro-5 {
   background-color: #9b59b6;
   opacity: 0.8;
   transition: all 0.3s ease;
