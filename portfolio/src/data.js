@@ -1,13 +1,16 @@
 import mibrews from './images/portfolio/mi-brews.png'
 import yelpcamp from './images/portfolio/yelp-camp.png'
 import myreads from './images/portfolio/my-reads.png'
-import githubBattle from './images/portfolio/React-Github-Battle.gif'
+import githubBattle from './images/portfolio/github-battle.png'
+import githubBattleGif from './images/portfolio/gifs/React-Github-Battle.gif'
 import foodFindr from './images/portfolio/food-findr.png'
 import cryptoTackr from './images/portfolio/crypto-tracker.png'
 import foodFindrPlus from './images/portfolio/food-findr-with-maps-and-location.png'
 import restaurantReviews from './images/portfolio/restaurant.png'
 import memoryGame from './images/portfolio/arcade.png'
-
+import followers from './images/portfolio/followers.png'
+import gameOfLife from './images/portfolio/game-of-life.png'
+import gameOfLifeGif from './images/portfolio/gifs/game-of-life.gif'
 
 let data = [
   {name: "my-brews",
@@ -54,6 +57,7 @@ let data = [
   description: "Github Battle: Utilizes the Github API. Enter in two Github usernames, and it'll declare a winner.",
   github: "https://github.com/robertjallen/github-battle",
   image: githubBattle,
+  gifs: githubBattleGif,
   skills: ["React", "React-router", "JS"],
   role: "WEB DESIGNER / DEVELOPER",
   date: "May 2017",
@@ -120,6 +124,31 @@ let data = [
   features: "custom hooks, api, maps, location",
   overlay: "3",
   demo: "https://react-redux-app-2-ten.vercel.app/",
+  },
+  {name: "followers",
+  summary: "GITHUB FOLLOWERS WILL POPULATE",
+  description: "This project allows you to practice the concepts and techniques learned in this module and apply them in a concrete project. This module explored lifecycle methods in class components. In your project you will demonstrate proficiency of these concepts by recreating the Github User Card project, but as a React application this time.",
+  github: "https://github.com/robertjallen/React-Github-User-Card",
+  image: followers,
+  skills: ["JS", "React", "axios" ],
+  role: "WEB DESIGNER / DEVELOPER",
+  date: "Feb 2020",
+  features: "lifecycle methods in class components",
+  overlay: "4",
+  demo: "https://condescending-visvesvaraya-2d5b51.netlify.app/",
+  },
+  {name: "game-of-life",
+  summary: "Cellular Automata and Conway's Game of Life",
+  description: "Welcome to John Conway's Game of Life! This is a computer science classic from 1970, a program that simulates a cellular automaton (plural automata). It has connections to all kinds of different aspects of computer science and nature.",
+  github: "https://github.com/robertjallen/CS-Build-Week-1",
+  image: gameOfLife,
+  gifs: gameOfLifeGif,
+  skills: ["JS", "React", "algos" ],
+  role: "WEB DESIGNER / DEVELOPER",
+  date: "sep 2020",
+  features: "lifecycle methods in class components",
+  overlay: "5",
+  demo: "https://cs-build-week-1-psi.vercel.app/",
   },
 ]
 

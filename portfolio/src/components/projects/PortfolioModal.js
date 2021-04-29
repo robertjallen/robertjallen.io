@@ -44,6 +44,9 @@ export default function PortfolioModal(props) {
 							<h3>{props.selected.name} <span> UI</span></h3>
 							<p>{props.selected.features}</p>
 						</div>
+						<div className="overview">
+							<img src={props.selected.gifs} alt={props.selected.name}/>
+						</div>
 					</div>
 					
 					{/* demo button */}
@@ -51,9 +54,9 @@ export default function PortfolioModal(props) {
 							target="_blank" rel="noreferrer">demo</a>
 						<i className="fas fa-long-arrow-alt-right"></i>
 					</div>
-					<a className="toTops" href="#topNav1">
+					{/* <a className="toTops" href="#topNav1">
 						<i className="fa fa-chevron-circle-up fa-3x faa-vertical animated"></i>
-					</a>
+					</a> */}
 					<div className={`content-footer footer-${props.selected.overlay} `} onclick="closeNav()">
 						<a href="javascript:void(0)" onClick={closeNav}>
 							<h1>GO BACK TO <span>PORTFOLIO</span></h1>
