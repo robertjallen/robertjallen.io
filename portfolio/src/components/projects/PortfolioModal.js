@@ -5,6 +5,7 @@ import fork from '../../images/fork.png'
 export default function PortfolioModal(props) {
 
 	console.log("modal", props)
+	console.log("modal", props.selected.skills)
 	// let name = props.selcted.name
 	// let selected = props.selected
 	// console.log(selected)
@@ -41,8 +42,12 @@ export default function PortfolioModal(props) {
 							<img src={props.selected.image} alt={props.selected.name}/>
 						</div>
 						<div className="overview overview-text">
+							{props.open && props.selected.skills.map(skill => {
+									return <h4>{skill}</h4>
+								})}
 							<h3>{props.selected.name} <span> UI</span></h3>
 							<p>{props.selected.features}</p>
+							
 						</div>
 						<div className="overview">
 							<img src={props.selected.gifs} alt={props.selected.name}/>
