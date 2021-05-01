@@ -29,6 +29,16 @@
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   color: #47c0da;
 }
+
+.footer-lower{
+  display: flex;
+  flex-direction: row;
+}
+.footer-lower img{
+  width: 10vw;
+}
+
+
 @media screen and (max-width: 800px) {
   .social{
     margin: 4px;
