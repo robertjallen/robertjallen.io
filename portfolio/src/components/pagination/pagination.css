@@ -1,5 +1,14 @@
+nav{
+  width: 100%;
+  margin: 0 auto;
+}
 .pagination{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left: 0;
 }
 nav h4{
   text-align: center;  
@@ -7,10 +16,10 @@ nav h4{
 
 .pagination .page-item{
   background-color: #fff;
-  /* border: .3px solid #282c34c5; */
-  /* padding: 1.5px 16px; */
-  /* margin: 5px 20px;  */
-  border-radius: 1px;
+  border: .3px solid #282c34c5;
+  padding: 7px 14px;
+  margin: 0 4px; 
+  border-radius: 3px;
   box-shadow:
    -7px -7px 20px 0px #fff9,
    -4px -4px 5px 0px #fff9,
@@ -21,4 +30,17 @@ nav h4{
 }
 .pagination .page-item:hover{
   box-shadow: 0 14px 28px rgba(22, 102, 67, 0.336), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.pagination .page-item:active   {
+  background-color: black;  
+}
+
+.active{
+  color: grey !important;
+  background: #47c0da !important;
+} 
+
+a:active{
+  color:rgba(22, 102, 67, 0.336);
 }

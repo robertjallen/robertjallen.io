@@ -52,7 +52,7 @@ export default function About() {
             skills and passion.</p>
           <p><span className="linked">Frontend Architecture</span> is where I specialize the most. Through <a className="linked"
               rel="nofollow" href="https://udacity-students.slack.com" alt="gitter">slack groups</a> and social media groups, I
-            spend most of my time learning, collaborating, and, helping others with projects and apps. I believe that there is knowlegde
+            spend most of my time learning, collaborating, and, helping others with projects and apps. I believe that there is knowledge
             in helping. By helping others, solving their problems, you retain or even improve your own knowledge.</p>
           <p>I am interested in everything related to web development, industry standards, and new technologies. I 
             enjoyed my roles as a Team Lead, Mentor, and Project Reviewer and love contributing to open-source and helping others.</p>

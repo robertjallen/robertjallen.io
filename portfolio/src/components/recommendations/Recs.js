@@ -7,7 +7,7 @@ import RecsPagination from '../pagination/RecsPagination'
 
 
 export default function Recommendations() {
-
+  const [active, setActive] = useState('')
   const [recs, setRecs] = useState(data)
   const [recsPerPage, setRecsPerPage] = useState(4)
   const [currentPage, setCurrentPage] = useState(1)
@@ -34,6 +34,8 @@ export default function Recommendations() {
         recsPerPage={recsPerPage}
         totalRecs={recs.length}
         paginate={paginate}
+        active={active}
+        setActive={setActive}
       />      
     </div>
   )
