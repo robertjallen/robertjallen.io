@@ -7,7 +7,7 @@ import AwardsPagination from '../pagination/AwardsPagination'
 
 
 export default function Awards() {
-
+  const [active, setActive] = useState('')
   const [awards, setAwards] = useState(data)
   const [awardsPerPage, setAwardsPerPage] = useState(4)
   const [currentPage, setCurrentPage] = useState(1)
@@ -33,6 +33,8 @@ export default function Awards() {
         awardsPerPage={awardsPerPage}
         totalAwards={awards.length}
         paginate={paginate}
+        active={active}
+        setActive={setActive}
       />      
     </div>
   )

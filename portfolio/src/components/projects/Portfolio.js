@@ -7,6 +7,7 @@ import Pagination from '../pagination/ProjectsPagination'
 
 export default function Portfolio(props) {
 
+  const [active, setActive] = useState('')
   const [open, setOpen] = useState(false);
   const [projects, setProjects] = useState(data)
   const [projectsPerPage, setProjectsPerPage] = useState(6)
@@ -42,6 +43,8 @@ export default function Portfolio(props) {
         projectsPerPage={projectsPerPage}
         totalProjects={projects.length}
         paginate={paginate}
+        active={active}
+        setActive={setActive}
       />
       </div>
   )
