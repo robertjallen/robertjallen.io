@@ -124,6 +124,12 @@ border-radius: 0;
   transition: all 0.3s ease;
   background-size: cover;
 }
+.african-market {
+  background: url("../../images/portfolio/african-market.jpg")
+  no-repeat center;
+  transition: all 0.3s ease;
+  background-size: cover;
+}
 
 
 
