@@ -11,8 +11,23 @@ import memoryGame from '../../images/portfolio/arcade.png'
 import followers from '../../images/portfolio/followers.png'
 import gameOfLife from '../../images/portfolio/game-of-life.png'
 import gameOfLifeGif from '../../images/portfolio/gifs/game-of-life.gif'
+import clubQuarantine from '../../images/portfolio/club-quarantine.png'
+
 
 let data = [
+  {name: "club-quarantine",
+  summary: "NextJs Starter Project",
+  description: "This project explored the fundamentals of NextJs applications.",
+  github: "https://github.com/robertjallen/club-quarentine",
+  image: clubQuarantine,
+  gifs: clubQuarantine,
+  skills: ["JSX", "NextJS", "CSS" ],
+  role: "WEB DESIGNER / DEVELOPER",
+  date: "March 2020",
+  features: "Functional components using NextJS",
+  overlay: "4",
+  demo: "https://quarentine.vercel.app/",
+  },
   {name: "game-of-life",
   summary: "Cellular Automata and Conway's Game of Life",
   description: "Welcome to John Conway's Game of Life! This is a computer science classic from 1970, a program that simulates a cellular automaton (plural automata). It has connections to all kinds of different aspects of computer science and nature.",
@@ -44,7 +59,7 @@ let data = [
   description: "A review site for campgrounds where users can log in to give descriptions of the places they have gone to camp and share their experiences with other users. It has a lot of other features",
   github: "https://github.com/robertjallen/yelp-camp-demo",
   image: yelpcamp,
-  skills: ["React", "Node", "Mongo"],
+  skills: ["React", "Node", "Mongo", "Express"],
   role: "WEB DESIGNER / DEVELOPER",
   date: "Septempber 2016",
   features: "Users can login with passport.js for proper authentication. New users are able securely sign up, login , create campgrounds etc. Lastly was adding flash messages for better error handling especially during authentication.",

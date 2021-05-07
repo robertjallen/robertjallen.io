@@ -8,7 +8,7 @@
   padding: .75rem;
   background-color: #efefef;
   text-align: center;
-  z-index: 100;
+  /* z-index: 3; */
 }
 
 .social-container{
