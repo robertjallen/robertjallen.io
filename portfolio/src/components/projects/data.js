@@ -23,7 +23,7 @@ let data = [
   // gifs: africanMarket,
   skills: ["NodeJS", "Express", "Knex", "SQL"],
   role: "WEB DESIGNER / DEVELOPER",
-  date: "March 2020",
+  date: "Aug 2020",
   features: "Uses SQL to create and query a local database, table schemas, configure scripted schema migrations & seed scripts",
   overlay: "3",
   demo: "https://github.com/buildweek-african-marketplace-2/backend#readme",
