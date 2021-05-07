@@ -37,10 +37,15 @@ nav h4{
 }
 
 .active{
-  color: grey !important;
-  background: #47c0da !important;
+  color: #20515b !important;
+  background: rgba(168, 167, 167, 0.699) !important;
+  box-shadow: 0 14px 28px rgba(22, 102, 67, 0.336), 0 10px 10px rgba(0,0,0,0.22);
 } 
 
 a:active{
   color:rgba(22, 102, 67, 0.336);
+}
+
+.page-item a{
+  color: #20515b;
 }

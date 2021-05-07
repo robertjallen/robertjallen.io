@@ -15,7 +15,7 @@ export default function About() {
           <h2 className="left-title">Education</h2>
 
           <div className="school">
-            <a href="https://lambdaschool.com/"><i className="fa fa-university"></i>
+            <a id="lambdaschool" href="https://lambdaschool.com/"><i className="fa fa-university"></i>
             Lambdaschool</a>
             <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
             Certification</p>
@@ -27,7 +27,7 @@ export default function About() {
 
           {/*Udacity*/}
           <div className="school">
-            <a href="https://www.udacity.com/"><i className="fa fa-university"></i>
+            <a id="udacity" href="https://www.udacity.com/"><i className="fa fa-university"></i>
             Udacity</a>
             <p className="foo wow bounceInLeft" data-wow-duration="2s">Front End Web Development Nano Degree</p>
             <p className="wow bounceInLeft" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2018 - 2019</p>
@@ -37,7 +37,7 @@ export default function About() {
 
           {/* free code camp */}
           <div className="school">
-            <a href="https://www.freecodecamp.org/"><i className="fa fa-university"></i>
+            <a id="freecodecamp" href="https://www.freecodecamp.org/"><i className="fa fa-university"></i>
             FreeCodeCamp</a>
             <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
             Certification</p>

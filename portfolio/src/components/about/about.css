@@ -47,6 +47,8 @@
       color: #47c0da;
       font-weight: 100;
       font-size: 50px;
+      margin: 0px;
+      padding: 10vw;
   }
 
   @media screen and (max-width: 800px) {
@@ -96,10 +98,18 @@
       font-weight: 100;
   }
   
-  .school a:nth-child(1){
+  .school #lambdaschool{
       font-weight: bold;
-      color: #176e81;
+      color: red;
   }
+  .school #udacity{
+    font-weight: bold;
+    color: #02b3e4;
+}
+.school #freecodecamp{
+    font-weight: bold;
+    color: green;
+}
   
   /* END OF BANNER */
   
