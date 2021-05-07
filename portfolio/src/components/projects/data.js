@@ -12,9 +12,22 @@ import followers from '../../images/portfolio/followers.png'
 import gameOfLife from '../../images/portfolio/game-of-life.png'
 import gameOfLifeGif from '../../images/portfolio/gifs/game-of-life.gif'
 import clubQuarantine from '../../images/portfolio/club-quarantine.png'
-
+import africanMarket from '../../images/portfolio/african-market.jpg'
 
 let data = [
+  {name: "african-market",
+  summary: "Use Express built-in router to build and test a modular server API with Postman.",
+  description: "This is a project where a partner and myself worked to build a market place backend for the application.  Creating and authenticating users, and as clients, sign up for them using JWT Authentication.",
+  github: "https://github.com/buildweek-african-marketplace-2/backend",
+  image: africanMarket,
+  // gifs: africanMarket,
+  skills: ["NodeJS", "Express", "Knex", "SQL"],
+  role: "WEB DESIGNER / DEVELOPER",
+  date: "Aug 2020",
+  features: "Uses SQL to create and query a local database, table schemas, configure scripted schema migrations & seed scripts",
+  overlay: "3",
+  demo: "https://github.com/buildweek-african-marketplace-2/backend#readme",
+  },
   {name: "club-quarantine",
   summary: "NextJs Starter Project",
   description: "This project explored the fundamentals of NextJs applications.",
