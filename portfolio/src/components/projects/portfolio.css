@@ -118,6 +118,12 @@ border-radius: 0;
   transition: all 0.3s ease;
   background-size: cover;
 }
+.club-quarantine {
+  background: url("../../images/portfolio/club-quarantine.png")
+  no-repeat center;
+  transition: all 0.3s ease;
+  background-size: cover;
+}
 
 
 
