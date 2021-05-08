@@ -2,6 +2,7 @@ import {React, Link} from 'react'
 import education from '../../images/education.png'
 import styles from './about.css'
 import Animation from '../animation/Animation'
+import resume from '../../images/resumes/robert-allen-4-25-2021.pdf'
 
 export default function About() {
   return (
@@ -57,11 +58,11 @@ export default function About() {
           <p>I am interested in everything related to web development, industry standards, and new technologies. I 
             enjoyed my roles as a Team Lead, Mentor, and Project Reviewer and love contributing to open-source and helping others.</p>
           <p className="wow bounceInLeft"><i>"Knowledge comes from helping others"</i></p>
-          {/* <div className="center-button wow bounceInRight" data-wow-delay="1s" data-wow-duration="1s">
-            <a className="resume-link" href="../images/resumes/robert-allen-4-25-2021.pdf" download><button
+          <div className="center-button wow bounceInRight" data-wow-delay="1s" data-wow-duration="1s">
+            <a className="resume-link" href={resume} download><button
                 className="button button2"><span><i className="fa fa-download faa-vertical animated faa-slow"></i> Download Resume
                 </span></button></a>
-          </div> */}
+          </div>
         </div>
       </div>
       <hr></hr>
