@@ -130,6 +130,13 @@ border-radius: 0;
   transition: all 0.3s ease;
   background-size: cover;
 }
+.food-truckr {
+  background: url("../../images/portfolio/food-truckr.png")
+  no-repeat center;
+  transition: all 0.3s ease;
+  background-size: cover;
+}
+
 
 
 
