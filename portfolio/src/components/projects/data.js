@@ -13,20 +13,21 @@ import gameOfLife from '../../images/portfolio/game-of-life.png'
 import gameOfLifeGif from '../../images/portfolio/gifs/game-of-life.gif'
 import clubQuarantine from '../../images/portfolio/club-quarantine.png'
 import africanMarket from '../../images/portfolio/african-market.jpg'
+import foodTruckr from '../../images/portfolio/food-truckr.png'
 
 let data = [
-  {name: "african-market",
-  summary: "Use Express built-in router to build and test a modular server API with Postman.",
-  description: "This is a project where a partner and myself worked to build a market place backend for the application.  Creating and authenticating users, and as clients, sign up for them using JWT Authentication.",
-  github: "https://github.com/buildweek-african-marketplace-2/backend",
-  image: africanMarket,
-  // gifs: africanMarket,
-  skills: ["NodeJS", "Express", "Knex", "SQL"],
+  {name: "food-truckr",
+  summary: " The potential users could locate food trucks and when they are open.",
+  description: "This is a project where a partner and myself worked to build RESTful routing, state management, and user Auth for the application. Creating and authenticating users, and as clients, sign up for them using JWT Authentication. We were both new to NEXTJS but both agreed it seems light and an easy transition from CRA",
+  github: "https://github.com/build-food-truckr/front-end",
+  image: foodTruckr,
+  // gifs: ,
+  skills: ["NextJS", "JSX", "REST", "CRUD"],
   role: "WEB DESIGNER / DEVELOPER",
-  date: "Aug 2020",
-  features: "Uses SQL to create and query a local database, table schemas, configure scripted schema migrations & seed scripts",
-  overlay: "3",
-  demo: "https://github.com/buildweek-african-marketplace-2/backend#readme",
+  date: "March 2020",
+  features: "CRUD operations, Token authentication is handled correctly, Implement a state management system that makes sense for the project. State is not lost as the user goes through the application",
+  overlay: "2",
+  demo: "https://food-truckr-front-end.herokuapp.com/",
   },
   {name: "african-market",
   summary: "Use Express built-in router to build and test a modular server API with Postman.",
