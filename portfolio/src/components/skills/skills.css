@@ -40,7 +40,7 @@
 .skill-img {
   transition: all 0.3s ease;
   width:100%;
-  padding: 1rem;
+  padding: 5vw;
   /* flex-direction: row; */
   /* width: calc(100% - 20px); */
   /* padding: 3px 10px; */
