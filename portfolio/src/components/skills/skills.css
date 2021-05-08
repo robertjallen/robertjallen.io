@@ -1,13 +1,8 @@
 
 
-@media screen and (max-width: 800px) {
-  .sections{
-    font-size: 2rem;
-  }
-  .skill-sec h3{
-    font-size: 1rem;
-  }
-}
+
+
+
 .hrs {
   max-width: 500px;
   background: transparent;
@@ -72,4 +67,16 @@
 }
 .col-inline {
   display: inline-block;
+}
+
+@media only screen and (max-width: 600px){
+	.sections{
+    font-size: 2rem;
+  }
+  .skill-sec h3{
+    font-size: 1rem;
+  }
+  .skill-img{
+    padding: 18px;
+  }
 }
