@@ -1,3 +1,43 @@
+
+/* BANNER */
+.banner {
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+  
+  /* border-bottom: 8px solid #D2F079; */
+/*  box-shadow: 1px 5px 10px rgba(0,0,0,0.2);*/
+  /* box-shadow: 12px 10px 20px 0px rgba(46,61,73,0.15); */
+  margin: 0 auto;
+  animation: animate 1s linear forwards;
+  }
+
+  @keyframes animate{
+    0%{
+      opacity: 0;
+      transform: rotateY(90deg);
+      filter: blur(10px);
+    }
+    100%{
+      opacity: 1;
+      transform: rotateY(0deg);
+      filter: blur(0);
+    }
+  }@keyframes animate{
+    0%{
+      background: black;
+      opacity: 0;
+      transform: rotateY(90deg);
+      filter: blur(10px);
+    }
+    100%{
+      background: url(../../images/owl.jpg) no-repeat center;
+      opacity: 1;
+      transform: rotateY(0deg);
+      filter: blur(0);
+    }
+  }
+
 /* TO ABOUT */
 #to-about {
   padding: 5px 3px;
@@ -66,15 +106,30 @@
 }
 /* HEADER */
 header {
-  position: relative;
-  overflow: hidden;
-  text-align: center;
-  background: url(../../images/owl.jpg) no-repeat center;
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* text-align: center; */
+  /* background: url(../../images/owl.jpg) no-repeat center; */
   /* border-bottom: 8px solid #D2F079; */
 /*  box-shadow: 1px 5px 10px rgba(0,0,0,0.2);*/
-  box-shadow: 12px 10px 20px 0px rgba(46,61,73,0.15);
-  margin: 0 auto;
+  /* box-shadow: 12px 10px 20px 0px rgba(46,61,73,0.15); */
+  /* margin: 0 auto; */
 }
+
+.fade-in {
+	  animation: fadeIn 5s;
+  	opacity: 0;
+}
+
+@keyframes fadeIn {
+  from {
+  	opacity: 0;
+  }
+  to {
+ 	opacity: 1;
+  }
+}
+
 header::before {
   content: "";
   position: absolute;
