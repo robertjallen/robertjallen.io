@@ -1,16 +1,4 @@
-/* BANNER */
-.banner {
-  /*	background: url(../images/dog.jpg) no-repeat;*/
-      /*background-image: -webkit-linear-gradient(top left, #F7F7F7, #EAFBFF);
-      background-image: -moz-linear-gradient(top left, #F7F7F7, #EAFBFF);
-      background-image: -o-linear-gradient(top left, #F7F7F7, #EAFBFF);
-      background-image: linear-gradient(to bottom right, #F7F7F7, #EAFBFF);*/
-      position: relative;
-      background-size: cover;
-      width: 100%;
-      height: 600px;
-      overflow: hidden;
-  }
+
   ul.header-name {
       border: 1px dotted rgba(71, 192, 218,0.3);
       /* margin: 0 23% !important; */
@@ -99,7 +87,7 @@
   }
   div.banner blockquote.quote {
       position: absolute;
-      top: 36%;
+      top: 62%;
       left: 0;
       right: 0;
     color: #74b1be;
