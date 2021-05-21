@@ -2,7 +2,7 @@ import {React, Link} from 'react'
 import education from '../../images/education.png'
 import styles from './about.css'
 import Animation from '../animation/Animation'
-import resume from '../../images/resumes/robert-allen-4-25-2021.pdf'
+import resume from '../../images/resumes/robert-allen-5-21.pdf'
 
 export default function About() {
   return (
