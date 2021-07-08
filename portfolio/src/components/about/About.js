@@ -21,7 +21,7 @@ export default function About() {
             <p className="foo wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s">Fullstack Web Development
             Certification</p>
             <p className="wow bounceInLeft" data-wow-delay=".1s" data-wow-duration="2s"><i className="fa fa-calendar "></i> 2019 -
-            current</p>
+            2021</p>
             <hr/>
           </div>
           

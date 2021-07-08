@@ -7,8 +7,10 @@ import year from '../../images/awards/year-Badge.png'
 import javascript from '../../images/awards/javascript.jpg'
 import scholarship from '../../images/awards/scholarship.JPG'
 import hacktober2020 from '../../images/awards/hacktoberfest2020.png'
+import lambdaschool from '../../images/awards/lambdaschool.png'
 
 const imageData = [
+  {image: lambdaschool, title: "Lambda School Verification"},
   {image: equalithon, title: "Equalithon"},
   {image: frontend, title: "Udacity Frontend Nanodegree"},
   {image: hacktoberfest, title: "Hacktoberfest"},

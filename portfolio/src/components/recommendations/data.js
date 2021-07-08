@@ -7,8 +7,10 @@ import Sirani from '../../images/recommendations/SiraniMcNeill.jpg'
 import Tom from '../../images/recommendations/TomBarber.JPG'
 import Lisa from '../../images/recommendations/LisaPena.jpg'
 import Vital from '../../images/recommendations/VitalBoisset.jpg'
+import Dart from '../../images/recommendations/Dart.jpg'
 
 let data = [
+  {image: Dart},
   {image: Tom},
   {image: Carl},
   {image: Vital},
